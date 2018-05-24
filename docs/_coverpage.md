@@ -2,7 +2,7 @@
 
 # DevDocs
 
-> Documentação do intermediador
+> Documentação do Gateway
 
 [Começar](#como-começar)
 
