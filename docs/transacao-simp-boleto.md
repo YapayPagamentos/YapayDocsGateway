@@ -24,12 +24,8 @@ Estrutura para geração de boletos com carteiras sem ou com registro.
     "transacao" : {
         "numeroTransacao" : 1234,
         "valor" : 2000,
-        "valorDesconto" : 0,
-        "parcelas" : 1,
         "urlCampainha" : "http://seusite.com.br/campainha",
         "urlResultado" : "http://seusite.com.br/retorno",
-        "ip" : "192.168.12.110",
-        "idioma" : 1,
         "dataVencimentoBoleto":"13/12/2030"
     },
     "itensDoPedido" : [

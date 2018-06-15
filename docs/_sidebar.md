@@ -11,17 +11,20 @@
     * [Suporte](suporte.md)
 
 * Transação	
-    * [Cartão de Crédito](transacao-cartao-de-credito.md)
+    * [**Cartão de Crédito**](transacao-cartao-de-credito.md)
       * [Transação simplificada](transacao-simplificada.md)
       * [Transação com análise de fraude](transacao-analise-fraude.md)
       * [Transação com múltiplos cartões](transacao-multiplos-cartoes.md)
       * [Tabela de campos](tabela-cartoes-credito.md)
-    * [Cartão de Débito](transacao-cartao-de-debito.md)
+    * [**Cartão de Débito**](transacao-cartao-de-debito.md)
       * [Transação simplificada](transacao-simplificada-debito.md)
-    * [Boleto](transacao-boleto.md)
+      * [Tabela de campos](tabela-cartoes-debito.md)
+    * [**Boleto**](transacao-boleto.md)
       * [Criando uma transação](transacao-simp-boleto.md)
-    * [Transferência Eletrônica](transacao-tef.md)
+      * [Tabela de campos](tabela-boletos.md)
+    * [**Transferência Eletrônica**](transacao-tef.md)
       * [Criando uma transação](transacao-simp-tef.md)
+      * [Tabela de campos](tabela-transferencia.md)
 
 * [Pagamento Recorrente](pagamento-recorrente.md)
 
