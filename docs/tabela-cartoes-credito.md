@@ -5,7 +5,7 @@
 Campo | Descrição | Tipo | Tamanho | Obrigatório 
 :----- | :---------: | :----: | :-------: | :-----------------:
 codigoEstabelecimento |	Código estabelecimento Yapay |	Numérico|	13 dígitos|	Sim 
-codigoFormaPagamento |	[Código da forma de pagamento](tabelas.md?id=formas-de-pagamento) |	Numérico	|Até 3 dígitos	|Sim
+codigoFormaPagamento |	[Código da forma de pagamento](tabela-forma-pagamento.md) |	Numérico	|Até 3 dígitos	|Sim
 transacao |	Nó reservado para informações da transação|	-|	-|	-
 dadosCartao|	Nó reservado para dados de cartão|	-|	-|	-
 itensDoPedido|	Nó reservado para informações dos produtos|	-|	-|	-
@@ -108,13 +108,13 @@ Campo | Descrição | Tipo | Tamanho
 :----- | :---------: | :----: | :-------: 
 numeroTransacao|	Código que identifica a transação dentro do Yapay|	Numérico|	Até 19 dígitos
 codigoEstabelecimento|	Código que identifica o estabelecimento dentro do Yapay|	Numérico|	13 dígitos
-codigoFormaPagamento|	[Código da forma de pagamento](tabelas.md?id=formas-de-pagamento) |	Numérico|	Até 3 dígitos
+codigoFormaPagamento|	[Código da forma de pagamento](tabela-forma-pagamento.md)  |	Numérico|	Até 3 dígitos
 valor|	Valor da transação|	Numérico|	Até 10 dígitos
 valorDesconto|	Valor desconto|	Numérico|	Até 10 dígitos
 taxaEmbarque|	Valor taxa embarque|	Numérico|	Até 10 dígitos
 parcelas|	Quantidade de parcelas da transação|	Numérico|	Até 2 dígitos
 urlPagamento|	Para o modelo redirect. Essa será a URL de redirecionamento da operação|	Alfa Numérico|	Até 500 caracteres
-statusTransacao|	[Status atual da transação](tabelas.md?id=status-transacao)|	Numérico|	Até 2 dígitos
+statusTransacao|	[Status atual da transação](tabela-status.md)|	Numérico|	Até 2 dígitos
 autorizacao|	Código de autorização da adquirente|	Numérico|	Até 20 dígitos
 codigoTransacaoOperadora|	Código da transação na adquirente|	Numérico|	Até 20 dígitos
 dataAprovacaoOperadora|	Data de aprovação na adquirente|	Alfa Numérico|	Até 10 dígitos
@@ -131,7 +131,7 @@ cartoesUtilizados|	Cartões mascarados utilizados na transação|	Alfa Numérico
 Campo | Descrição | Tipo | Tamanho | Obrigatório 
 :----- | :---------: | :----: | :-------: | :-----------------:
 codigoEstabelecimento |	Código estabelecimento Yapay |	Numérico|	13 dígitos|	Sim 
-codigoFormaPagamento |	[Código da forma de pagamento](tabelas.md?id=formas-de-pagamento) |	Numérico	|Até 3 dígitos	|Sim
+codigoFormaPagamento |	[Código da forma de pagamento](tabela-forma-pagamento.md)  |	Numérico	|Até 3 dígitos	|Sim
 transacao |	Nó reservado para informações da transação|	-|	-|	-
 dadosCartao|	Nó reservado para dados de cartão|	-|	-|	-
 itensDoPedido|	Nó reservado para informações dos produtos|	-|	-|	-
@@ -234,13 +234,13 @@ Campo | Descrição | Tipo | Tamanho
 :----- | :---------: | :----: | :-------: 
 numeroTransacao|	Código que identifica a transação dentro do Yapay|	Numérico|	Até 19 dígitos
 codigoEstabelecimento|	Código que identifica o estabelecimento dentro do Yapay|	Numérico|	13 dígitos
-codigoFormaPagamento|	[Código da forma de pagamento](tabelas.md?id=formas-de-pagamento) |	Numérico|	Até 3 dígitos
+codigoFormaPagamento|	[Código da forma de pagamento](tabela-forma-pagamento.md)  |	Numérico|	Até 3 dígitos
 valor|	Valor da transação|	Numérico|	Até 10 dígitos
 valorDesconto|	Valor desconto|	Numérico|	Até 10 dígitos
 taxaEmbarque|	Valor taxa embarque|	Numérico|	Até 10 dígitos
 parcelas|	Quantidade de parcelas da transação|	Numérico|	Até 2 dígitos
 urlPagamento|	Para o modelo redirect. Essa será a URL de redirecionamento da operação|	Alfa Numérico|	Até 500 caracteres
-statusTransacao|	[Status atual da transação](tabelas.md?id=status-transacao)|	Numérico|	Até 2 dígitos
+statusTransacao|	[Status atual da transação](tabela-status.md)|	Numérico|	Até 2 dígitos
 autorizacao|	Código de autorização da adquirente|	Numérico|	Até 20 dígitos
 codigoTransacaoOperadora|	Código da transação na adquirente|	Numérico|	Até 20 dígitos
 dataAprovacaoOperadora|	Data de aprovação na adquirente|	Alfa Numérico|	Até 10 dígitos
@@ -256,7 +256,7 @@ cartoesUtilizados|	Cartões mascarados utilizados na transação|	Alfa Numérico
 Campo | Descrição | Tipo | Tamanho | Obrigatório 
 :----- | :---------: | :----: | :-------: | :-----------------:
 codigoEstabelecimento |	Código estabelecimento Yapay |	Numérico|	13 dígitos|	Sim 
-codigoFormaPagamento |	[Código da forma de pagamento](tabelas.md?id=formas-de-pagamento) |	Numérico	|Até 3 dígitos	|Sim
+codigoFormaPagamento |	[Código da forma de pagamento](tabela-forma-pagamento.md)  |	Numérico	|Até 3 dígitos	|Sim
 transacao |	Nó reservado para informações da transação|	-|	-|	-
 dadosMultiplosCartoes | Nó reservado para dados de cartão| -| -|-
 itensDoPedido|	Nó reservado para informações dos produtos|	-|	-|	-
@@ -272,7 +272,7 @@ nomePortador|	Nome do titular do cartão de crédito|	Alfa Numérico|	Até 16 d�
 numeroCartao|	Numero do cartão de crédito, sem espaços ou traços|	Numérico|	Até 22 caracteres|	Sim
 codigoSeguranca|	Código de segurança do cartão (campo não é armazenado pelo Yapay)|	Numérico|	Até 4 caracteres|	Sim
 dataValidade|	Data de validade do cartão. Formato mm/yyyy|	Alfa Numérico|	7 caracteres|	Sim
-codigoFormaPagamento |	[Código da forma de pagamento](tabelas.md?id=formas-de-pagamento) |	Numérico	|Até 3 dígitos	|Sim
+codigoFormaPagamento |	[Código da forma de pagamento](tabela-forma-pagamento.md)  |	Numérico	|Até 3 dígitos	|Sim
 parcelas| Quantidade de parcelas da transação. Verificar se forma de pagamento suporta parcelamento| Numérico|	Até 2 dígitos|	Sim
 valor|	Valor da transação. Deve ser enviado sem pontos ou vírgulas|	Numérico|	Até 10 dígitos|	Sim
 
@@ -360,14 +360,14 @@ Campo | Descrição | Tipo | Tamanho
 numeroTransacao|	Código que identifica a transação dentro do Yapay|	Numérico|	Até 19 dígitos
 codigoEstabelecimento|	Código que identifica o estabelecimento dentro do Yapay|	Numérico|	13 dígitos
 multiploCartao | Retornará 1 | Numérico | 1 dígito
-statusTransacao|	[Status atual da transação](tabelas.md?id=status-transacao)|	Numérico|	Até 2 dígitos
+statusTransacao|	[Status atual da transação](tabela-status.md)|	Numérico|	Até 2 dígitos
 detalhesMultiploCartao | Nó reservado para retornos de cartão | - | -
 
 > detalhesMultiploCartao
 
 Campo | Descrição | Tipo | Tamanho 
 :----- | :---------: | :----: | :-------:
-codigoFormaPagamento |	[Código da forma de pagamento](tabelas.md?id=formas-de-pagamento) |	Numérico	|Até 3 dígitos	
+codigoFormaPagamento |	[Código da forma de pagamento](tabela-forma-pagamento.md)  |	Numérico	|Até 3 dígitos	
 valor|	Valor da transação|	Numérico|	Até 10 dígitos
 valorDesconto|	Valor desconto|	Numérico|	Até 10 dígitos
 parcelas|	Quantidade de parcelas da transação|	Numérico|	Até 2 dígitos

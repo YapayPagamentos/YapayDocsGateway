@@ -5,7 +5,7 @@
 Campo | Descrição | Tipo | Tamanho | Obrigatório 
 :----- | :---------: | :----: | :-------: | :-----------------:
 codigoEstabelecimento |	Código estabelecimento Yapay |	Numérico|	13 dígitos|	Sim 
-codigoFormaPagamento |	[Código da forma de pagamento](tabelas.md?id=formas-de-pagamento) |	Numérico	|Até 3 dígitos	|Sim
+codigoFormaPagamento |	[Código da forma de pagamento](tabela-forma-pagamento.md)  |	Numérico	|Até 3 dígitos	|Sim
 transacao |	Nó reservado para informações da transação|	-|	-|	-
 itensDoPedido|	Nó reservado para informações dos produtos|	-|	-|	-
 dadosCobranca|	Nó reservado para informações dos dados de cobrança|	-|	-|	-
@@ -96,13 +96,13 @@ Campo | Descrição | Tipo | Tamanho
 :----- | :---------: | :----: | :-------: 
 numeroTransacao|	Código que identifica a transação dentro do Yapay|	Numérico|	Até 19 dígitos
 codigoEstabelecimento|	Código que identifica o estabelecimento dentro do Yapay|	Numérico|	13 dígitos
-codigoFormaPagamento|	[Código da forma de pagamento](tabelas.md?id=formas-de-pagamento) |	Numérico|	Até 3 dígitos
+codigoFormaPagamento|	[Código da forma de pagamento](tabela-forma-pagamento.md)  |	Numérico|	Até 3 dígitos
 valor|	Valor da transação|	Numérico|	Até 10 dígitos
 valorDesconto|	Valor desconto|	Numérico|	Até 10 dígitos
 taxaEmbarque|	Valor taxa embarque|	Numérico|	Até 10 dígitos
 parcelas|	Quantidade de parcelas da transação|	Numérico|	Até 2 dígitos
 urlPagamento|	URL de redirecionamento para o boleto bancário |	Alfa Numérico|	Até 500 caracteres
-statusTransacao|	[Status atual da transação](tabelas.md?id=status-transacao)|	Numérico|	Até 2 dígitos
+statusTransacao|	[Status atual da transação](tabela-status.md)|	Numérico|	Até 2 dígitos
 autorizacao|	Código de autorização da adquirente|	Numérico|	Até 20 dígitos
 codigoTransacaoOperadora|	Código da transação na adquirente|	Numérico|	Até 20 dígitos
 dataAprovacaoOperadora|	Data de aprovação na adquirente|	Alfa Numérico|	Até 10 dígitos
