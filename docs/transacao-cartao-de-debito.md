@@ -20,15 +20,18 @@ Os dados para autenticação devem ser enviados no cabeçalho Authorization da r
 
 ## Transação simplificada
 
+<span class="post">POST</span>
+
 Estrutura e exemplo de uma transação simples para cartão de débito. As funcionalidades, como Análise de Fraude, OneClick e demais formas de pagamento precisam de uma estrutura mais completa para um perfeito funcionamento. Consulte as demais estruturas e exemplos desta documentação.
 
-Para detalhes da estrutura de envio e retorno, [clique aqui](tabela-cartoes-debito.md)
+Para detalhes da estrutura de envio e retorno, [clique aqui](tabela-cartoes-debito.md?id=transação-simplificada)
 
 > **Exemplo de envio em JSON**
 
 ```curl
+curl
   --request POST https://sandbox.gateway.yapay.com.br/checkout/api/v3/transacao
-  --curl -u usuario:senha 
+  --user usuario:senha 
   --header "Content-Type: application/json"
   --data-binary
   {

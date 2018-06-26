@@ -1,13 +1,18 @@
 # Pagamento
 
+<span class="post">POST</span>
+
 API para pagamento utilizando token.
+
+Para detalhes da estrutura de envio e retorno, [clique aqui](tabela-oneclick.md?id=pagamento-oneclick)
 
 > **Exemplo de envio em JSON**
 
 ```curl
+curl
   --request POST https://sandbox.gateway.yapay.com.br/checkout/api/v3/oneclick/1514483826864c3149224-67db-4557-8950-6a80f708c1c5/autorizar
   --header "Content-Type: application/json"
-  --curl -u usuario:senha
+  --user usuario:senha
   --data-binary
   {
       "codigoEstabelecimento" : 1000000000000,

@@ -1,14 +1,18 @@
 # Alteração
 
+<span class="put">PUT</span>
+
 API para alteração do cadastro de OneClick.
+
+Para detalhes da estrutura de envio e retorno, [clique aqui](tabela-oneclick.md?id=alterar-oneclick)
 
 > **Exemplo de envio em JSON**
 
 ```curl
-  curl
+curl
   --request PUT https://sandbox.gateway.yapay.com.br/checkout/api/v3/oneclick/1514483826864c3149224-67db-4557-8950-6a80f708c1c5/alterar
   --header "Content-Type: application/json"
-  --curl -u usuario:senha
+  --user usuario:senha
   --data-binary
   {
   "codigoEstabelecimento": 1000000000000,

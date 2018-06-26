@@ -1,13 +1,18 @@
 # Cadastro
 
+<span class="post">POST</span>
+
 API para cadastro dos dados de cartão e recebimento do token.
+
+Para detalhes da estrutura de envio e retorno, [clique aqui](tabela-oneclick.md?id=cadastro-oneclick)
 
 > **Exemplo de envio em JSON**
 
 ```curl
- --request POST https://sandbox.gateway.yapay.com.br/checkout/api/v3/oneclick
+curl
+  --request POST https://sandbox.gateway.yapay.com.br/checkout/api/v3/oneclick
   --header "Content-Type: application/json"
-  --curl -u usuario:senha
+  --user usuario:senha
   --data-binary
   {
      "codigoEstabelecimento": 1000000000000,

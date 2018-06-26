@@ -1,0 +1,239 @@
+.post {
+	width: 38px;		
+	border-radius: 2px;
+	padding: 6px;
+	color: #FFF;
+	background-color: #10a54a;
+	font-size: 0.7em;
+	font-weight: normal;	
+}
+
+.clearsale{
+        width: 38px;		
+	border-radius: 2px;
+	padding: 6px;
+	color: #66CDAA;
+	font-weight: bold;
+}
+
+.get {
+	width: 34px;		
+	border-radius: 2px;
+	padding: 6px;
+	color: #FFF;
+	background-color: #0f6ab4;
+	font-size: 0.7em;
+	font-weight: normal;	
+}
+
+.put {
+	width: 45px;		
+	border-radius: 2px;
+	padding: 6px;
+	color: #FFF;
+	background-color: #D38042;
+	font-size: 0.7em;
+	font-weight: normal;	
+}
+
+.patch {
+	width: 45px;		
+	border-radius: 2px;
+	padding: 6px;
+	color: #FFF;
+	background-color: #D38042;
+	font-size: 0.7em;
+	font-weight: normal;	
+}
+
+.beforePost {
+	color: #a8a7a7;
+	font-size: 13px;
+	padding-left: 20px;
+}
+
+sup {
+	font-weight: bold;
+	color: red;
+
+}
+
+/* BTN Compra */
+
+	#page-developers span {
+		font-size: 10px;
+		line-height: 18px;
+		@media (max-width: $mobile-break and 1000px) { 
+			font-size: 9px;
+		}
+	}
+
+	#page-developers  a {
+        color: #293272;
+	}
+	
+	#page-developers .form-group{
+		margin-bottom: 10px;
+	}
+	
+	#page-developers .form-label{
+		display: block;
+		line-height: 1.5;
+		font-size: 16px;
+	}
+
+	#page-developers .form-control{
+		padding: 7px 4px;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+		font-size: 16px;
+		color: #888;
+		margin-top: 3px;
+	}
+
+	@media (max-width: 767px){
+		#page-developers .form-control{
+			width: 100% !important;
+		}
+	}
+
+    #page-developers #form-content-button{
+			position: relative;
+			background-color: #fff;
+			border-radius: 6px;
+			border: 1px solid #bbb;
+			list-style-type: none;
+			font-size: 15px;
+			line-height: 21px;
+			padding: 5px;
+
+		@media (max-width: $mobile-break) {
+			font-size: 10px;			
+		}	
+
+		@media (max-width: 1091px) {
+			font-size: 10px;			
+			width: 380px;
+		}	
+
+		@media (max-width: 949px) {
+			font-size: 10px;			
+			width: 300px;
+		}			
+
+	
+
+	}
+	
+	.form-control {
+		border-radius: 0px;
+
+		&:focus {
+			outline: none;
+			border-color: #293272;
+			border-left: 10px solid #293272;
+			padding-left: 10px;
+			transition: all 0.4s ease; 
+		}			
+
+	}	
+	
+	#page-developers .btnForm {
+		line-height: 21px;
+		color: #FFF;
+		background-color: #49b983;
+		outline: none;
+		border: 0;
+		border-radius: 4px;
+		font-weight: 700;
+		font-size: 17px;
+		padding: 10px 21px;
+		margin-top: 10px;
+
+
+		@media (max-width: $mobile-break and 1000px) {
+			padding: 5px 35px;
+			font-size: 12px;
+			line-height: 18px;
+		}
+	}
+
+	#page-developers .btnForm:hover {
+		background-color: #339867;
+		cursor: pointer;
+	}
+	
+    #page-developers .hljs, #page-help-center .hljs {
+        font-size: 10px;
+        font-weight: 300;
+        padding: 10px 15px;
+		background: #000;			
+				
+		@media (max-width: $mobile-break and 1000px) {
+			padding: 5px 8px;
+			font-size: 8px;
+		}				
+    }
+
+	#page-developers #block-result {
+		margin-top: 40px;
+	}
+
+	#page-developers #block-result .title-result {
+		font-size: 12px;	
+		padding-left: 15px;
+	}
+
+	#result-button{
+		background: #fff !important;
+		white-space: normal;
+		border: 1px solid #ddd !important;
+	}
+
+	#page-developers fieldset{
+		border: 0;
+	}
+
+/* Fim BTN Compra */
+
+/* BTN Magento */
+	.btnMagento {
+		width: 240px;
+		height: 50px;
+		color: #FFF;
+		font-size: 18px;
+		line-height: 25px;		
+		font-weight: bold;	
+		border:  2px solid #00B887;
+		text-align: center;
+		padding: 10px;			
+		outline: none;
+		
+		&:active, &:focus {
+			color: #FFF;
+			border: 1px solid #00B887;	
+					outline: none;		
+		}
+
+		&:hover {
+			background-color: #00B887;
+			border: 1px solid #FFF;
+			color: #FFF;
+			transition: all 0.3s ease;	
+		}
+
+	@media (max-width: $mobile-break) {
+		font-size: 11px;
+		width: 100%;
+	}		
+	}	
+
+	.btnMagento a {
+		text-decoration: none;
+		
+	}
+
+	.btnMagento i {		
+		font-size: 20px; 
+		padding-right: 30px;
+	}	

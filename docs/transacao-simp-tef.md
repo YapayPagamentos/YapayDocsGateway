@@ -1,6 +1,8 @@
 # Criando uma transação
 
-Estrutura para geração de boletos com carteiras sem ou com registro.
+<span class="post">POST</span>
+
+Estrutura para geração de transferências eletrônicas.
 
 > **Particulariedades**
 
@@ -11,8 +13,9 @@ Estrutura para geração de boletos com carteiras sem ou com registro.
 > **Exemplo de envio em JSON**
 
 ```curl
+curl
   --request POST https://sandbox.gateway.yapay.com.br/checkout/api/v3/transacao
-  --curl -u usuario:senha 
+  --user usuario:senha 
   --header "Content-Type: application/json"
   --data-binary
   {

@@ -4,9 +4,9 @@
 
 * Conhecendo a Yapay
     * [Introdução](/)
+    * [Funcionalidades](funcionalidade.md)
     * [Sandbox](sandbox.md)
     * [Obter código de integração](obter-token.md)
-    * [Funcionalidades](funcionalidade.md)
     * [Glossário](glossario.md)
     * [Suporte](suporte.md)
 
@@ -28,24 +28,39 @@
     * [Pagamento](pagamento-oneclick.md)
     * [Alteração](alterar-oneclick.md)
 
+* API Checkout Yapay
+    * [Introdução](checkout.md)
+    * [Transaçao simplificada](checkout-simplificada.md)
+    * [Múltiplos Cartões](checkout-multiplos-cartoes.md)
+    * [Múltiplos Boletos](checkout-multiplos-boletos.md)
+    * [OneClick](checkout-oneclick.md)
+
+* Notificação Automática de Status
+    * [Venda comum](notificacao-comum.md)
+    * [Venda recorrente](notificacao-recorrente.md)
+
+* Referência de APIs
+    * [API Consultar Transação](api-consultar-transacao.md)
+    * [API Consultar Recorrência](api-consultar-recorrencia.md)
+    * [API Consultar Oneclick](api-consultar-oneclick.md)
+    * [API Capturar Transação](api-capturar-transacao.md)
+    * [API Cancelar Transação](api-cancelar-transacao.md)
+ 
+* Contratação Instituições Financeiras
+    * [Antifraudes](contratar-antifraude.md)
+    * [Adquirente Cielo](adquirente-cielo.md)
+    * [Adquirente GetNet](adquirente-getnet.md)
+  
 * Tabelas Auxiliares
     * [Cartão de cŕedito](tabela-cartoes-credito.md)
     * [Cartão de débito](tabela-cartoes-debito.md)
     * [Boleto](tabela-boletos.md)
     * [Transferência](tabela-transferencia.md)
     * [Recorrência](tabela-recorrencia.md)
+    * [OneClick](tabela-oneclick.md)
+    * [Checkout Yapay](tabela-checkout.md)
     * [Formas de pagamento](tabela-forma-pagamento.md)
     * [Status](tabela-status.md)
-
-* [Notificação Automática de Status](nas.md)
-* [Referência de APIs](apis.md)
-	* [API Cancelar Transação](api-cancelar-transacao.md)
-	* [API Consultar Transação](api-consultar-transacao.md)
-	* [API Listar Transações](api-listar-transacoes.md)
-	* [API Cadastro de Cliente](api-cadastro-cliente.md)
-	* [API Consultar Cliente](api-consultar-cliente.md)
-	* [API Carrinho de Compra](api-carrinho-compra.md)
-	* [API Simulação de Parcelamento](api-simulacao-parcelamento.md)
 
 
 

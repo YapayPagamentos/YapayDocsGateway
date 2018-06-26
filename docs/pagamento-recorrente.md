@@ -1,8 +1,10 @@
 # Criando recorrência
 
+<span class="post">POST</span>
+
 API para cadastro de um pagamento recorrente.
 
-Para detalhes da estrutura de envio e retorno, [clique aqui](tabela-recorrencia.md?id=criacao-de-recorrencia)
+Para detalhes da estrutura de envio e retorno, [clique aqui](tabela-recorrencia.md?id=criação-de-recorrencia)
 
 > **EndPoints**
 
@@ -15,9 +17,10 @@ Produção |https://gateway.yapay.com.br/checkout/api/v3/recorrencia
 > **Exemplo de envio em JSON**
 
 ```curl
- --request POST https://sandbox.gateway.yapay.com.br/checkout/api/v3/recorrencia
+curl
+  --request POST https://sandbox.gateway.yapay.com.br/checkout/api/v3/recorrencia
   --header "Content-Type: application/json"
-  --curl -u usuario:senha
+  --user usuario:senha
   --data-binary
   {
       "estabelecimento": "1000000000000",

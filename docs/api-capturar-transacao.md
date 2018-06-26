@@ -1,0 +1,48 @@
+# Capturar transação
+
+<span class="put">PUT</span>
+
+Através desta API é possível confirmar uma pré autorização na adquirente, assim o consumidor receberá a cobrança em seu cartão e gerará crédito ao lojista. Os estabelecimentos com captura manual deverão acionar a API de captura em até 5 dias da criação da venda, pois após este período a adquirente cancelará automaticamente a pré autorização.
+
+> **EndPoints**
+
+Ambiente | Endereço
+-------- | ---------
+Sandbox  |https://sandbox.gateway.yapay.com.br/checkout/api/v3/transacao/«codigoEstabelecimento»/«numeroPedido»/capturar
+Produção |https://gateway.yapay.com.br/checkout/api/v3/transacao/«codigoEstabelecimento»/«numeroPedido»/capturar
+
+> **Exemplo de envio em JSON**
+
+```curl
+curl
+  --request PUT https://sandbox.gateway.yapay.com.br/checkout/api/v3/transacao/1000000000000/1234/capturar
+  --header "Content-Type: application/json"
+  --user usuario:senha
+  --data-binary
+```
+
+> **Exemplo de retorno em JSON**
+
+```curl
+--header "Content-Type: application/json"
+  {
+    "numeroTransacao": 1234,
+    "codigoEstabelecimento": "1000000000000",
+    "codigoFormaPagamento": 170,
+    "valor": 2000,
+    "valorDesconto": 0,
+    "parcelas": 1,
+    "statusTransacao": 1,
+    "autorizacao": "123456",
+    "codigoTransacaoOperadora": "0",
+    "dataAprovacaoOperadora": "24/05/2018",
+    "numeroComprovanteVenda": "10069930690009F2122A",
+    "nsu": "428706",
+    "mensagemVenda": "Operation Success",
+    "urlPagamento": "https://sandbox.gateway.yapay.com.br/checkout/PagamentoCielo/PagamentoCielo.do?cod=14956291484887110cf2a-9aeb-4b34-a869-1a61f0611b66",
+    "cartoesUtilizados": ["000000*******0001"]
+    }
+```
+
+
+

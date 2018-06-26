@@ -20,6 +20,8 @@ Os dados para autenticação devem ser enviados no cabeçalho Authorization da r
 
 ## Criando uma transação
 
+<span class="post">POST</span>
+
 Estrutura para geração de boletos com carteiras sem ou com registro.
 
 Para detalhes da estrutura de envio e retorno, [clique aqui](tabela-boletos.md)
@@ -36,8 +38,9 @@ Para detalhes da estrutura de envio e retorno, [clique aqui](tabela-boletos.md)
 > **Exemplo de envio em JSON**
 
 ```curl
+curl
   --request POST https://sandbox.gateway.yapay.com.br/checkout/api/v3/transacao
-  --curl -u usuario:senha 
+  --user usuario:senha 
   --header "Content-Type: application/json"
   --data-binary
   {

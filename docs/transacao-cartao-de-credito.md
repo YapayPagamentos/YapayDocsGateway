@@ -19,9 +19,11 @@ Os dados para autenticação devem ser enviados no cabeçalho Authorization da r
 
 ## Transação simplificada
 
+<span class="post">POST</span>
+
 Estrutura e exemplo de uma transação simples para cartão de crédito. As funcionalidades, como Análise de Fraude, Recorrência, OneClick e demais formas de pagamento precisam de uma estrutura mais completa para um perfeito funcionamento. Consulte as demais estruturas e exemplos desta documentação.
 
-Para detalhes da estrutura de envio e retorno, [clique aqui](tabela-cartoes-credito.md?id=transacao-simplificada)
+Para detalhes da estrutura de envio e retorno, [clique aqui](tabela-cartoes-credito.md?id=transação-simplificada)
 
 > **Exemplo de envio em JSON**
 
@@ -81,9 +83,11 @@ Para detalhes da estrutura de envio e retorno, [clique aqui](tabela-cartoes-cred
 ```
 ## Transação com análise de fraude
 
+<span class="post">POST</span>
+
 A utilização desta estrutura é indicada para envio de pedidos com a forma de pagamento cartão de crédito, onde o estabelecimento possui contratação de umas das empresas de análise de risco integradas pelo Yapay, sendo elas ClearSale (modalidades: Total/Total Garantido, Application, ID e Start) e FControl (modalidade Fila).
 
-Para detalhes da estrutura de envio e retorno, [clique aqui](tabela-cartoes-credito.md?id=transacao-com-analise-de-fraude)
+Para detalhes da estrutura de envio e retorno, [clique aqui](tabela-cartoes-credito.md?id=transação-com-análise-de-fraude)
 
 `Contratação a parte com as empresas ClearSale e FControl`
 <br>
@@ -198,9 +202,11 @@ Para detalhes da estrutura de envio e retorno, [clique aqui](tabela-cartoes-cred
 
 ## Transação com múltiplos cartões
 
+<span class="post">POST</span>
+
 Através desta estrutura é possível o envio de mais de um cartão de crédito para aprovação em uma mesma transação, dividindo o valor total do pedido entre os cartões.
 
-Para detalhes da estrutura de envio e retorno, [clique aqui](tabela-cartoes-credito.md?id=transacao-com-multiplos-cartoes)
+Para detalhes da estrutura de envio e retorno, [clique aqui](tabela-cartoes-credito.md?id=transação-com-múltiplos-cartões)
 
 > **Particulariedades**
 
@@ -210,15 +216,16 @@ Para detalhes da estrutura de envio e retorno, [clique aqui](tabela-cartoes-cred
 > **Exemplo de envio de JSON**
 
 ```curl
--request POST https://sandbox.gateway.yapay.com.br/checkout/api/v3/transacao
---header "Content-Type: application/json"
---curl -u usuario:senha
---data-binary
-{
-"codigoEstabelecimento" : 1000000000000,
-"codigoFormaPagamento" : 999,
-"dadosMultiplosCartoes": [
-    {
+curl
+   --request POST https://sandbox.gateway.yapay.com.br/checkout/api/v3/transacao
+   --header "Content-Type: application/json"
+   --user usuario:senha
+   --data-binary
+   {
+   "codigoEstabelecimento" : 1000000000000,
+   "codigoFormaPagamento" : 999,
+   "dadosMultiplosCartoes": [
+      {
         "nomePortador": "CARTAO 1",
         "numeroCartao": "0000000000000001",
         "codigoSeguranca": "321",
@@ -226,8 +233,8 @@ Para detalhes da estrutura de envio e retorno, [clique aqui](tabela-cartoes-cred
         "codigoFormaPagamento": 170,
         "parcelas": 1,
         "valor": 500
-    },
-    {
+      },
+      {
         "nomePortador": "CARTAO 2",
         "numeroCartao": "0000000000000001",
         "codigoSeguranca": "123",
@@ -235,27 +242,26 @@ Para detalhes da estrutura de envio e retorno, [clique aqui](tabela-cartoes-cred
         "codigoFormaPagamento": 171,
         "parcelas": 1,
         "valor": 800
-    }
-],
-"transacao" : {
-    "numeroTransacao" : 1234,
-    "idioma" : 1
-},
-"itensDoPedido" : [
-{
-    "codigoProduto" : 1,
-    "codigoCategoria" : 1,
-    "quantidadeProduto" : 1,
-    "valorUnitarioProduto" : 2000
-}
-],
-"dadosCobranca" : {
-    "tipoCliente" : 1,
-    "nome" : "Teste 123",
-    "documento" : "123.123.123-12"
-
-}
-}
+      }
+    ],
+    "transacao" : {
+        "numeroTransacao" : 1234,
+        "idioma" : 1
+    },
+    "itensDoPedido" : [
+        {
+        "codigoProduto" : 1,
+        "codigoCategoria" : 1,
+        "quantidadeProduto" : 1,
+        "valorUnitarioProduto" : 2000
+        }
+      ],
+    "dadosCobranca" : {
+        "tipoCliente" : 1,
+        "nome" : "Teste 123",
+        "documento" : "123.123.123-12"
+       }
+   }
 ```
 
 > **Exemplo de retorno JSON**

@@ -1,5 +1,7 @@
 # Cancelando recorrência
 
+<span class="put">PUT</span>
+
 API para cancelamento da recorrência.
 Esta funcionalidade cancelará apenas o agendamento das futuras recorrências, não cancelará as cobranças já realizadas.
 
@@ -12,14 +14,14 @@ Ambiente | Endereço
 Sandbox  |https://sandbox.gateway.yapay.com.br/checkout/api/v3/recorrencia
 Produção |https://gateway.yapay.com.br/checkout/api/v3/recorrencia
 
-`Para cancelamento da recorrência utilize o método PUT`
 
 > **Exemplo de envio em JSON**
 
 ```curl
+curl
   --request PUT https://sandbox.gateway.yapay.com.br/checkout/api/v3/recorrencia/10000000000000/2/cancelar
   --header "Content-Type: application/json"
-  --curl -u usuario:senha
+  --user usuario:senha
   --data-binary
 ```
 
