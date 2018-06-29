@@ -1,7 +1,7 @@
 # Status transação
 
 Código | Nome | Descrição
------- | -----|------------
+:------: | -----|------------
 1|	Pago e Capturado|	Transação está autorizada e confirmada na instituição financeira
 2|	Pago e Não Capturado|	Transação está apenas autorizada, aguardando confirmação (captura)
 3|	Não Pago|	Transação negada pela instituição financeira

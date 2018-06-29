@@ -93,8 +93,11 @@ O estabelecimento pode criar regras, juntamente com a equipe de Suporte do Yapay
 
 * Visa
 * MasterCard
+* Amex
+* Elo
 * Diners
 * Discover
+* HiperCard
 
 Não há alteração na estrutura de envio para utilização desta funcionalidade. O Ecommerce deverá se atentar no retorno deste processo, onde o código da forma ded pagamento será diferente do enviado.
 

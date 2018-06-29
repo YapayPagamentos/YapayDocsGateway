@@ -9,14 +9,16 @@ Neste conteúdo também encontrará exemplos de envio e retorno utilizando esta 
 Contratando a solução da CIELO API 3.0 para e-commerce será possível oferecer na sua loja:
 
 * Vendas de cŕedito autenticadas (Bandeiras Visa e MasterCard);
+<br>
+* Cartão de crédito Visa;
+* Cartão de crédito MasterCard;
 * Cartão de crédito Amex;
 * Cartão de crédito Aura;
 * Cartão de crédito Diners;
 * Cartão de crédito Discover;
 * Cartão de crédito Elo;
 * Cartão de crédito JCB;
-* Cartão de crédito MasterCard;
-* Cartão de crédito Visa;
+* Cartão de crédito HiperCard;
 * Cartão de débito Maestro;
 * Cartão de débito Visa Electron;
 
@@ -114,14 +116,15 @@ curl
 
 Contratando a solução da CIELO CHECKOUT para e-commerce será possível oferecer os seguintes meios de pagamento na sua loja:
 
+* Cartão de crédito Visa;
+* Cartão de crédito MasterCard;
 * Cartão de crédito Amex;
 * Cartão de crédito Aura;
 * Cartão de crédito Diners;
 * Cartão de crédito Discover;
 * Cartão de crédito Elo;
 * Cartão de crédito JCB;
-* Cartão de crédito MasterCard;
-* Cartão de crédito Visa;
+* Cartão de crédito HiperCard;
 * Cartão de débito Maestro;
 * Cartão de débito Visa Electron;
 

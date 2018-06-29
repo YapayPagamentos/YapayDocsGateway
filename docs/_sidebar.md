@@ -1,14 +1,14 @@
 <!-- docs/_sidebar.md -->
 
-**Para começar**
-
-* Conhecendo a Yapay
+* Para começar
     * [Introdução](/)
-    * [Funcionalidades](funcionalidade.md)
     * [Sandbox](sandbox.md)
     * [Obter código de integração](obter-token.md)
+
+* Conhecendo a Yapay
+    * [Funcionalidades](funcionalidade.md)
     * [Glossário](glossario.md)
-    * [Suporte](suporte.md)
+    * [Suporte](suporte.md) 
 
 * API Transação	
     * [Cartão de Crédito](transacao-cartao-de-credito.md)
@@ -46,10 +46,20 @@
     * [API Capturar Transação](api-capturar-transacao.md)
     * [API Cancelar Transação](api-cancelar-transacao.md)
  
-* Contratação Instituições Financeiras
+* Informações Instituições Financeiras
     * [Antifraudes](contratar-antifraude.md)
     * [Adquirente Cielo](adquirente-cielo.md)
+    * [Adquirente Rede](adquirente-rede.md)
     * [Adquirente GetNet](adquirente-getnet.md)
+    * [Adquirente Bin-Fist Data](adquirente-bin.md)
+    * [Adquirente Stone](adquirente-stone.md)
+    * [Itaú Shopline](banco-shopline.md)
+    * [Bradesco ShopFácil](banco-shopfacil.md)
+    * [BB Online](banco-bb.md)
+    * [Banco Banrisul](banco-banrisul.md)
+    * [Boletos Offlines](boleto-offline.md)
+    * [SafetyPay](safetypay.md)
+    * [Intermediadores](intermediadores.md)
   
 * Tabelas Auxiliares
     * [Cartão de cŕedito](tabela-cartoes-credito.md)

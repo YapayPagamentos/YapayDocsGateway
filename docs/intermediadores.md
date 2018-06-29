@@ -1,0 +1,197 @@
+## PagSeguro
+
+> **CONTRATAÇÃO**
+
+Ao final do processo de contratação, deve-se estar de posse das seguintes informações para ativação no Gateway:
+
+* email;
+* token;
+
+Para contratar, [acesse aqui](https://pagseguro.uol.com.br/para-seu-negocio/online#rmcl).
+
+> **PARTICULARIEDADES**
+
+* Modalidades com redirecionamento;
+* Para utilização da modalidade, todos os campos referente aos dados do cliente devem ser preenchidos;
+* A URL retornada no campo `<urlPagamento>`;
+
+> **CONFIGURAÇÃO AMBIENTE PAGSEGURO**
+
+Configurar em seu painel PagSeguro a URL de notificação do Gateway:
+
+Ambiente | URL
+-------- | ------
+Homologação | https://sandbox.gateway.yapay.com.br/checkout/PagamentoPagSeguro/RetornoPagSeguro.do
+Produção | https://gateway.yapay.com.br/checkout/PagamentoPagSeguro/RetornoPagSeguro.do
+
+> **EXEMPLO**
+
+**REQUISIÇÃO**
+
+```curl
+curl
+        --request POST https://sandbox.gateway.yapay.com.br/checkout/api/v3/transacao
+        --header "Content-Type: application/json"
+        --user usuario:senha
+        --data-binary
+       {
+        codigoEstabelecimento: 1000000000000,
+        codigoFormaPagamento: 39,
+        transacao: {
+            numeroTransacao: 1,
+            valor: 2000,
+            valorDesconto: 0,
+            parcelas : 1,
+            urlCampainha : http://seusite.com.br/campainha,
+            urlResultado : http://seusite.com.br/retorno,
+            ip : "192.168.12.110",
+            idioma : 1
+        },
+        itensDoPedido: [
+        {
+            codigoProduto: 1,
+            nomeProduto: Blusa,
+            codigoCategoria: 1,
+            nomeCategoria : Roupa,
+            quantidadeProduto : 1,
+            valorUnitarioProduto : 2000
+        }
+        ],
+        dadosCobranca : {
+            codigoCliente : 1,
+            tipoCliente : 1,
+            nome : Teste Yapay,
+            email : teste@teste.com,
+            dataNascimento : "",
+            sexo : "M",
+            documento : "12312321312",
+            endereco : {
+            logradouro : Rua Teste,
+            numero : 123,
+            complemento : "",
+            cep : 12345-678,
+            bairro : Bairro Teste,
+            cidade : Cidade Teste,
+            estado : SP,
+            pais : BR
+           }
+        }
+     }
+```
+
+**RESPOSTA**
+
+```curl
+    --header "Content-Type: application/json"
+    {
+   "numeroTransacao": 1,
+   "codigoEstabelecimento": "1000000000000",
+   "codigoFormaPagamento": 39,
+   "valor": 2000,
+   "valorDesconto": 0,
+   "parcelas": 1,
+   "statusTransacao": 8,
+   "autorizacao": ,
+   "codigoTransacaoOperadora": "0",
+   "dataAprovacaoOperadora": ,
+   "numeroComprovanteVenda": ,
+   "nsu": ,
+   "mensagemVenda": ,
+   "urlPagamento": "https://sandbox.gateway.yapay.com.br/checkout/PagamentoPagSeguro/PagamentoPagSeguro.do?cod=1413489786995834a2f60-aa50-4615-92bd-45c46a7397a5"
+}
+```
+## PayPal
+
+> **CONTRATAÇÃO**
+
+Ao final do processo de contratação, deve-se estar de posse das seguintes informações para ativação no Gateway:
+
+* assinatura;
+* email;
+* usuário;
+* senha;
+
+Para contratar, [acesse aqui](https://www.paypal.com/br/home).
+
+> **PARTICULARIEDADES**
+
+* Modalidades com redirecionamento;
+* Para utilização da modalidade, todos os campos referente aos dados do cliente devem ser preenchidos;
+* A URL retornada no campo `<urlPagamento>`;
+
+> **EXEMPLOS**
+
+**REQUISIÇÃO**
+
+```curl
+curl
+        --request POST https://sandbox.gateway.yapay.com.br/checkout/api/v3/transacao
+        --header "Content-Type: application/json"
+        --user usuario:senha
+        --data-binary
+       {
+        codigoEstabelecimento: 1000000000000,
+        codigoFormaPagamento: 111,
+        transacao: {
+            numeroTransacao: 1,
+            valor: 2000,
+            valorDesconto: 0,
+            parcelas : 1,
+            urlCampainha : http://seusite.com.br/campainha,
+            urlResultado : http://seusite.com.br/retorno,
+            ip : "192.168.12.110",
+            idioma : 1
+        },
+        itensDoPedido: [
+        {
+            codigoProduto: 1,
+            nomeProduto: Blusa,
+            codigoCategoria: 1,
+            nomeCategoria : Roupa,
+            quantidadeProduto : 1,
+            valorUnitarioProduto : 2000
+        }
+        ],
+        dadosCobranca : {
+            codigoCliente : 1,
+            tipoCliente : 1,
+            nome : Teste Yapay,
+            email : teste@teste.com,
+            dataNascimento : "",
+            sexo : "M",
+            documento : "12312321312",
+            endereco : {
+            logradouro : Rua Teste,
+            numero : 123,
+            complemento : "",
+            cep : 12345-678,
+            bairro : Bairro Teste,
+            cidade : Cidade Teste,
+            estado : SP,
+            pais : BR
+           }
+        }
+     }
+```
+
+**RESPOSTA**
+
+```curl
+    --header "Content-Type: application/json"
+    {
+   "numeroTransacao": 1,
+   "codigoEstabelecimento": "1000000000000",
+   "codigoFormaPagamento": 111,
+   "valor": 2000,
+   "valorDesconto": 0,
+   "parcelas": 1,
+   "statusTransacao": 8,
+   "autorizacao": ,
+   "codigoTransacaoOperadora": "0",
+   "dataAprovacaoOperadora": ,
+   "numeroComprovanteVenda": ,
+   "nsu": ,
+   "mensagemVenda": ,
+   "urlPagamento": "https://sandbox.gateway.yapay.com.br/checkout/PagamentoPaypal/PagamentoPaypal.do?cod=141348960683a720e602-5631-4725-8f79-268c06795a3c"
+}
+```

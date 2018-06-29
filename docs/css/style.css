@@ -16,6 +16,16 @@
 	font-weight: bold;
 }
 
+.url {
+	width: 38px;		
+	border-radius: 2px;
+	padding: 6px;
+	color: #FFF;
+	background-color: #66CDAA;
+	font-size: 1em;
+	font-weight: normal;	
+}
+
 .get {
 	width: 34px;		
 	border-radius: 2px;
