@@ -8,6 +8,7 @@
 * Conhecendo a Yapay
     * [Funcionalidades](funcionalidade.md)
     * [Glossário](glossario.md)
+    * [Downloads](download.md)
     * [Suporte](suporte.md) 
 
 * API Transação	
@@ -45,7 +46,7 @@
     * [API Consultar Oneclick](api-consultar-oneclick.md)
     * [API Capturar Transação](api-capturar-transacao.md)
     * [API Cancelar Transação](api-cancelar-transacao.md)
- 
+
 * Informações Instituições Financeiras
     * [Antifraudes](contratar-antifraude.md)
     * [Adquirente Cielo](adquirente-cielo.md)
