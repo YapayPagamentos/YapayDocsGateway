@@ -8,7 +8,7 @@
 * Conhecendo a Yapay
     * [Funcionalidades](funcionalidade.md)
     * [Glossário](glossario.md)
-    * [Downloads](download.md)
+    * [Módulos](magento.md)
     * [Suporte](suporte.md) 
 
 * API Transação	

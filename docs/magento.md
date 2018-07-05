@@ -4,8 +4,8 @@
 
 * As ações de captura e cancelamento não estão disponíveis no Módulo Magento. Estas ações deverão ser realizadas diretamente no painel administrativo Yapay.
 * As funcionalidades de Recorrência, Múltiplos Cartões, Retentativa de Pagamento e Switch de Adquirência atualmente não estão disponíveis no Módulo Magento.
-* As operadoras disponíveis no Módulo são: Cielo, Rede, Elavon, GetNet e Stone.
-* Os bancos disponíveis no Módulo são: Itau, Bradesco, Caixa, HSBC, Banco do Brasil e Banrisul.
+* As operadoras disponíveis no Módulo são: Cielo, Rede, GetNet e Stone.
+* Os bancos disponíveis no Módulo são: Itau, Bradesco, Caixa, Banco do Brasil e Banrisul.
 
 > **Instalação**
 
