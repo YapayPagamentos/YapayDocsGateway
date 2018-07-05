@@ -1,4 +1,4 @@
-## Módulo Magento
+# Módulo Magento
 
 > **Particulariedades**
 
