@@ -190,7 +190,7 @@ Após a integração com o Yapay e configuração das URLs acima, o estabelecime
 
 ```curl
 curl
-        --request POST https://sanbbox.gateway.yapay.com.br/checkout/api/v3/transacao
+        --request POST https://sandbox.gateway.yapay.com.br/checkout/api/v3/transacao
         --header "Content-Type: application/json"
         --user usuario:senha
         --data-binary
@@ -205,6 +205,7 @@ curl
         },
         "itensDoPedido" : [
         {
+            "nomeProduto": "Produto de Teste", 
             "quantidadeProduto" : 1,
             "valorUnitarioProduto" : 100
         }
