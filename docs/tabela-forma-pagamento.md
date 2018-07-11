@@ -29,6 +29,10 @@ Código | Bandeira | Tipo | Tecnologia | Adquirente | Modelo
 199|	Elo|Crédito	|E-Rede|	Rede|	WebService
 270|	Visa|	Crédito|GetNetWS|	GetNet|	WebService
 271|	MasterCard|Crédito|	GetNetWS|	GetNet|	WebService
+272|	American Express |Crédito|	GetNetWS|	GetNet|	WebService
+273|	Elo |Crédito|	GetNetWS|	GetNet|	WebService
+274|	Maestro |Débito|	GetNetWS|	GetNet|	WebService
+275|	Visa Electron|Débito|	GetNetWS|	GetNet|	WebService
 350|	Visa|Crédito|	StoneWs|	Stone|	WebService
 351|	MasterCard|Crédito|	StoneWs|	Stone|	WebService
 352|    Hipercard | Crédito| StoneWs | Stone | WebService
