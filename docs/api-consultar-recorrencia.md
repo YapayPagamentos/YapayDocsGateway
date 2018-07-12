@@ -8,8 +8,8 @@ API para consulta das recorrências.
 
 Ambiente | Endereço
 -------- | ---------
-Sandbox  |https://sandbox.gateway.yapay.com.br/checkout/api/v3/recorrencia/«codigoEstabelecimento»/«numeroPedido»
-Produção |https://gateway.yapay.com.br/checkout/api/v3/recorrencia/«codigoEstabelecimento»/«numeroPedido»
+Sandbox  |https://sandbox.gateway.yapay.com.br/checkout/api/v3/recorrencia/«codigoEstabelecimento»/«numeroRecorrencia»
+Produção |https://gateway.yapay.com.br/checkout/api/v3/recorrencia/«codigoEstabelecimento»/«numeroRecorrencia»
 
 > **Exemplo de envio em JSON**
 

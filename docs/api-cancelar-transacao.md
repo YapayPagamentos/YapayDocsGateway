@@ -70,6 +70,13 @@ Rede|	E Rede|	Pode variar conforme o ramo de atuação de cada estabelecimento
 * Disponível apenas no plano corporativo;
 * Disponível apenas nas adquirentes Cielo ou Rede, nas tecnologias informadas acima.
 
+> **EndPoints**
+
+Ambiente | Endereço
+-------- | ---------
+Sandbox  |https://sandbox.gateway.yapay.com.br/checkout/api/v3/transacao/«codigoEstabelecimento»/«numeroPedido»/cancelar?valor=
+Produção |https://gateway.yapay.com.br/checkout/api/v3/transacao/«codigoEstabelecimento»/«numeroPedido»/cancelar?valor=
+
 > **Exemplo de envio em JSON**
 
 ```curl

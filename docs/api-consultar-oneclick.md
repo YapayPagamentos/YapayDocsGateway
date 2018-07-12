@@ -8,8 +8,8 @@ API para consulta de dados através do TOKEN.
 
 Ambiente | Endereço
 -------- | ---------
-Sandbox  |https://sandbox.gateway.yapay.com.br/checkout/api/v3/oneclicl/«codigoEstabelecimento»/«numeroPedido»
-Produção |https://gateway.yapay.com.br/checkout/api/v3/oneclick/«codigoEstabelecimento»/«numeroPedido»
+Sandbox  |https://sandbox.gateway.yapay.com.br/checkout/api/v3/oneclick/«token»
+Produção |https://gateway.yapay.com.br/checkout/api/v3/oneclick/«token»
 
 > **Exemplo de envio em JSON**
 
