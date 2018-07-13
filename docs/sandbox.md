@@ -60,8 +60,12 @@ Para aprovação das vendas, seguir tabelas abaixo:
 
 Bandeira  | Número do cartão |	Código de segurança |	Data de validade
 --------- | -------------------- | ----------------| -----------
-Visa |	4012001038166662 |	456	| 10/2019
-MasterCard |	5453010000083303 |	321	 |10/2019
+Visa |	4012001038166662 |	123	| 10/2019
+MasterCard |	5453010000083303 |	123	 |10/2019
+Visa Electron | 4012001037141112 | 123 | 10/2019
+Maestro | 54326201155166661 | 123 | 10/2019
+Amex | 376442058032004 | 1589 | 07/2023
+Elo | 5067230000009011 | 568 | 10/2021
 
 
 Categoria  |	Número de parcelas |	Valor |	Exemplo
