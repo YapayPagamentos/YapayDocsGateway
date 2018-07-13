@@ -15,13 +15,18 @@ O módulo Yapay Gateway é compatível com as versões 1.5.X, 1.6.X, 1.7.X, 1.8.
 
 **Procedimento**
 
-1 - Descompacte o conteúdo do arquivo baixado no diretório raiz de instalação do Magento.
+1 - Para instalar o módulo é necessário baixar o arquivo através da página a seguir:
 
-2 - Atualize o cache do Magento, através do item System/Cache Management do administrador do sistema.
+<a href="http://integracao.traycheckout.com.br/documentacao/download/yapay/magento/Yapay_Gateway.zip" class="btnMagento"><i class="fa fa-arrow-circle-down" aria-hidden="true"></i>Magento</a>
+
+
+2 - Descompacte o conteúdo do arquivo baixado no diretório raiz de instalação do Magento.
+
+3 - Atualize o cache do Magento, através do item System/Cache Management do administrador do sistema.
 
 ![Cache](/images/Cache_Magento.png "Cache")
 
-3- O módulo está instalado! Para configurar os dados de sua conta do Yapay acesse na área administrativa do Magento o item System/Configuration/Payments Methods, para mais informações
+4 - O módulo está instalado! Para configurar os dados de sua conta do Yapay acesse na área administrativa do Magento o item System/Configuration/Payments Methods, para mais informações
 
 `Observação: Para utilização do Módulo é necessário a habilitação do SoapClient no php.ini.`
 
