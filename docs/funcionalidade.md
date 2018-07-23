@@ -11,8 +11,7 @@ Cancelamento de transações rapidamente acionando o método de cancelamento.
 Operadora   | 	Limite Cancelamento
 ----------  | -----------------------
 Cielo |	300 dias após a geração do pedido
-Rede |	24 horas após geração do pedido
-Elavon|	24 horas após geração do pedido
+Rede |	Pode variar conforme o ramo de atuação de cada estabelecimento
 GETNET|	24 horas após geração do pedido
 Stone|	180 dias após a geração do pedido
 Bin|    90 dias após captura do pedido
