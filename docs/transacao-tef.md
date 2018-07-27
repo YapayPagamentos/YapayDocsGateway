@@ -2,7 +2,6 @@
 
 O Yapay disponibiliza a integração com diversas Instituições Financeiras através de uma única integração via API em RESTful.
 
-![API Transação Yapay](/images/transacao_tef.png "API Yapay")
 
 A comunicação com o Yapay Gateway ocorrerá após a finalização do pagamento no Checkout do Ecommerce, de forma transparente para o consumidor. Ao ser finalizado o pagamento dentro da loja, o Ecommerce deverá consumir os serviços WebServices do Yapay encaminhando as informações da compra de acordo com a estrutura que será apresentada nesta documentação.
 Recebendo a requisição, o Gateway retornará uma URL para redirecionamento a página do banco e finalização da transferência.
