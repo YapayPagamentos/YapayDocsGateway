@@ -56,3 +56,9 @@ curl
        "urlPagamento": "https://sandbox.gateway.yapay.com.br/checkout/checkout/redirecionaPagamento?codigoPagamento=15296042250074c4b0dc5-04cx-4f5d-a3d0-194d06aa5a5f&multiploCartao=true"
       }
 ```
+
+> **Exemplo página de Checkout**
+
+Ao enviar a requisição ao Gateway, será retornado a URL da página de Checkout para redirecionar o cliente do site. Abaixo segue exemplo de nossa página de Checkout para uma transação com Múltiplos Cartões:
+
+![API Transação Yapay](/images/checkout_multcartao.png "API Yapay")

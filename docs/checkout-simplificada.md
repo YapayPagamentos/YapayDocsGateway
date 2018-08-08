@@ -51,3 +51,9 @@ curl
        "urlPagamento": "https://sandbox.gateway.yapay.com.br/checkout/checkout/redirecionaPagamento?codigoPagamento=150609150796704e7-5b25-4a41-a753-a09bfb66db8d&tipoPagamento=0&oneClick=false"
       }
 ```
+
+> **Exemplo página de Checkout**
+
+Ao enviar a requisição ao Gateway, será retornado a URL da página de Checkout para redirecionar o cliente do site. Abaixo segue exemplo de nossa página de Checkout:
+
+![API Transação Yapay](/images/checkout_simp.png "API Yapay")

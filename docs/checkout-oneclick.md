@@ -55,3 +55,9 @@ curl
        "urlPagamento": "https://sandbox.gateway.yapay.com.br/checkout/checkout/redirecionaPagamento?codigoPagamento=15296042250074c4b0dc5-04cx-4f5d-a3d0-194d06aa5a5f&oneClick=true"
       }
 ```
+
+> **Exemplo página de Checkout**
+
+Ao enviar a requisição ao Gateway, será retornado a URL da página de Checkout para redirecionar o cliente do site. Abaixo segue exemplo de nossa página de Checkout para uma transação com OneClick. Será exibido o cartão cadastrado caso o cliente já tenha efetuado uma venda na loja e tenha permitido salvar seus dados de cartão.
+
+![API Transação Yapay](/images/checkout_oneclick.png "API Yapay")
