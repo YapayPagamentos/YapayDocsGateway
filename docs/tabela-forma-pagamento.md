@@ -16,6 +16,10 @@ Código | Bandeira | Tipo | Tecnologia | Adquirente | Modelo
 178|	Maestro|Débito|	Cielo API 3.0|	Cielo|	WebService
 179|	Visa Electron|Débito|	Cielo API 3.0|	Cielo|	WebService
 180|    Hipercard |Crédito| Cielo API 3.0 | Cielo | WebService
+185|    Credsystem | Crédito | E-Rede | Rede | WebService
+186|    Banescard | Crédito | E-Rede | Rede | WebService
+187|    Sorocred | Crédito | E-Rede | Rede | WebService
+188|    Cabal | Crédito | E-Rede | Rede | WebService 
 189|	American Express|Crédito|	E-Rede|	Rede|	WebService
 190|	Visa|Crédito|	E-Rede|	Rede|	WebService
 191|	MasterCard|Crédito|	E-Rede|	Rede|	WebService
