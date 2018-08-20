@@ -19,6 +19,20 @@ O Yapay não participa das negociações entre o estabelecimento e bancos/adquir
 
 Para contratar, [acesse aqui](https://www.itau.com.br/empresas/recebimentos/shopline/).
 
+ou 
+
+Acesse o bankline e vá na aba "Recebimentos" e selecione Itaú Shopline - Comércio Eletrônico
+
+![Cache](/images/shopline.png "Cache")
+
+Clique em contratar:
+
+![Cache](/images/shopline2.png "Cache")
+
+Preencha os dados:
+
+![Cache](/images/shopline3.png "Cache")
+
 > **PARTICULARIEDADES**
 
 * Modalidades com redirecionamento;
