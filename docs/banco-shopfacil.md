@@ -45,12 +45,23 @@ Após logar, acesse Configurações > Meios de Pagamento > Boleto Bancário, inc
 
 **Configurando URL de notificação**
 
+**BOLETO**
+
 Após logar, acesse Configuração > Meios de Pagamento > Boleto Bancário, incluir no campo “URL de notificação”:
 
 Ambiente|  URL
 ------- | ---------
 HOMOLOGAÇÃO|	https://sandbox.gateway.yapay.com.br/checkout/bradesco/confirmaBoletoRegistro
 PRODUÇÃO|	https://gateway.yapay.com.br/checkout/bradesco/confirmaBoletoRegistro
+
+**TRANSFERÊNCIA**
+
+Após logar, acesse Configuração > Meios de Pagamento > Transferência, incluir no campo “URL de notificação”:
+
+Ambiente|  URL
+------- | ---------
+HOMOLOGAÇÃO|	https://sandbox.gateway.yapay.com.br/checkout/bradesco/confirmaTransf
+PRODUÇÃO|	https://gateway.yapay.com.br/checkout/bradesco/confirmaTransf
 
 > **PROCESSO DE HOMOLOGAÇÃO**
 
@@ -65,7 +76,7 @@ Realizar as configurações no painel Bradesco conforme informado acima e a conf
 * Chave de acesso de homologação;
 * Número da carteira;
 
-A loja virtual deverá estar apontando para o ambiente de homologação e depois disto basta enviar email kit@scopus.com.br com a URL da loja com um produto de R$1,00 disponível para testes e o CNPJ do estabelecimento. Depois que a equipe do Bradesco validar este ambiente, o estabelecimento receberá novos dados, desta vez os dados reais da loja. E o procedimento deverá ser repedito porém desta vez em ambiente de produção.
+A loja virtual deverá estar apontando para o ambiente de homologação e depois disto basta enviar email kit@scopus.com.br com a URL da loja com um produto de R$1,00 disponível para testes e o CNPJ do estabelecimento. Depois que a equipe do Bradesco validar este ambiente, o estabelecimento receberá novos dados, desta vez os dados reais da loja. E o procedimento deverá ser repetido porém desta vez em ambiente de produção.
 
 **Produção**
 
