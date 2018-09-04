@@ -17,7 +17,7 @@ O módulo Yapay Gateway é compatível com as versões 1.5.X, 1.6.X, 1.7.X, 1.8.
 
 1 - Para instalar o módulo é necessário baixar o arquivo através da página a seguir:
 
-<a href="http://integracao.traycheckout.com.br/documentacao/download/yapay/magento/Yapay_Gateway.zip" class="btnMagento"><i class="fa fa-arrow-circle-down" aria-hidden="true"></i>Magento</a>
+<a href="https://gateway.yapay.com.br/administrador/plugin_magento.7z" class="btnMagento"><i class="fa fa-arrow-circle-down" aria-hidden="true"></i>Magento</a>
 
 
 2 - Descompacte o conteúdo do arquivo baixado no diretório raiz de instalação do Magento.
