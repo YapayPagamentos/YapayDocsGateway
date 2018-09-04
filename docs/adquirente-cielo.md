@@ -149,15 +149,17 @@ Para contratar, [acesse aqui](https://www.cielo.com.br/aceite-cartao/checkout/).
 
 Etapas para configuração
 
+<br>Gerenciador Cielo:
+![Gerenciador](/images/tmbackoffice.png "Gerenciador Cielo")
+
 **EM SANDBOX** 
 
 1- Acesse o gerenciador Cielo
-<br>2- Clique na aba “Configurações” –> “Configurações da loja”
+<br>2- Clique na aba “Configurações”
 <br>3- Primeiramente habilite em “Modo de Teste”
 <br>4- Inclua as URLs abaixo:
 
 <br>Substituir o valor 10000000000 pelo código de estabelecimento Yapay
-
 
 Nome do campo|	URL
 ------------ | ---------
@@ -263,3 +265,9 @@ Estrutura de retorno após a finalização do pagamento. (Consulta do Ecommerce 
     "urlPagamento":"15150694525329e353c97-2477-4df5-943c-6e3600ef3f38"
     }
 ```
+
+> **EXEMPLO PÁGINA CHECKOUT CIELO**
+
+Ao enviar a requisição ao Gateway, será retornado a URL da página do Checkout Cielo para redirecionar o cliente do site. Abaixo segue exemplo da página:
+
+![Checkout](/images/checkout_cielo.png "Checkout")
