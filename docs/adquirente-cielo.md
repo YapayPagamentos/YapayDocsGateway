@@ -152,6 +152,9 @@ Etapas para configuração
 <br>Gerenciador Cielo:
 ![Gerenciador](/images/tmbackoffice.png "Gerenciador Cielo")
 
+<br>Configuração do tempo de expiração da página de Checkout:
+![Gerenciador](/images/exp_cielo.png "Gerenciador Cielo")
+
 **EM SANDBOX** 
 
 1- Acesse o gerenciador Cielo
