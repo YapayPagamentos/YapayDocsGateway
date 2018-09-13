@@ -37,6 +37,7 @@ Código | Bandeira | Tipo | Tecnologia | Adquirente | Modelo
 273|	Elo |Crédito|	GetNetWS|	GetNet|	WebService
 274|	Maestro |Débito|	GetNetWS|	GetNet|	WebService
 275|	Visa Electron|Débito|	GetNetWS|	GetNet|	WebService
+276|	Hipercard|Crédito|	GetNetWS|	GetNet|	WebService
 350|	Visa|Crédito|	StoneWs|	Stone|	WebService
 351|	MasterCard|Crédito|	StoneWs|	Stone|	WebService
 352|    Hipercard | Crédito| StoneWs | Stone | WebService
@@ -44,6 +45,10 @@ Código | Bandeira | Tipo | Tecnologia | Adquirente | Modelo
 380|	Visa|Crédito|	BinWS|	Bin-FirstData|	WebService
 381|	MasterCard|Crédito|	BinWS|	Bin-FirstData|	WebService
 382|	Cabal|Crédito|	BinWS|	Bin-FirstData|	WebService
+383|    Elo|Crédito|	BinWS|	Bin-FirstData|	WebService
+384|    HiperCard|Crédito|	BinWS|	Bin-FirstData|	WebService
+385|    Sorocred|Crédito|	BinWS|	Bin-FirstData|	WebService
+
 
 > **BOLETOS E TRANSFERÊNCIAS**
 

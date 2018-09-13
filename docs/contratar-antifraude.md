@@ -39,9 +39,38 @@ Para maiores informações [acesse aqui](https://www.fcontrol.com.br/Integracao/
 * Usuário
 * Senha
 
+## Konduto
+
+O Gateway de Pagamento Yapay possui integração com o sistema de prevenção de risco e fraude da Konduto.
+Para maiores informações [acesse aqui](https://www.konduto.com/pt)
+
+Para consultar valores dos planos da Konduto com condições especiais da parceria, entre em contato através do email: *comercial@konduto.com* informando ser cliente Yapay.
+
+> **INFORMAÇÕES PARA CONFIGURAÇÃO**
+
+* Chave pública
+* Chave privada
+
+> **CONFIGURAÇÃO PARA NOTIFICAÇÃO**
+
+Para perfeito funcionamento desta antifraude é preciso configurar no painel Konduto nossa URL de notificação:
+
+Endereço painel Konduto - https://app.konduto.com/login
+
+1- Acessar painel Konduto
+<br>2- No menu lateral acessar "Lojas"
+<br>3- Acessar loja utilizada
+<br>4- Incluir a URL abaixo em "Webhooks"
+
+URL Yapay | https://gateway.yapay.com.br/checkout/konduto/webhook
+
+![Gerenciador](/images/konduto.png "Gerenciador Konduto")
+
+
 ## E Rede
 
 Antifraude disponibilizado para clientes que possuem contratação com a adquirente Rede, na tecnologia E Rede.
 O modelo de análise é síncrono e realizado junto a etapa de autorização da transação, sendo assim, se o retorno da antifraude for de aprovação o pedido seguirá com seu fluxo normalmente. Se não, será atualizado para Recusado pela antifraude (status 17)
 
 Para utilização solicite a ativação do produto junto a Rede e suporte do Gateway Yapay
+

@@ -69,6 +69,23 @@ Código | Banco | Modalidade | Tecnologia
 104|	Bradesco|	Transferência|	Bradesco Shopfacil
 105|	Bradesco|	Boleto Online|	Bradesco ShopFácil
 
+> **Status Magento**
+
+O Gateway enviará ao Magento automaticamente, após a finalização do pagamento, o status da transação. Portanto, os pedidos no Magento ficarão com o status do mesmo e não do Gateway.
+Abaixo tabela de/para dos status Magento e Gateway Yapay:
+
+Status Gateway | Status Magento | Descrição Status Magento
+-------------- | -------------- | ----------------------
+1 - Pago e Capturado | processing | O pagamento do seu pedido foi confirmado
+2 - Pago e não Capturado | processing | O pagamento do seu pedido foi confirmado
+3 - Não Pago | pending_payment | O pagamento do seu pedido continua em pendente. Estamos aguardando a confirmação para continuar o processo de venda
+5 - Transação em Andamento | pending_payment | O pagamento do seu pedido continua em pendente. Estamos aguardando a confirmação para continuar o processo de venda
+8 - Aguardando Pagamento | pending_payment | O pagamento do seu pedido continua em pendente. Estamos aguardando a confirmação para continuar o processo de venda
+9 - Falha na operadora | pending_payment | Houve uma falha na operadora. Entre em contato conosco
+13 - Cancelado | pending_payment | Pagamento do pedido cancelado
+21 - Boleto pago a menor | payment_review | Recebemos a confirmação de pagamento do seu boleto. Porém o valor pago é divergente do emitido pelo nosso sistema. Por favor entre em contato conosco
+22 - Boleto pago a maior | payment_review | Recebemos a confirmação de pagamento do seu boleto. Porém o valor pago é divergente do emitido pelo nosso sistema. Por favor entre em contato conosco
+
 
 > **Instalação**
 

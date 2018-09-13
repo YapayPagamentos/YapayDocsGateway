@@ -16,7 +16,7 @@ dadosEntrega|	Nó reservado para informações de dados de entrega|	-|	-|	-
 
 Campo | Descrição | Tipo | Tamanho | Obrigatório
 :----- | :---------: | :----: | :-------: | :-----------------:
-numeroTransacao|	Código que identifica a transação dentro do Yapay|	Numérico|	Até 19 dígitos|	Sim
+numeroTransacao|	Código que identifica a transação dentro do Yapay|	Numérico|	Até 8 dígitos|	Sim
 valor|	Valor da transação. Deve ser enviado sem pontos ou vírgulas|	Numérico|	Até 10 dígitos|	Sim
 valorDesconto|	Valor do desconto da transação. Campo apenas informativo. Deve ser enviado sem pontos ou vírgulas|	Numérico|	Até 10 dígitos|	Não
 parcelas|	Quantidade de parcelas da transação. Boleto apenas á vista|	Numérico|	Até 2 dígitos|	Não
