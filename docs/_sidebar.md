@@ -9,6 +9,7 @@
     * [Funcionalidades](funcionalidade.md)
     * [Glossário](glossario.md)
     * [Módulos](magento.md)
+    * [Painel Administrativo](painel.md) 
     * [Suporte](suporte.md) 
 
 * API Transação	
