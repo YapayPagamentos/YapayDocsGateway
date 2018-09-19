@@ -105,3 +105,105 @@ curl
     "urlPagamento": "https://sandbox.gateway.yapay.com.br/checkout/Gerarboleto.do?cod=14956296486904d8312c6-d57a-499e-b53b-504047402e45"
   }
 ```
+
+## Enviar instruções do boleto na requisição
+
+A partir do envio do nó `camposExtras` é possível incluir instruções diferentes para cada boleto gerado. 
+O número da instrução deve ser enviado no campo `<chave>` a partir do número 1001 até o 1005 e sua respectiva instrução no campo `<valor>`.
+
+`OBS: A quantidade de instruções disponíveis irá variar por banco.`
+
+
+> **Exemplo de envio em JSON - campos Extras**
+
+```curl
+curl
+  --request POST https://sandbox.gateway.yapay.com.br/checkout/api/v3/transacao
+  --user usuario:senha 
+  --header "Content-Type: application/json"
+  --data-binary
+  {
+    "codigoEstabelecimento" : 1000000000000,
+    "codigoFormaPagamento" : 29,
+    "transacao" : {
+        "numeroTransacao" : 1234,
+        "valor" : 2000,
+        "urlCampainha" : "http://seusite.com.br/campainha",
+        "urlResultado" : "http://seusite.com.br/retorno",
+        "dataVencimentoBoleto":"13/12/2030"
+    },
+    "camposExtras":[
+    	{
+    	 "chave":1001,
+         "valor":"Essa é a primeira instrução"
+    	},
+    		{
+    	 "chave":1002,
+         "valor":"Essa é a segunda instrução"
+    	},
+    	{
+    	 "chave":1003,
+         "valor":"Essa é a terceira instrução"
+    	},
+        {
+    	 "chave":1004,
+         "valor":"Essa é a quarta instrução"
+    	},
+        {
+    	 "chave":1005,
+         "valor":"Essa é a quinta e ultima instrução"
+    	}
+    ],
+    "itensDoPedido" : [
+    {
+        "codigoProduto" : 1,
+        "nomeProduto" : "Produto 1",
+        "codigoCategoria" : 1,
+        "nomeCategoria" : "categoria",
+        "quantidadeProduto" : 1,
+        "valorUnitarioProduto" : 2000
+    }
+    ],
+    "dadosCobranca" : {
+        "codigoCliente" : 1,
+        "tipoCliente" : 1,
+        "nome" : "Teste 123",
+        "email" : "teste@teste.com",
+        "dataNascimento" : "10/01/1975",
+        "sexo" : "M",
+        "documento" : "123.123.123-12",
+        "endereco" : {
+          "logradouro" : "Rua",
+          "numero" : "123",
+          "complemento" : "",
+          "cep" : "12345-678",
+          "bairro" : "Bairro",
+          "cidade" : "Cidade",
+          "estado" : "SP",
+          "pais" : "BR"
+          }
+    }
+  }
+```
+
+> **Exemplo de retorno em JSON**
+
+```curl
+--header "Content-Type: application/json"
+  {  "numeroTransacao": 1234,
+    "codigoEstabelecimento": "1000000000000",
+    "codigoFormaPagamento": 29,
+    "valor": 2000, 
+    "valorDesconto": 0, 
+    "parcelas": 1, 
+    "statusTransacao": 8,
+    "autorizacao": "0",
+    "codigoTransacaoOperadora": "0",
+    "dataAprovacaoOperadora": "", 
+    "numeroComprovanteVenda": "", 
+    "nsu": "",
+    "mensagemVenda": "",
+    "urlPagamento": "https://sandbox.gateway.yapay.com.br/checkout/Gerarboleto.do?cod=14956296486904d8312c6-d57a-499e-b53b-504047402e45"
+  }
+```
+

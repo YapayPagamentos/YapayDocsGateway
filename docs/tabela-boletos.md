@@ -90,6 +90,13 @@ email| E-mail do comprador|	Alfa Numérico|	20 caracteres|	Não
 endereco|	Nó reservado para dados de endereço do comprador|	-|	-|	-
 telefone|	Nó reservado para dados de telefone do comprador|	-|	-|	-
 
+> camposExtras
+
+Campo | Descrição | Tipo | Tamanho | Obrigatório
+:----- | :---------: | :----: | :-------: | :-----------------:
+chave | Chave para instrução. De 1001 a 1005 | Numérico | 20 dígitos | Não
+valor | Instrução do boleto | Alfa Numérico | 50 caracteres | Não
+
 **RETORNO**
 
 Campo | Descrição | Tipo | Tamanho 
