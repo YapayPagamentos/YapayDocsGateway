@@ -113,6 +113,17 @@ O número da instrução deve ser enviado no campo `<chave>` a partir do número
 
 `OBS: A quantidade de instruções disponíveis irá variar por banco.`
 
+Banco | Modalidade | Quantidade de instruções
+:-----: | :-----------: | :------------:
+Itaú | Offline | 5
+Itaú | Online | 3
+Bradesco | Offline | 4
+Bradesco | Online | 5
+Banco do Brasil | Offline | 4
+Banco do Brasil | Online | 1
+Santander | Offline | 5
+Caixa | Offline | 5
+
 
 > **Exemplo de envio em JSON - campos Extras**
 
