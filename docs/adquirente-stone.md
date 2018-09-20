@@ -29,6 +29,10 @@ Para contratar, [acesse aqui](https://stone-pagamentos.typeform.com/to/A4caIq).
 * Para esta modalidade é necessário certificado SSL de segurança 2048 bits;
 * Integração apenas na modalidade WebService.
 
+> **CONFIGURAÇÃO GATEWAY**
+
+[Acesse aqui](https://atendimento.yapay.com.br/hc/pt-br/articles/360005086033-Cart%C3%A3o-de-Cr%C3%A9dito-Stone) para informações sobre como configurar a Stone no Gateway Yapay.
+
 > **EXEMPLOS**
 
 **REQUISIÇÃO**

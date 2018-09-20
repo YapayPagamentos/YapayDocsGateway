@@ -38,6 +38,10 @@ Para contratar, [acesse aqui](https://www.cielo.com.br/sitecielo/afiliacao/crede
 * Esta operadora de cartão permite cadastrar uma informação para visualização na fatura dos clientes quando realizarem compras em sua loja, funcionalidade chamada de SoftDescriptor. Esta deverá possuir até 13 caracteres. Caso queira utilizar, envie ao Suporte Yapay o nome desejado para configuração em seu estabelecimento. Também é possível o envio do SoftDescriptor por pedido, para isto solicite ao Suporte a ativação e envie a informação no `<campoLivre4>` de cada transação;
 * Para transações com cartão de débito ou autenticada, o eCommerce deverá redirecionar o consumidor para a `<urlPagamento>`, onde o mesmo deverá incluir sua senha ou token no ambiente do banco emissor. Apenas após esta etapa, a transação será concluída.
 
+> **CONFIGURAÇÃO GATEWAY**
+
+[Acesse aqui](https://atendimento.yapay.com.br/hc/pt-br/articles/360005085973-Cart%C3%A3o-de-Cr%C3%A9dito-e-D%C3%A9bito-Cielo) para informações sobre como configurar Cielo WebService no Gateway Yapay.
+
 > **PROCESSO DE HOMOLOGAÇÃO**
 
 Após a integração com o Yapay, o estabelecimento deverá configurar as credenciais da Cielo no ambiente de produção do Yapay e apontar sua loja para o ambiente real do Gateway. Após isto, a loja deverá enviar ao Suporte Cielo (cieloecommerce@cielo.com.br) a URL da loja com um produto de teste no valor de R$1,00. O suporte Cielo realizará os testes em ambiente real e caso esteja dentro das conformidades a loja estará apta a realizar vendas em produção.

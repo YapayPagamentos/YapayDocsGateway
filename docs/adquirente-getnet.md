@@ -26,6 +26,10 @@ Para contratar, [acesse aqui](https://site.getnet.com.br/#/solucoes/e-commerce).
 * Para esta modalidade é necessário certificado SSL de segurança 2048 bits;
 * Integração apenas na modalidade WebService.
 
+> **CONFIGURAÇÃO GATEWAY**
+
+[Acesse aqui](https://atendimento.yapay.com.br/hc/pt-br/articles/360005036094-Cart%C3%A3o-de-Cr%C3%A9dito-Getnet) para maiores informações da configuração da GETNET no Gateway Yapay.
+
 > **EXEMPLOS**
 
 **REQUISIÇÃO**

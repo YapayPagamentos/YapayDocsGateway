@@ -29,6 +29,10 @@ Para contratar, [acesse aqui](https://www.bin.com.br/content/bin/pt_br/home/peca
 * Para esta modalidade é necessário certificado SSL de segurança 2048 bits;
 * Integração apenas na modalidade WebService.
 
+> **CONFIGURAÇÃO GATEWAY**
+
+[Acesse aqui](https://atendimento.yapay.com.br/hc/pt-br/articles/360005036074-Cart%C3%A3o-de-Cr%C3%A9dito-BIN) para informações sobre como configurar a BIN no Gateway Yapay.
+
 > **EXEMPLOS**
 
 **REQUISIÇÃO**

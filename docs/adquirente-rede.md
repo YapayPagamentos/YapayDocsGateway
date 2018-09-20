@@ -36,6 +36,9 @@ Também é possível o envio do SoftDescriptor por pedido, para isto solicite ao
 * Para transações com cartão de débito ou autenticada, o eCommerce deverá enviar o “userAgente” (Identificador do browser utilizado pelo comprador no momento da compra) no campo `<campoLivre1>` e redirecionar o consumidor para o campo `<urlPagamento>` recebida no retorno, onde o mesmo deverá incluir sua senha ou token no ambiente do banco emissor. Apenas após esta etapa, a transação será concluída.
 * Para bandeiras de débito (Visa Electron e Maestro) e/ou cartões autenticados (Visa e MasterCard), é preciso a liberação do serviço de 3DS. Portanto, para utilização destas bandeiras solitem a liberação diretamente com a Adquirente Rede.
 
+> **CONFIGURAÇÃO GATEWAY**
+
+[Acesse aqui](https://atendimento.yapay.com.br/hc/pt-br/articles/360005085993-Cart%C3%A3o-de-Cr%C3%A9dito-e-D%C3%A9bito-e-Rede) para informações sobre como configurar o E Rede no Gateway Yapay.
 
 > **EXEMPLOS**
 
