@@ -2,6 +2,16 @@
 
 Através desta funcionalidade, é possível armazenar os dados de cartão do consumidor de forma segura (sempre será solicitado o código de segurança) nos serviços do Gateway e assim, nas cobranças futuras não será necessário a digitação de todos dados de cartão.
 
+**Cadastro**
+
+![API Transação Yapay](/images/oneclick_cadastro.png "API Yapay")
+
+**Pagamento**
+
+Fluxo de pagamento para futuras compras:
+
+![API Transação Yapay](/images/oneclick_pagto.png "API Yapay")
+
 > **Particulariedades**
 
 * Disponível apenas no plano Corporativo;
