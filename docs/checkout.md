@@ -2,6 +2,8 @@
 
 Através desta funcionalidade, é possível finalizar pagamentos dentro do ambiente seguro do Yapay. O consumidor será redirecionado para o Checkout do Gateway e assim finalizará sua transação. Os meios de pagamentos disponíveis serão todos que estiverem configurados no estabelecimento.
 
+![API Transação Yapay](/images/checkout.png "API Yapay")
+
 > **Particulariedades**
 
 * Funcionalidade com redirecionamento;
