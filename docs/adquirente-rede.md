@@ -15,6 +15,10 @@ Contratando a solução da E REDE para e-commerce será possível oferecer na su
 * Cartão de crédito Elo;
 * Cartão de crédito JCB;
 * Cartão de crédito Credz;
+* Cartão de crédito Credsystem;
+* Cartão de crédito Banescard;
+* Cartão de crédito Sorocred;
+* Cartão de crédito Cabal;
 * Cartão de débito Visa Electron;
 * Cartão de débito Maestro;
 

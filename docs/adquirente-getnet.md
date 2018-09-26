@@ -8,7 +8,11 @@ Contratando a solução da GetNet para e-commerce será possível oferecer na su
 
 * Cartão de crédito VISA;
 * Cartão de crédito MasterCard;
-
+* Cartão de crédito Amex;
+* Cartão de crédito Elo;
+* Cartão de crédito Hipercard;
+* Cartão de débito Visa Electron;
+* Cartão de débito Maestro;
 
 Ao final do processo de contratação, deve-se estar de posse das seguintes informações para ativação da GETNET no Gateway:
 

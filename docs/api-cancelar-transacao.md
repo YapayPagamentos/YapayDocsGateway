@@ -9,7 +9,7 @@ Adquirente | Prazo de cancelamento
 ---------- | ----------------------
 Cielo|	300 dias após a geração do pedido
 Rede|	Pode variar conforme o ramo de atuação de cada estabelecimento
-GetNet|	24 horas após geração do pedido
+GetNet|	24 horas após geração do pedido para vendas capturada. 7 dias para vendas autorizadas
 Stone|	180 dias após a geração do pedido
 Bin|	90 dias após captura do pedido
 
