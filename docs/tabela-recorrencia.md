@@ -104,7 +104,7 @@ valor|	Valor|	Numérico|	Até 10 dígitos
 codigoFormaPagamento|	[Código da forma de pagamento](tabela-forma-pagamento.md) |	Numérico|	Até 3 dígitos
 numeroCobrancaTotal|	Quantidade máxima de cobranças|	Numérico|	Até 10 dígitos
 numeroCobrancaRestantes|	Quantidade de cobranças restantes|	Numérico|	Até 10 dígitos
-status|	Status atual da recorrência, sendo 0 para recorrência cancelada e 1 para ativa|	Numérico|	1 dígito
+status|	Status da ação realizada, 0 para processo feito com sucesso|	Numérico|	1 dígito
 mensagem|	Mensagem da recorrência|	Alfa Numérico|	Até 50 caracteres
 numeroPedido|	Número da Cobrança Recorrente|	Numérico|	Até 19 dígitos
 statusTransacao|	[Status atual da cobrança recorrente](tabela-status.md)|	Numérico|	Até 2 dígitos
@@ -164,7 +164,7 @@ valor|	Valor|	Numérico|	Até 10 dígitos
 codigoFormaPagamento|	[Código da forma de pagamento](tabela-forma-pagamento.md) |	Numérico|	Até 3 dígitos
 numeroCobrancaTotal|	Quantidade máxima de cobranças|	Numérico|	Até 10 dígitos
 numeroCobrancaRestantes|	Quantidade de cobranças restantes|	Numérico|	Até 10 dígitos
-status|	Status atual da recorrência, sendo 0 para recorrência cancelada e 1 para ativa|	Numérico|	1 dígito
+status|	Status da ação realizada, 0 para processo feito com sucesso|	Numérico|	1 dígito
 mensagem|	Mensagem da recorrência|	Alfa Numérico|	Até 50 caracteres
 numeroPedido|	Número da Cobrança Recorrente|	Numérico|	Até 19 dígitos
 statusTransacao|	[Status atual da cobrança recorrente](tabela-status.md)|	Numérico|	Até 2 dígitos
