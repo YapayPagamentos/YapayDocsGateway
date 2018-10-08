@@ -23,6 +23,19 @@ As credenciais deverão ser solicitadas para ecommerce@stone.com.br ou (11) 3185
 O Yapay não participa das negociações entre o estabelecimento e bancos/adquirentes. Desta forma, taxas ou eventuais isenções são tratadas de forma direta entre os envolvidos.
 
 Para contratar, [acesse aqui](https://stone-pagamentos.typeform.com/to/A4caIq).
+Ou envie um email para indicacaoparceiro@stone.com.br com os dados abaixo:
+
+* CNPJ
+* Site
+* Parceiro – **Yapay**
+* Nome do cliente (lojista)
+* E-mail
+* Telefone 
+* TPV (pode ser expectativa) 
+* Ticket médio (pode ser expectativa) 
+* Meio de pagamento atual, se tiver no mundo digital
+* Termos de uso 
+* Políticas de privacidade
 
 > **PARTICULARIEDADES**
 
