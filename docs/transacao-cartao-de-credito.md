@@ -38,7 +38,8 @@ Para detalhes da estrutura de envio e retorno, [clique aqui](tabela-cartoes-cred
     "transacao" : {
         "numeroTransacao" : 123,
         "valor" : 100,
-        "parcelas" : 1
+        "parcelas" : 1,
+        "urlCampainha" : "http://seusite.com.br/campainha"
     },
     "dadosCartao" : {
         "nomePortador" : "Teste Teste",
