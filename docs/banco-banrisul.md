@@ -76,45 +76,45 @@ curl
         --user usuario:senha
         --data-binary
        {
-        codigoEstabelecimento: 1000000000000,
-        codigoFormaPagamento: 26,
-        transacao: {
-            numeroTransacao: 1,
-            valor: 2000,
-            valorDesconto: 0,
-            parcelas : 1,
-            urlCampainha : http://seusite.com.br/campainha,
-            urlResultado : http://seusite.com.br/retorno,
-            ip : "192.168.12.110",
-            idioma : 1
+        "codigoEstabelecimento": 1000000000000,
+        "codigoFormaPagamento": 26,
+        "transacao": {
+            "numeroTransacao": 1,
+            "valor": 2000,
+            "valorDesconto": 0,
+            "parcelas" : 1,
+            "urlCampainha" : http://seusite.com.br/campainha,
+            "urlResultado" : http://seusite.com.br/retorno,
+            "ip" : "192.168.12.110",
+            "idioma" : 1
         },
-        itensDoPedido: [
+        "itensDoPedido: [
         {
-            codigoProduto: 1,
-            nomeProduto: Blusa,
-            codigoCategoria: 1,
-            nomeCategoria : Roupa,
-            quantidadeProduto : 1,
-            valorUnitarioProduto : 2000
+            "codigoProduto": 1,
+            "nomeProduto": Blusa,
+            "codigoCategoria": 1,
+            "nomeCategoria" : Roupa,
+            "quantidadeProduto" : 1,
+            "valorUnitarioProduto" : 2000
         }
         ],
-        dadosCobranca : {
-            codigoCliente : 1,
-            tipoCliente : 1,
-            nome : Teste Yapay,
-            email : teste@teste.com,
-            dataNascimento : "",
-            sexo : "M",
-            documento : "12312321312",
-            endereco : {
-            logradouro : Rua Teste,
-            numero : 123,
-            complemento : "",
-            cep : 12345-678,
-            bairro : Bairro Teste,
-            cidade : Cidade Teste,
-            estado : SP,
-            pais : BR
+        "dadosCobranca" : {
+            "codigoCliente" : 1,
+            "tipoCliente" : 1,
+            "nome" : Teste Yapay,
+            "email" : teste@teste.com,
+            "dataNascimento" : "",
+            "sexo" : "M",
+            "documento" : "12312321312",
+            "endereco" : {
+            "logradouro" : Rua Teste,
+            "numero" : 123,
+            "complemento" : "",
+            "cep" : 12345-678,
+            "bairro" : Bairro Teste,
+            "cidade" : Cidade Teste,
+            "estado" : SP,
+            "pais" : BR
            }
         }
      }
