@@ -4,6 +4,9 @@ O sistema de campainha existe para notificar o estabelecimento sobre uma atualiz
 
 Importante lembrar que a chamada de campainha não informa qual o status atual da transação e apenas que houve uma alteração, sendo assim, o estabelecimento deve realizar uma [consulta](api-consultar-transacao.md) para verificar com mais detalhes a situação atual da transação.
 
+Estabelecimentos que utilizam captura automática, não receberão a notificação dos primeiros status ( Pago e capturado ou Não Pago), já que os mesmos serão retornados no primeiro momento, logo após o envio da transação ao Gateway.
+Portanto, nestes casos, a campainha será acionada para eventos efetuados após esta etapa, um cancelamento do pedido por exemplo.
+
 `Caso a URL de campainha estiver em HTTPS, informar ao Suporte Yapay, servicedesk@yapay.com.br`
 
 > **Detalhamento dos campos**
