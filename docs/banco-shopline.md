@@ -40,6 +40,7 @@ Preencha os dados:
 * Para utilização das modalidades ShopLine, todos os campos referente aos dados do cliente devem ser preenchidos;
 * Tempo padrão de consulta no banco para atualização do status no Yapay: 120 dias;
 * Se não for informado uma data de vencimento do boleto, será informado os dias de vencimento configurado internamente no Gateway;
+* Para evitar fraudes, o Itaú sempre abrirá as duas opções para o cliente (boleto e transferência) independente da modalidade enviada ao Gateway.
 
 > **CONFIGURAÇÃO AMBIENTE ITAU**
 
@@ -66,38 +67,38 @@ curl
             "valor": 2000,
             "valorDesconto": 0,
             "parcelas" : 1,
-            "urlCampainha" : http://seusite.com.br/campainha,
-            "urlResultado" : http://seusite.com.br/retorno,
+            "urlCampainha" : "http://seusite.com.br/campainha",
+            "urlResultado" : "http://seusite.com.br/retorno",
             "ip" : "192.168.12.110",
             "idioma" : 1
         },
-        "itensDoPedido: [
+        "itensDoPedido": [
         {
-            "codigoProduto": 1,
-            "nomeProduto": Blusa,
-            "codigoCategoria": 1,
-            "nomeCategoria" : Roupa,
+            "codigoProduto": "1",
+            "nomeProduto": "Blusa",
+            "codigoCategoria": "1",
+            "nomeCategoria" : "Roupa",
             "quantidadeProduto" : 1,
             "valorUnitarioProduto" : 2000
         }
         ],
         "dadosCobranca" : {
-            "codigoCliente" : 1,
+            "codigoCliente" : "1",
             "tipoCliente" : 1,
-            "nome" : Teste Yapay,
-            "email" : teste@teste.com,
+            "nome" : "Teste Yapay",
+            "email" : "teste@teste.com",
             "dataNascimento" : "",
             "sexo" : "M",
             "documento" : "12312321312",
             "endereco" : {
-            "logradouro" : Rua Teste,
-            "numero" : 123,
+            "logradouro" : "Rua Teste",
+            "numero" : "123",
             "complemento" : "",
-            "cep" : 12345-678,
-            "bairro" : Bairro Teste,
-            "cidade" : Cidade Teste,
-            "estado" : SP,
-            "pais" : BR
+            "cep" : "12345-678",
+            "bairro" : "Bairro Teste",
+            "cidade" : "Cidade Teste",
+            "estado" : "SP",
+            "pais" : "BR"
            }
         }
      }
