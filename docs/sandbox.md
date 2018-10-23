@@ -29,18 +29,31 @@ Qualquer | 0000000000000002 | 123 | qualquer posteiror ao dia corrente
 Bandeira | Número de cartão | Código de segurança | Data de validade
 -------- | ---------------- | ------------------- | ----------------
 Visa | 4235647728025682 | 123 | jan/2020
+Visa Electron* | 4761120000000148 | 123 | jan/2020
 MasterCard | 5448280000000007 | 123 | jan/2020
+Maestro* | 5277696455399733 | 123 | jan/2020
+Hiper | 6370950847866501 | 123 | jan/2020
 HiperCard | 6062825624254001 | 123 | jan/2020
 Diners | 36490101441625 | 123 | jan/2020
 Elo | 4389351648020055 | 123 | jan/2020
 Amex | 371341553758128 | 123 | jan/2020
 JCB | 3569990012290937 | 123 | jan/2020
+Credz | 6367600001405019 | 123 | jan/2020
+Cabal | 6042034400069940 | 123 | jan/2020
+Sorocred | 6364142000000122 | 123 | jan/2020
+Credsystem | 6280281038975334 | 123 | jan/2020
+Banescard | 6031828795629272 | 123 | jan/2020
 
 Caso seja enviada transação com cartão diferente dos informados, o sandbox retornará o seguinte erro:
 
 Código de erro | Descrição
 ------------ | -----------
 58 | Unauthorized. Contact issuer.
+
+* Estas bandeiras são de débito e portanto possuem autenticação obrigatória. Após o envio da requisição ao Gateway será retornado a URl para autenticação, neste ambiente de sandbox a Rede criou uma página para simulação.
+Para aprovação informe o código que será exibido na tela, para negação informar um código diferente:
+
+![API REde](/images/telampi.png "Rede")
 
 
 > **BIN - FIRST DATA**

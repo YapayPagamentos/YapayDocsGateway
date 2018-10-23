@@ -93,7 +93,8 @@ curl
         "dataAprovacaoOperadora": "1017",
         <!--TID-->
         "numeroComprovanteVenda": "1662429594",
-        "nsu": "",
+        <!--Esta adquirente não possui NSU, portanto o campo será retornado em branco se a aplicação estiver preparada para o receber assim, se não, este campo não será recebido-->
+        "nsu":"",
         <!--Mensagem adquirente-->
         "mensagemVenda": "CAPTURED",
         "urlPagamento": "14956291484887110cf2a-9aeb-4b34-a869-1a61f0611b66",
