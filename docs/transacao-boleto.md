@@ -29,7 +29,7 @@ Para detalhes da estrutura de envio e retorno, [clique aqui](tabela-boletos.md)
 > **Particulariedades**
 
 * O campo `<estado>` deve ser preenchido apenas com a sigla do Estado;
-* O campo `<numeroTransacao>` deve conter até 8 dígitos;
+* O campo `<numeroTransacao>` deve conter até 7 dígitos;
 * Caso o campo `<dataVencimentoBoleto>` não for enviado, será utilizado os dias de vencimento configurado internamente no Gateway;
 * Para boletos com carteira registrada (contratação a parte), o status retornado pelo Yapay no primeiro momento será 5 (transação em andamento), enquanto para boletos sem registros é retornado 8 (aguardando pagamento);
 * Importante a utilização do recurso de Campainha, para atualização dos pedidos no Ecommerce;
