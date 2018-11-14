@@ -77,12 +77,15 @@ Abaixo tabela de/para dos status Magento e Gateway Yapay:
 Status Gateway | Status Magento | Descrição Status Magento
 -------------- | -------------- | ----------------------
 1 - Pago e Capturado | processing | O pagamento do seu pedido foi confirmado
-2 - Pago e não Capturado | processing | O pagamento do seu pedido foi confirmado
+2 - Pago e não Capturado | pending_payment | O pagamento do seu pedido continua pendente. Estamos aguardando a confirmação da captura.
 3 - Não Pago | pending_payment | O pagamento do seu pedido continua em pendente. Estamos aguardando a confirmação para continuar o processo de venda
 5 - Transação em Andamento | pending_payment | O pagamento do seu pedido continua em pendente. Estamos aguardando a confirmação para continuar o processo de venda
 8 - Aguardando Pagamento | pending_payment | O pagamento do seu pedido continua em pendente. Estamos aguardando a confirmação para continuar o processo de venda
 9 - Falha na operadora | pending_payment | Houve uma falha na operadora. Entre em contato conosco
 13 - Cancelado | pending_payment | Pagamento do pedido cancelado
+15 - Em análise de fraude | pending_payment | Pedido pendente, em análise de fraude
+17 - Recusado pela antifraude | payment_review | Pedido negado pela antifraude
+18 - Falha na antifraude | pending_payment | Pedido pendente, falha ao enviar para antifraude
 21 - Boleto pago a menor | payment_review | Recebemos a confirmação de pagamento do seu boleto. Porém o valor pago é divergente do emitido pelo nosso sistema. Por favor entre em contato conosco
 22 - Boleto pago a maior | payment_review | Recebemos a confirmação de pagamento do seu boleto. Porém o valor pago é divergente do emitido pelo nosso sistema. Por favor entre em contato conosco
 
