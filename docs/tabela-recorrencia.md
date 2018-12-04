@@ -14,7 +14,7 @@ Campo | Descrição | Tipo | Tamanho | Obrigatório
 numeroRecorrencia|	Número da Recorrência deve ser único|	Numérico|	Até 15 dígitos|	Sim
 estabelecimento|	Código estabelecimento Yapay|	Numérico|	13 dígitos|	Sim
 valor|	Valor da recorrência. Não devem ser utilizados virgulas nem pontos|	Numérico|	Até 10 dígitos	|Sim
-modalidade|	Modalidade do pagamento, enviar 1|	Numérico|	1 dígito|	Sim
+modalidade|	Modalidade do pagamento, enviar 1|	Alfa Numérico|	1 caracter|	Sim
 formaPagamento|[Código da forma de pagamento](tabela-forma-pagamento.md) |	Numérico|	Até 3 dígitos|	Sim
 dadosCartao|	Nó reservado para os dados de cartão|	-|	-|	-
 dadosCobranca|	Nó reservado para os dados de cobrança|	-|	-|	-
@@ -22,7 +22,7 @@ dadosEntrega|	Nó reservado para os dados de entrega	|-|	-|	-
 itensDoPedido|	Nó reservado para informações dos produtos|	-|	-|	-
 quantidadeCobrancas|	Quantidade de cobranças, caso 0 a recorrência será feita até que ocorra um cancelamento|	Numérico|	Até 10 dígitos|	Sim
 dataPrimeiraCobranca|	Data para a primeira cobrança. Formato dd/mm/aaaa|	Alfa Numérico|	10 caracteres|	Sim
-periodicidade|	1 – Semanal, 2 – Quinzenal, 3 – Mensal, 4 – Bimestral, 5 – Trimestral, 6 – Semestral e 7 – Anual|	Numérico|	1 dígito|	Sim
+periodicidade|	1 – Semanal, 2 – Quinzenal, 3 – Mensal, 4 – Bimestral, 5 – Trimestral, 6 – Semestral e 7 – Anual|	Alfa Numérico|	1 caracter|	Sim
 urlNotificacao|	URL para notificação de cada cobrança da recorrência|	Alfa Numérico|	Até 200 caracteres|	Recomendamos o envio para atualização do pedido
 processarImediatamente|	true – A recorrência será processada imediatamente ao cadastro|	Booleano|	4 caracteres|	Sim
 campoLivre1|	Campo Livre 1|	Alfa Numérico|	Até 16 caracteres|	Não
