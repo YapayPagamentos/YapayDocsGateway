@@ -30,5 +30,5 @@ curl
   --request POST https://sualoja.com.br/campainha
   --header "Content-Type: application/x-www-form-urlencoded"
   --data-binary
-"numeroTransacao=123&codigoEstabelecimento=1000000000000&campoLivre=A&campoLivre2=B&campoLivre3"
+"numeroTransacao=123&codigoEstabelecimento=1000000000000&campoLivre1=A&campoLivre2=B&campoLivre3"
 ```
