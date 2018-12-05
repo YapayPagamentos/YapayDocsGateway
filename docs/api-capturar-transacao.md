@@ -2,7 +2,15 @@
 
 <span class="put">PUT</span>
 
-Através desta API é possível confirmar uma pré autorização na adquirente, assim o consumidor receberá a cobrança em seu cartão e gerará crédito ao lojista. Os estabelecimentos com captura manual deverão acionar a API de captura em até 5 dias da criação da venda, pois após este período a adquirente cancelará automaticamente a pré autorização.
+Através desta API é possível confirmar uma pré autorização na adquirente, assim o consumidor receberá a cobrança em seu cartão e gerará crédito ao lojista. Os estabelecimentos com captura manual deverão acionar a API de captura de acordo com a tabela abaixo, pois após este período a adquirente cancelará automaticamente a pré autorização.
+
+Operadora   | 	Limite Captura
+----------  | -----------------------
+Cielo |	5 dias, mas pode variar de acordo com o contrato. Consulte a Cielo para maiores informações
+Rede |	Pode variar conforme o ramo de atuação de cada estabelecimento. Consulte a Rede para maiores informações
+GETNET|	30 dias da geração do pedido
+Stone|	7 dias da geração do pedido
+Bin|    5 dias da geração do pedido
 
 > **EndPoints**
 

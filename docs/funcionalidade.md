@@ -4,6 +4,14 @@
 
 Com o Yapay é possível realizar em primeiro momento apenas uma pré autorização, onde o valor da transação será apenas sensibilizado no limite do cartão, e após acionar o método de captura para a confirmação da venda e cobrança no cartão.
 
+Operadora   | 	Limite Captura
+----------  | -----------------------
+Cielo |	5 dias, mas pode variar de acordo com o contrato. Consulte a Cielo para maiores informações
+Rede |	Pode variar conforme o ramo de atuação de cada estabelecimento. Consulte a Rede para maiores informações
+GETNET|	30 dias da geração do pedido
+Stone|	7 dias da geração do pedido
+Bin|    5 dias da geração do pedido
+
 > Cancelamento
 
 Cancelamento de transações rapidamente acionando o método de cancelamento.
