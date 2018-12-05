@@ -88,6 +88,7 @@ Status Gateway | Status Magento | Descrição Status Magento
 18 - Falha na antifraude | pending_payment | Pedido pendente, falha ao enviar para antifraude
 21 - Boleto pago a menor | payment_review | Recebemos a confirmação de pagamento do seu boleto. Porém o valor pago é divergente do emitido pelo nosso sistema. Por favor entre em contato conosco
 22 - Boleto pago a maior | payment_review | Recebemos a confirmação de pagamento do seu boleto. Porém o valor pago é divergente do emitido pelo nosso sistema. Por favor entre em contato conosco
+31 - Transação já paga | | processing | O pagamento do seu pedido foi confirmado (este status ocorre quando a transação foi enviada novamente e já está aprovada)
 
 
 > **Instalação**
