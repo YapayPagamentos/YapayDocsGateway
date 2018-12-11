@@ -23,7 +23,7 @@ Ao final do processo de contratação, deve-se estar de posse das seguintes info
 
 O Yapay não participa das negociações entre o estabelecimento e bancos/adquirentes. Desta forma, taxas ou eventuais isenções são tratadas de forma direta entre os envolvidos.
 
-Para contratar, [acesse aqui](https://site.getnet.com.br/#/solucoes/e-commerce).
+Para contratar, [acesse aqui](https://site.getnet.com.br/ecommerce/).
 
 > **PARTICULARIEDADES**
 

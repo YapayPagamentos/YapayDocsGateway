@@ -39,6 +39,7 @@ Para contratar, [acesse aqui](https://www.userede.com.br/nossos-produtos/e-rede)
 Também é possível o envio do SoftDescriptor por pedido, para isto solicite ao Suporte a ativação e envie a informação no campoLivre4 de cada transação;
 * Para transações com cartão de débito ou autenticada, o eCommerce deverá enviar o “userAgente” (Identificador do browser utilizado pelo comprador no momento da compra) no campo `<campoLivre1>` e redirecionar o consumidor para o campo `<urlPagamento>` recebida no retorno, onde o mesmo deverá incluir sua senha ou token no ambiente do banco emissor. Apenas após esta etapa, a transação será concluída.
 * Para bandeiras de débito (Visa Electron e Maestro) e/ou cartões autenticados (Visa e MasterCard), é preciso a liberação do serviço de 3DS. Portanto, para utilização destas bandeiras solitem a liberação diretamente com a Adquirente Rede;
+* Caso o campo `<codigoSeguranca>` não for enviado ou for enviado com “000”, a transação será encaminhada a Rede como modelo “Recorrente”, onde este campo não é obrigatório;
 * O cancelamento com esta adquirente geralmente não é retornado no mesmo momento de sua solicitação, portanto, o Gateway só atualizará o status do pedido para 13 (Cancelado) quando receber da Rede a informação que o cancelamento foi realizado.
 
 > **CONFIGURAÇÃO GATEWAY**
