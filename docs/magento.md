@@ -3,7 +3,8 @@
 > **Particulariedades**
 
 * As ações de captura e cancelamento não estão disponíveis no Módulo Magento. Estas ações deverão ser realizadas diretamente no painel administrativo Yapay.
-* As funcionalidades de Recorrência, Múltiplos Cartões, Retentativa de Pagamento e Switch de Adquirência atualmente não estão disponíveis no Módulo Magento.
+* As funcionalidades de Recorrência, Múltiplos Cartões, Retentativa de Pagamento e Switch de Adquirência atualmente não estão disponíveis no Módulo Magento;
+* Solicitar ao Suporte Yapay a criação da senha de autenticação com 6 caracteres.
 
 > **Formas de pagamento disponíveis**
 
@@ -88,7 +89,9 @@ Status Gateway | Status Magento | Descrição Status Magento
 18 - Falha na antifraude | pending_payment | Pedido pendente, falha ao enviar para antifraude
 21 - Boleto pago a menor | payment_review | Recebemos a confirmação de pagamento do seu boleto. Porém o valor pago é divergente do emitido pelo nosso sistema. Por favor entre em contato conosco
 22 - Boleto pago a maior | payment_review | Recebemos a confirmação de pagamento do seu boleto. Porém o valor pago é divergente do emitido pelo nosso sistema. Por favor entre em contato conosco
-31 - Transação já paga | | processing | O pagamento do seu pedido foi confirmado (este status ocorre quando a transação foi enviada novamente e já está aprovada)
+31 - Transação já paga | processing | O pagamento do seu pedido foi confirmado (este status ocorre quando a transação foi enviada novamente e já está aprovada)
+
+**Observação** Os status que não constam na tabela acima, estão disponíveis apenas em nosso painel administrativo.
 
 
 > **Instalação**
@@ -125,6 +128,8 @@ Aparecerá as opção de Formas de pagamento do Yapay.
 ![Config](/images/ModuloMagento.png "Config")
 <br>
 ![Config](/images/ModuloMagento2.png "Config")
+
+**Observação** Para configuração das parcelas basta incluir a quantidade máxima de parcelas no campo "Parcelamento máximo s/ juros". Caso tenha um valor mínimo por parcela, basta incluir no campo "Parcela Mínima"
 
 
 
