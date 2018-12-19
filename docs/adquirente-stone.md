@@ -40,7 +40,8 @@ Ou envie um email para indicacaoparceiro@stone.com.br com os dados abaixo:
 > **PARTICULARIEDADES**
 
 * Para esta modalidade é necessário certificado SSL de segurança 2048 bits;
-* Integração apenas na modalidade WebService.
+* Integração apenas na modalidade WebService;
+* Para utilizar pagamentos recorrentes é preciso ativar junto a Stone.
 
 > **CONFIGURAÇÃO GATEWAY**
 

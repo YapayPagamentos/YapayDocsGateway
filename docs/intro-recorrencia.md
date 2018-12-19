@@ -11,6 +11,7 @@ O gateway possui um processo que verifica todos os dias se existem recorrências
 * Disponível apenas para cartão de crédito no modelo WebService;
 * Renova Fácil com a operadora Cielo;
 * Importante a utilização do recurso de Campainha, para atualização dos pedidos no Ecommerce;
+* Habilitar junto a Adquirente para utilização de transações recorrentes: Cielo, Stone e GetNet. Para as demais não é preciso ativação.
 
 > **Autenticação**
 

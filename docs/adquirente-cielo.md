@@ -36,7 +36,8 @@ Para contratar, [acesse aqui](https://www.cielo.com.br/sitecielo/afiliacao/crede
 * Para esta modalidade é necessário certificado SSL de segurança 2048 bits;
 * Caso o campo `<codigoSeguranca>` não for enviado ou for enviado com “000”, a transação será encaminhada a Cielo como modelo “Recorrente”, onde este campo não é obrigatório. Lembrando que para esta utilização é preciso habilitar junto a Adquirente. Salientamos que a conversão de seu estabelecimento pode diminuir;
 * Esta operadora de cartão permite cadastrar uma informação para visualização na fatura dos clientes quando realizarem compras em sua loja, funcionalidade chamada de SoftDescriptor. Esta deverá possuir até 13 caracteres. Caso queira utilizar, envie ao Suporte Yapay o nome desejado para configuração em seu estabelecimento. Também é possível o envio do SoftDescriptor por pedido, para isto solicite ao Suporte a ativação e envie a informação no `<campoLivre4>` de cada transação;
-* Para transações com cartão de débito ou autenticada, o eCommerce deverá redirecionar o consumidor para a `<urlPagamento>`, onde o mesmo deverá incluir sua senha ou token no ambiente do banco emissor. Apenas após esta etapa, a transação será concluída.
+* Para transações com cartão de débito ou autenticada, o eCommerce deverá redirecionar o consumidor para a `<urlPagamento>`, onde o mesmo deverá incluir sua senha ou token no ambiente do banco emissor. Apenas após esta etapa, a transação será concluída;
+* Para utilizar pagamentos recorrentes é preciso ativar junto ao Cielo Ecommerce a recorrência na filiação do estabelecimento.
 
 > **CONFIGURAÇÃO GATEWAY**
 

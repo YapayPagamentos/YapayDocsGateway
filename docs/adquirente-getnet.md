@@ -29,7 +29,8 @@ Para contratar, [acesse aqui](https://site.getnet.com.br/ecommerce/).
 
 * Para esta modalidade é necessário certificado SSL de segurança 2048 bits;
 * Integração apenas na modalidade WebService;
-* Esta operadora não aceita pedidos de mesmo número, portanto sempre devem ser enviados ao gateway transações de números distintos.
+* Esta operadora não aceita pedidos de mesmo número, portanto sempre devem ser enviados ao gateway transações de números distintos;
+* Para utilizar pagamentos recorrentes é preciso ativar junto a GetNet.
 
 > **CONFIGURAÇÃO GATEWAY**
 
