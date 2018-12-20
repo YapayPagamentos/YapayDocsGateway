@@ -33,7 +33,7 @@ curl
           "urlNotificacao": "http://teste.com.br/campainha",
           "processarImediatamente": "true",
           "quantidadeCobrancas": "0",
-          "dataPrimeiraCobranca": "30/10/2018",
+          "dataPrimeiraCobranca": "30/10/2019",
 
           "dadosCobranca": {
               "nomeComprador": "Teste Recorrencia",
@@ -48,7 +48,7 @@ curl
               "nomePortador": "Teste",
               "numeroCartao": "0000000000000001",
               "codigoSeguranca": "287",
-              "dataValidade": "01/2018"
+              "dataValidade": "01/2030"
           }
       }
   }
