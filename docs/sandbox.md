@@ -67,6 +67,8 @@ Visa |	4488540010253330004 |	123 |	12/2026
 MasterCard |	5547220000000102 |	123 |	12/2017
 Cabal*	| 6042030000204200 |	123 |	09/2029
 
+*A Adquirente BIN não disponibilizou ainda cartões de testes para as bandeiras Elo, Hipercard e Sorocred. Portanto, não há regras para os testes, deve ser enviado qualquer cartão.
+
 > **GETNET**
 
 Para aprovação das vendas, seguir tabelas abaixo:
