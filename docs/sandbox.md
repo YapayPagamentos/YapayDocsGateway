@@ -14,13 +14,13 @@ O Yapay disponibiliza um ambiente totalmente gratuito para sua equipe de desenvo
 
 Bandeira | Número de cartão | Código de segurança | Data de validade
 -------- | ---------------- | ------------------- | ----------------
-Qualquer | 0000000000000001 | 123 | qualquer posteiror ao dia corrente
+Qualquer | 0000000000000001 | 123 | qualquer posterior ao dia corrente
 
 **Negação**
 
 Bandeira | Número de cartão | Código de segurança | Data de validade
 -------- | ---------------- | ------------------- | ----------------
-Qualquer | 0000000000000002 | 123 | qualquer posteiror ao dia corrente
+Qualquer | 0000000000000002 | 123 | qualquer posterior ao dia corrente
 
 
 > **E REDE**
