@@ -76,7 +76,7 @@ Funcionalidade que permite o cadastramento de cartão para utilização nas futu
 
 > Análise de risco
 
-O Yapay possui integração com as empresas especializadas em análises de riscos: ClearSale e FControl.
+O Yapay possui integração com as empresas especializadas em análises de riscos: ClearSale, FControl e Konduto.
 
 > Multi lojas
 
