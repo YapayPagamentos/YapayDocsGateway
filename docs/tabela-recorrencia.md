@@ -25,11 +25,11 @@ dataPrimeiraCobranca|	Data para a primeira cobrança. Formato dd/mm/aaaa|	Alfa N
 periodicidade|	1 – Semanal, 2 – Quinzenal, 3 – Mensal, 4 – Bimestral, 5 – Trimestral, 6 – Semestral e 7 – Anual|	Alfa Numérico|	1 caracter|	Sim
 urlNotificacao|	URL para notificação de cada cobrança da recorrência|	Alfa Numérico|	Até 200 caracteres|	Recomendamos o envio para atualização do pedido
 processarImediatamente|	true – A recorrência será processada imediatamente ao cadastro|	Booleano|	4 caracteres|	Sim
-campoLivre1|	Campo Livre 1|	Alfa Numérico|	Até 16 caracteres|	Não
-campoLivre2|	Campo Livre 2|	Alfa Numérico|	Até 16 caracteres|	Não
-campoLivre3|	Campo Livre 3|	Alfa Numérico|	Até 16 caracteres|	Não
-campoLivre4|	Campo Livre 4|	Alfa Numérico|	Até 16 caracteres|	Não
-campoLivre5|	Campo Livre 5|	Alfa Numérico|	Até 16 caracteres|	Não
+campoLivre1|	Campo Livre 1|	Alfa Numérico|	Até 100 caracteres|	Não
+campoLivre2|	Campo Livre 2|	Alfa Numérico|	Até 100 caracteres|	Não
+campoLivre3|	Campo Livre 3|	Alfa Numérico|	Até 100 caracteres|	Não
+campoLivre4|	Campo Livre 4|	Alfa Numérico|	Até 100 caracteres|	Não
+campoLivre5|	Campo Livre 5|	Alfa Numérico|	Até 100 caracteres|	Não
 
 > dadosCartao
 

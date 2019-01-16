@@ -27,11 +27,11 @@ urlCampainha|	URL será sempre acionada quando o status do pedido mudar. Deve es
 urlResultado|	Para o modelo de pagamento redirect, O Yapay redirecionará para essa URL no final da transação|	Alfa Numérico|	Até 250 caracteres| Sim
 ip|	Número do IP do usuário final/cliente. Formato xxx.xxx.xxx.xxx|	Alfa Numérico|	Até 15 caracteres|	Não
 idioma|	1 - Português 2 - Inglês 3 - Espanhol|	Numérico|	1 dígito|	Não
-campoLivre1|	Campo Livre 1|	Alfa Numérico|	Até 16 caracteres|	Não
-campoLivre2|	Campo Livre 2 |	Alfa Numérico|	Até 16 caracteres|	Não
-campoLivre3|	Campo Livre 3| 	Alfa Numérico|	Até 16 caracteres|	Não
-campoLivre4|	Campo Livre 4	|Alfa Numérico|	Até 16 caracteres|	Não
-campoLivre5|	Campo Livre 5|	Alfa Numérico|	Até 16 caracteres|	Não
+campoLivre1|	Campo Livre 1|	Alfa Numérico|	Até 100 caracteres|	Não
+campoLivre2|	Campo Livre 2 |	Alfa Numérico|	Até 100 caracteres|	Não
+campoLivre3|	Campo Livre 3| 	Alfa Numérico|	Até 100 caracteres|	Não
+campoLivre4|	Campo Livre 4	|Alfa Numérico|	Até 100 caracteres|	Não
+campoLivre5|	Campo Livre 5|	Alfa Numérico|	Até 100 caracteres|	Não
 
 > dadosCartao
 
