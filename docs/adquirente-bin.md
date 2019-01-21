@@ -11,7 +11,8 @@ Contratando a solução da BIN para e-commerce será possível oferecer na sua l
 * Cartão de crédito Cabal;
 * Cartão de crédito Hipercard;
 * Cartão de crédito Elo;
-* Cartão de cŕedito Sorocred.
+* Cartão de cŕedito Sorocred;
+* Cartão de crédito Hiper.
 
 Ao final do processo de contratação, deve-se estar de posse das seguintes informações para ativação da BIN no Gateway:
 

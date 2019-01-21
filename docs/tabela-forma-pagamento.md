@@ -48,6 +48,7 @@ Código | Bandeira | Tipo | Tecnologia | Adquirente | Modelo
 383|    Elo|Crédito|	BinWS|	Bin-FirstData|	WebService
 384|    HiperCard|Crédito|	BinWS|	Bin-FirstData|	WebService
 385|    Sorocred|Crédito|	BinWS|	Bin-FirstData|	WebService
+386|    Hiper | Crédito | BinWS | Bin-FirstData | WebService
 
 
 > **BOLETOS E TRANSFERÊNCIAS**
