@@ -110,7 +110,8 @@ curl
             "urlCampainha" : "http://seusite.com.br/campainha",
             "urlResultado" : "http://seusite.com.br/retorno",
             "ip" : "192.168.12.110",
-            "idioma" : 1
+            "idioma" : 1,
+            "dataVencimentoBoleto" : "10/01/2020"
         },
         "itensDoPedido": [
         {
