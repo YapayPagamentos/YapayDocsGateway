@@ -1,6 +1,6 @@
 ## Boletos registrados
 
-Com esta modalidade, os bancos possuem conehcimento do boleto desde sua geração, permitindo o lojista realizar protestos ao cliente caso o pagamento não for realizado.
+Com esta modalidade, os bancos possuem conhecimento do boleto desde sua geração, permitindo o lojista realizar protestos ao cliente caso o pagamento não for realizado.
 
 Para utilização de qualquer boleto com carteira registrada é preciso realizar a abertura de relacionamento entre o banco e VAN homologada com o Yapay.
 
@@ -15,6 +15,18 @@ Para utilização de qualquer boleto com carteira registrada é preciso realizar
 * A requisição e retorno do Yapay para boletos registrados possuem a mesma estrutura dos sem registro, porém o status a ser retornado será 5 (transação em andamento) ao invés de 8 (aguardando pagamento);
 * Para ativação do boleto registrado e Módulo de Conciliação entrar em contato com comercial@yapay.com.br;
 * O Yapay não participa das negociações entre o estabelecimento e bancos/administradoras. Desta forma, taxas ou eventuais isenções são tratadas de forma direta entre os envolvidos.
+
+> **PRAZO PARA REGISTRO**
+
+Cada banco possui um prazo para registrar os boletos gerados, conforme tabela abaixo:
+
+Banco | Prazo registro
+----- | --------------
+Santander | 1 dia após o envio do arquivo remessa
+Itaú | Aproximadamente 15 minutos após o envio do arquivo remessa
+Banco do Brasil | Aproximadamente 50 minutos após o envio do arquivo remessa
+Bradesco | Aproximadamente 30 minutos após o envio do arquivo remessa
+Caixa Econômica | Aproximadamente 40 minutos após o envio do arquivo remessa
 
 > **SANTANDER**
 
