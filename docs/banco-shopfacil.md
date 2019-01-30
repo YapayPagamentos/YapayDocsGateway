@@ -63,31 +63,6 @@ Ambiente|  URL
 HOMOLOGAÇÃO|	https://sandbox.gateway.yapay.com.br/checkout/bradesco/confirmaTransf
 PRODUÇÃO|	https://gateway.yapay.com.br/checkout/bradesco/confirmaTransf
 
-> **PROCESSO DE HOMOLOGAÇÃO**
-
-Procedimento deve ser realizado em duas etapas, ambiente de homologação e ambiente de Produção:
-
-**Homologação**
-
-Realizar as configurações no painel Bradesco conforme informado acima e a configuração do meio de pagamento em nosso ambiente de homologação:
-
-* Merchantid;
-* Email de acesso ao gerenciador de homologação;
-* Chave de acesso de homologação;
-* Número da carteira;
-
-A loja virtual deverá estar apontando para o ambiente de homologação e depois disto basta enviar email kit@scopus.com.br com a URL da loja com um produto de R$1,00 disponível para testes e o CNPJ do estabelecimento. Depois que a equipe do Bradesco validar este ambiente, o estabelecimento receberá novos dados, desta vez os dados reais da loja. E o procedimento deverá ser repetido porém desta vez em ambiente de produção.
-
-**Produção**
-
-Realizar as configurações no painel Bradesco conforme informado acima e a configuração do meio de pagamento em nosso ambiente de produção:
-
-* Merchantid;
-* Email de acesso ao gerenciador de produção;
-* Chave de acesso de produção;
-* Número da carteira;
-
-A loja virtual deverá estar apontando para o ambiente de produção e depois disto basta enviar email kit@scopus.com.br com a URL da loja com um produto de R$1,00 disponível para testes e o CNPJ do estabelecimento. Depois que a equipe do Bradesco validar este ambiente, o estabelecimento estará apto a realizar vendas em produção.
 
 > **EXEMPLOS**
 
