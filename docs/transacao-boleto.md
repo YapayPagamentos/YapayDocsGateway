@@ -98,10 +98,6 @@ curl
     "statusTransacao": 8,
     "autorizacao": "0",
     "codigoTransacaoOperadora": "0",
-    "dataAprovacaoOperadora": "", 
-    "numeroComprovanteVenda": "", 
-    "nsu": "",
-    "mensagemVenda": "",
     "urlPagamento": "https://sandbox.gateway.yapay.com.br/checkout/Gerarboleto.do?cod=14956296486904d8312c6-d57a-499e-b53b-504047402e45"
   }
 ```
@@ -210,10 +206,6 @@ curl
     "statusTransacao": 8,
     "autorizacao": "0",
     "codigoTransacaoOperadora": "0",
-    "dataAprovacaoOperadora": "", 
-    "numeroComprovanteVenda": "", 
-    "nsu": "",
-    "mensagemVenda": "",
     "urlPagamento": "https://sandbox.gateway.yapay.com.br/checkout/Gerarboleto.do?cod=14956296486904d8312c6-d57a-499e-b53b-504047402e45"
   }
 ```

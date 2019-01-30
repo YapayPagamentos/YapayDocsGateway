@@ -96,10 +96,6 @@ curl
    "statusTransacao": 8,
    "autorizacao": ,
    "codigoTransacaoOperadora": "0",
-   "dataAprovacaoOperadora": ,
-   "numeroComprovanteVenda": ,
-   "nsu": ,
-   "mensagemVenda": ,
    "urlPagamento": "https://sandbox.gateway.yapay.com.br/checkout/PagamentoBBOnline/PagamentoBBOnline.do?cod=147499950329455715d65-621f-4b80-896c-5d1a645fb9e0"
 }
 ```

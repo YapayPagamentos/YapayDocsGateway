@@ -249,10 +249,6 @@ curl
         "statusTransacao": 8,
         "autorizacao": ,
         "codigoTransacaoOperadora": "0",
-        "dataAprovacaoOperadora": ,
-        "numeroComprovanteVenda": ,
-        "nsu": ,
-        "mensagemVenda": ,
         "urlPagamento": "https://sandbox.gateway.yapay.com.br/GeradorBoleto.do?cod=1413487983447baddcb56-0126-4353-9253-538f64d""
         }
 ```

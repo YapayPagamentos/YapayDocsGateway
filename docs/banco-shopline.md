@@ -119,10 +119,6 @@ curl
         "statusTransacao": 8,
         "autorizacao": ,
         "codigoTransacaoOperadora": "0",
-        "dataAprovacaoOperadora": ,
-        "numeroComprovanteVenda": ,
-        "nsu": ,
-        "mensagemVenda": ,
         "urlPagamento": "https://sandbox.gateway.yapay.com.br/checkout/PagamentoItauShopline/PagamentoItauShopline.do?cod=141348960683a720e602-5631-4725-8f79-268c06795a3c"
         }
 ```

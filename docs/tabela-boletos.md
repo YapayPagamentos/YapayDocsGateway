@@ -112,11 +112,6 @@ urlPagamento|	URL de redirecionamento para o boleto bancário |	Alfa Numérico|	
 statusTransacao|	[Status atual da transação](tabela-status.md)|	Numérico|	Até 2 dígitos
 autorizacao|	Código de autorização da adquirente|	Numérico|	Até 20 dígitos
 codigoTransacaoOperadora|	Código da transação na adquirente|	Numérico|	Até 20 dígitos
-dataAprovacaoOperadora|	Data de aprovação na adquirente|	Alfa Numérico|	Até 10 dígitos
-numeroComprovanteVenda|	Número do comprovante de venda|	Alfa Numérico|	Até 20 dígitos
-nsu|	Número do NSU da adquirente|	Alfa Numérico|	Até 20 caracteres
-mensagemVenda|	Mensagem de retorno da adquirente|	Alfa Numérico|	Até 50 dígitos
-cartoesUtilizados|	Cartões mascarados utilizados na transação|	Alfa Numérico|	Até 20 caracteres
 
 
 

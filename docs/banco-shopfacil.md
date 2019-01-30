@@ -134,10 +134,6 @@ curl
    "statusTransacao": 8,
    "autorizacao": ,
    "codigoTransacaoOperadora": "0",
-   "dataAprovacaoOperadora": ,
-   "numeroComprovanteVenda": ,
-   "nsu": ,
-   "mensagemVenda": ,
    "urlPagamento": "https://homolog.meiosdepagamentobradesco.com.br/apiboleto/Bradesco?token=RmVEaDhUV2dPblhpTEJYakhSM0FtSkpSb0FSbDBTMnpqbm9hMEtmcRTTzdOUm1RPT0."
 }
 ```
