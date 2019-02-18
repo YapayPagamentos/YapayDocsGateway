@@ -16,6 +16,7 @@ Fluxo de pagamento para futuras compras:
 
 * Disponível apenas no plano Corporativo;
 * Disponível para cartões de crédito e débito.
+* Caso não envie o CVV nos pagamentos, utilizando a funcionalidade de recorrência das adquirentes, estará disponível apenas vendas sem autenticação para pagamentos OneClick.
 
 > **EndPoints**
 
