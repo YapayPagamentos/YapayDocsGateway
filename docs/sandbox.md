@@ -10,17 +10,26 @@ O Yapay disponibiliza um ambiente totalmente gratuito para sua equipe de desenvo
 
 >**CIELO API 3.0**
 
+Os status da transação são definidos pelo FINAL do cartão:
+
 **Aprovação**
 
-Bandeira | Número de cartão | Código de segurança | Data de validade
+Bandeira | Final do cartão | Código de segurança | Data de validade
 -------- | ---------------- | ------------------- | ----------------
+Qualquer | 0000000000000000 | 123 | qualquer data posterior ao dia corrente
 Qualquer | 0000000000000001 | 123 | qualquer data posterior ao dia corrente
+Qualquer | 0000000000000004 | 123 | qualquer data posterior ao dia corrente
 
 **Negação**
 
-Bandeira | Número de cartão | Código de segurança | Data de validade
+Bandeira | Final do cartão | Código de segurança | Data de validade
 -------- | ---------------- | ------------------- | ----------------
 Qualquer | 0000000000000002 | 123 | qualquer data posterior ao dia corrente
+Qualquer | 0000000000000003 | 123 | qualquer data posterior ao dia corrente
+Qualquer | 0000000000000005 | 123 | qualquer data posterior ao dia corrente
+Qualquer | 0000000000000006 | 123 | qualquer data posterior ao dia corrente
+Qualquer | 0000000000000007 | 123 | qualquer data posterior ao dia corrente
+Qualquer | 0000000000000008 | 123 | qualquer data posterior ao dia corrente
 
 
 > **E REDE**
