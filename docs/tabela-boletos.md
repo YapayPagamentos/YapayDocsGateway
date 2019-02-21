@@ -112,6 +112,6 @@ urlPagamento|	URL de redirecionamento para o boleto bancário |	Alfa Numérico|	
 statusTransacao|	[Status atual da transação](tabela-status.md)|	Numérico|	Até 2 dígitos
 autorizacao|	Código de autorização da adquirente|	Numérico|	Até 20 dígitos
 codigoTransacaoOperadora|	Código da transação na adquirente|	Numérico|	Até 20 dígitos
-
+dataAprovacaoOperadora | Caso o estabelecimento tenha contratado a conciliação do Gateway, este campo será retornado com a data de pagamento do boleto | Alfa Numérico | 10 caracteres
 
 
