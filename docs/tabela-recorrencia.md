@@ -122,6 +122,21 @@ Campo | Descrição | Tipo | Tamanho | Obrigatório
 :----- | :---------: | :----: | :-------: | :-----------------:
 diaCobranca|	Novo dia da cobrança recorrente|	Numérico|	Até 2 dígitos|Sim
 
+**REQUISIÇÃO**
+
+Campo | Descrição | Tipo | Tamanho | Obrigatório
+:----- | :---------: | :----: | :-------: | :-----------------:
+valor|	Novo valor da recorrência|	Numérico|	Até 2 dígitos|Sim
+
+**REQUISIÇÃO**
+
+Campo | Descrição | Tipo | Tamanho | Obrigatório
+:----- | :---------: | :----: | :-------: | :-----------------:
+formaPagamento | Forma de pagamento já cadastrada ou nova forma de pagamento | Numérico | Até 3 dígitos | Sim
+nomePortador|	Nome do titular do cartão de crédito|	Alfa Numérico|	Até 16 dígitos|	Sim
+numeroCartao|	Numero do cartão de crédito, sem espaços ou traços|	Numérico|	Até 22 caracteres|	Sim
+dataValidade|	Data de validade do cartão. Formato mm/yyyy|	Alfa Numérico|	7 caracteres|	Sim
+
 **RETORNO**
 
 Campo | Descrição | Tipo | Tamanho 
