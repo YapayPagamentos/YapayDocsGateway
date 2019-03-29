@@ -116,19 +116,19 @@ mensagemVenda|	Mensagem Venda Adquirente|	Alfa Numérico|	Até 50 caracteres
 
 ## Alteração recorrência
 
-**REQUISIÇÃO**
+**REQUISIÇÃO DIA COBRANÇA**
 
 Campo | Descrição | Tipo | Tamanho | Obrigatório
 :----- | :---------: | :----: | :-------: | :-----------------:
 diaCobranca|	Novo dia da cobrança recorrente|	Numérico|	Até 2 dígitos|Sim
 
-**REQUISIÇÃO**
+**REQUISIÇÃO VALOR**
 
 Campo | Descrição | Tipo | Tamanho | Obrigatório
 :----- | :---------: | :----: | :-------: | :-----------------:
-valor|	Novo valor da recorrência|	Numérico|	Até 2 dígitos|Sim
+valor|	Novo valor da recorrência|	Numérico|	Até 10 dígitos|Sim
 
-**REQUISIÇÃO**
+**REQUISIÇÃO DADOS DE CARTÃO**
 
 Campo | Descrição | Tipo | Tamanho | Obrigatório
 :----- | :---------: | :----: | :-------: | :-----------------:
