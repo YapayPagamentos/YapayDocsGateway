@@ -64,6 +64,7 @@ Adquirente | Tecnologia | Prazo de cancelamento
 ---------- | -----------| -----------
 Cielo|	API 3.0| 300 dias após a geração do pedido
 Rede|	E Rede|	Pode variar conforme o ramo de atuação de cada estabelecimento
+BIN| BIN | Ocorre mo mesmo dia da venda
 
 > **Particulariedades**
 
