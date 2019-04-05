@@ -23,6 +23,7 @@
     * [Criação](pagamento-recorrente.md)
     * [Alteração](alteracao-recorrencia.md)
     * [Cancelar](cancelar-recorrencia.md)
+    * [Ativação](ativacao-recorrencia.md)
 
 * API OneClick
     * [Introdução](transacao-oneclick.md)
