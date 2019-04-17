@@ -17,7 +17,7 @@ Produção |https://gateway.yapay.com.br/checkout/api/v3/recorrencia
 
 ```curl
 curl
-  --request PUT https://sandbox.gateway.yapay.com.br/checkout/api/v3/agg/recorrencia/10000000000000/2/ativar
+  --request PUT https://gateway.yapay.com.br/checkout/api/v3/recorrencia/agg/«codigoEstabelecimento»/«numeroRecorrencia»/ativar
   --header "Content-Type: application/json"
   --user usuario:senha
   --data-binary
