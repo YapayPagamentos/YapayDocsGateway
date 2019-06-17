@@ -11,7 +11,7 @@ recorrencia |	Nó reservado para informações da recorrencia|	-|	-|	-
 
 Campo | Descrição | Tipo | Tamanho | Obrigatório
 :----- | :---------: | :----: | :-------: | :-----------------:
-numeroRecorrencia|	Número da Recorrência deve ser único|	Numérico|	Até 15 dígitos|	Sim
+numeroRecorrencia|	Número da Recorrência deve ser único|	Numérico|	Até 8 dígitos|	Sim
 estabelecimento|	Código estabelecimento Yapay|	Numérico|	13 dígitos|	Sim
 valor|	Valor da recorrência. Não devem ser utilizados virgulas nem pontos|	Numérico|	Até 10 dígitos	|Sim
 modalidade|	Modalidade do pagamento, enviar 1|	Alfa Numérico|	1 caracter|	Sim
