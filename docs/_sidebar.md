@@ -62,7 +62,7 @@
     * [Banco Banrisul](banco-banrisul.md)
     * [Boletos Offlines](boleto-offline.md)
     * [SafetyPay](safetypay.md)
-    * [Intermediadores](intermediadores.md)
+    <!-- * [Intermediadores](intermediadores.md) -->
   
 * Tabelas Auxiliares
     * [Cartão de cŕedito](tabela-cartoes-credito.md)
