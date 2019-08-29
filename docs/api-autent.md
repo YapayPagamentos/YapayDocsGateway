@@ -39,7 +39,7 @@ Produção |https://gateway.yapay.com.br/checkout/api/v3/transacao/«codigoEstab
 
 {
     <!--tempo de expiração do token acess-->
-    "expiration": "14/06/2019 09:06:08",
+    "expiration": "14/06/2019 09 16 08",<br>
     <!--Token Acess-->
     "token": "eyJ0eXAiOiJKV...hn_35nsc"
 }
@@ -52,11 +52,11 @@ No submit do formulário de pagamento as funções "bpmpi_load" e "bpmpi_authent
 A resposta de sucesso do script terá o retorno com as campos:
 
 {
-   Cavv: "",
-   Xid: "",
-   Eci: "",
-   Version: "",
-   ReferenceId: ""
+   Cavv: "",<br>
+   Xid: "",<br>
+   Eci: "",<br>
+   Version: "",<br>
+   ReferenceId: ""<br>
 }
 
 Esta resposta deve ser enviada ao Gateway Yapay através do nó <camposExtras>, com <chave> e <valor>
