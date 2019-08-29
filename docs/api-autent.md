@@ -24,7 +24,7 @@ Para habilitar esta função junto ao Gateway será necessário os seguintes dad
 Após estas configurações no Gateway, o estabelecimento receberá o Acess Token para seguir com o processamento da autenticação.
 
 
-> **Recuperando Token Acess**
+> **Recuperando o Token Acess**
 
 **REQUEST**
 
