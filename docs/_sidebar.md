@@ -23,6 +23,7 @@
     * [Criação](pagamento-recorrente.md)
     * [Alteração](alteracao-recorrencia.md)
     * [Cancelar](cancelar-recorrencia.md)
+    * [Ativação](ativacao-recorrencia.md)
 
 * API OneClick
     * [Introdução](transacao-oneclick.md)
@@ -62,7 +63,7 @@
     * [Banco Banrisul](banco-banrisul.md)
     * [Boletos Offlines](boleto-offline.md)
     * [SafetyPay](safetypay.md)
-    * [Intermediadores](intermediadores.md)
+    <!-- * [Intermediadores](intermediadores.md) -->
   
 * Tabelas Auxiliares
     * [Cartão de cŕedito](tabela-cartoes-credito.md)

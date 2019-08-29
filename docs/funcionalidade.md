@@ -31,7 +31,7 @@ Com esta funcionalidade é possível realizar cancelamentos parciais e totais, d
 Operadora   |	Limite Cancelamento  |	Observação
 ----------- | ---------------------  | -----------
 Cielo|	300 dias após a geração do pedido|	Para a bandeira Amex, disponível apenas o estorno Total
-Bin|	24 horas após geração do pedido|	-
+Bin|	Ocorre mo mesmo dia da venda |	-
 Rede|	Pode variar conforme o ramo de atuação de cada estabelecimento|	-
 
 `Disponibilizado apenas no plano Corporativo`

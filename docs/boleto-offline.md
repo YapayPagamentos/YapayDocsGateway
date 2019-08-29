@@ -85,23 +85,23 @@ curl
         "codigoEstabelecimento": 1000000000000,
         "codigoFormaPagamento": 30,
         "transacao": {
-            "numeroTransacao": 1,
-            "valor": 2000,
+            "numeroTransacao": 12,
+            "valor": 100,
             "valorDesconto": 0,
             "parcelas" : 1,
-            "urlCampainha" : http://seusite.com.br/campainha,
-            "urlResultado" : http://seusite.com.br/retorno,
+            "urlCampainha" : "http://seusite.com.br/campainha",
+            "urlResultado" : "http://seusite.com.br/retorno",
             "ip" : "192.168.12.110",
             "idioma" : 1,
             "dataVencimentoBoleto":"01/01/2020"  
 
         },
-        "itensDoPedido: [
+        "itensDoPedido": [
         {
             "codigoProduto": 1,
-            "nomeProduto": Blusa,
+            "nomeProduto": "Blusa",
             "codigoCategoria": 1,
-            "nomeCategoria" : Roupa,
+            "nomeCategoria" : "Roupa",
             "quantidadeProduto" : 1,
             "valorUnitarioProduto" : 2000
         }
@@ -109,20 +109,20 @@ curl
         "dadosCobranca" : {
             "codigoCliente" : 1,
             "tipoCliente" : 1,
-            "nome" : Teste Yapay,
-            "email" : teste@teste.com,
-            "dataNascimento" : "",
+            "nome" : "Teste Yapay",
+            "email" : "teste@teste.com",
+            "dataNascimento" : "11/04/1978",
             "sexo" : "M",
-            "documento" : "12312321312",
+            "documento" : "02060073537",
             "endereco" : {
-            "logradouro" : Rua Teste,
+            "logradouro" : "Rua Teste",
             "numero" : 123,
-            "complemento" : "",
-            "cep" : 12345-678,
-            "bairro" : Bairro Teste,
-            "cidade" : Cidade Teste,
-            "estado" : SP,
-            "pais" : BR
+            "complemento" : "casa",
+            "cep" : "04323-010",
+            "bairro" : "Bairro Teste",
+            "cidade" : "Cidade Teste",
+            "estado" : "SP",
+            "pais" : "BR"
            }
         }
      }
