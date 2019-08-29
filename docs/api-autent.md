@@ -5,7 +5,7 @@ O novo padrão é capaz de analisar dezenas de variáveis que são utilizadas co
 
 * No momento está disponível no Gateway apenas o 3DS 2.0 da adquirente Cielo.
 
-## CIELO ECOMMERCE 3.0
+## Cielo eCommerce 3.0
 
 Primeiramente, seguir os passos abaixo para realizar a autenticação e com o retorno realizar a autorização da transação.
 
