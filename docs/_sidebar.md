@@ -47,6 +47,7 @@
     * [API Consultar Oneclick](api-consultar-oneclick.md)
     * [API Capturar Transação](api-capturar-transacao.md)
     * [API Cancelar Transação](api-cancelar-transacao.md)
+    * [API 3DS 2.0]
 
 * Informações Instituições Financeiras
     * [Antifraudes](contratar-antifraude.md)
