@@ -35,6 +35,8 @@ curl
       "autorizacao": "123456",
       "codigoTransacaoOperadora": "0", 
       "dataAprovacaoOperadora": "24/05/2017",
+      <!--caso queira receber o campo abaixo, solicite ativação com o suporte-->
+      "dataRetornoAntifraude": "07/08/2019 16 09 52"   	
       "numeroComprovanteVenda": "10069930690009F2122A",
       "nsu": "428706",
       "mensagemVenda": "Operation Success",
