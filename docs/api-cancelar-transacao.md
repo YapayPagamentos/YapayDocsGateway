@@ -69,7 +69,7 @@ BIN| BIN | Ocorre mo mesmo dia da venda
 > **Particulariedades**
 
 * Disponível apenas no plano corporativo;
-* Disponível apenas nas adquirentes Cielo ou Rede, nas tecnologias informadas acima.
+* A transação deverá estar capturada para realizar o cancelamento parcial, do contrário, o cancelamento será total.
 
 > **EndPoints**
 
