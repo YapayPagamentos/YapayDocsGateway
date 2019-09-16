@@ -178,7 +178,7 @@ documento|	Documento principal do comprador|	Alfa Numérico|	30 caracteres|	Sim
 documento2|	Documento principal do comprador|	Alfa Numérico|	30 caracteres|	Não
 email|	E-mail do comprador|	Alfa Numérico|	20 caracteres|	Sim
 codigoCliente|	Código do Comprador|	Alfa Numérico|	20 caracteres|	Não
-dataNascimento|	Data Nascimento Comprador|	Alfa Numérico|	10 caracteres|	Sim
+dataNascimento|	Data Nascimento Comprador|	Alfa Numérico|	10 caracteres| Não <br>*Caso utilizar FControl, campo obrigatório
 sexo|	Sexo Comprador|	Alfa Numérico|	2 caracteres|	Não
 tipoCliente|	Tipo do Cliente - 1 - Pessoa Física 2 - Pessoa Jurídica|	Numérico|	Até 8 dígitos|	Sim
 endereco|	Nó reservado para dados de endereço do comprador|	-|	-|	-
