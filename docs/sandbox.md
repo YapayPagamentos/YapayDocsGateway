@@ -109,3 +109,9 @@ Obs: Neste ambiente os testes ocorrem apenas com boletos sem registros.
 
 Para testes com este meio de pagamento é preciso possuir cadastro com a instituição financeira.
 
+## Colletions Postman
+
+> **API TRANSAÇÃO**
+
+Exemplos de chamadas as API's de transação do Gateway, [acesse aqui](https://www.getpostman.com/collections/fab35ade5eb63509da4b)
+
