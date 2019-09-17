@@ -105,9 +105,9 @@ Neste ambiente não configuramos dados reais para geração dos boletos por segu
 
 Obs: Neste ambiente os testes ocorrem apenas com boletos sem registros.
 
-> **INTERMEDIADORES DE PAGAMENTO**
+<!-- *> **INTERMEDIADORES DE PAGAMENTO**
 
-Para testes com este meio de pagamento é preciso possuir cadastro com a instituição financeira.
+Para testes com este meio de pagamento é preciso possuir cadastro com a instituição financeira. -->
 
 ## Collections Postman
 
