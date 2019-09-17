@@ -29,7 +29,7 @@ Ao final do processo de contratação, deve-se estar de posse das seguintes info
 
 O Yapay não participa das negociações entre o estabelecimento e bancos/adquirentes. Desta forma, taxas ou eventuais isenções são tratadas de forma direta entre os envolvidos.
 
-Para contratar, [acesse aqui](https://www.cielo.com.br/sitecielo/afiliacao/credenciamentoafiliacaonaologado.html?idSolucaoCaptura=81).
+Para contratar, [acesse aqui](https://formularios2.cielo.com.br/form1b/api-cielo-convencional/passo-1).
 
 > **PARTICULARIEDADES**
 
@@ -137,7 +137,7 @@ Ao final do processo de contratação, deve-se estar de posse das seguintes info
 
 O Yapay não participa das negociações entre o estabelecimento e bancos/adquirentes. Desta forma, taxas ou eventuais isenções são tratadas de forma direta entre os envolvidos.
 
-Para contratar, [acesse aqui](https://www.cielo.com.br/aceite-cartao/checkout/).
+Para contratar, [acesse aqui](https://formularios2.cielo.com.br/form1b/checkout-cielo-convencional/passo-1).
 
 > **PARTICULARIEDADES**
 
