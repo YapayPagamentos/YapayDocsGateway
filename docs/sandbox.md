@@ -109,7 +109,7 @@ Obs: Neste ambiente os testes ocorrem apenas com boletos sem registros.
 
 Para testes com este meio de pagamento é preciso possuir cadastro com a instituição financeira.
 
-## Colletions Postman
+## Collections Postman
 
 > **API TRANSAÇÃO**
 
