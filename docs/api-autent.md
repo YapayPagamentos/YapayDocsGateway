@@ -9,8 +9,8 @@ O novo padrão é capaz de analisar dezenas de variáveis que são utilizadas co
 
 Primeiramente, seguir os passos abaixo para realizar a autenticação e com o retorno realizar a autorização da transação.
 
-Conforme documentação [Cielo](https://developercielo.github.io/manual/emv3ds#autentica%C3%A7%C3%A3o-3ds-2.0) para utilização do 3DS 2.0 é necessário da inclusão de um script na página de checkout da loja virtual.
-Esse script enviará para o serviço de autenticação os inputs do formulário marcados com as classes "bpmpi_*" e, dependendo dos campos enviados, abrirá um modal para fornecimento da senha do portador do cartão (com desafio) ou devolverá para página o resultado da autenticação (sem desafio).
+Conforme documentação Cielo para utilização do 3DS 2.0 é necessário da inclusão de um script na página de checkout da loja virtual.
+Esse [script](https://github.com/DeveloperCielo/developercielo.github.io/blob/docs/_i18n/pt/_posts/emv3ds/exemplo.html) enviará para o serviço de autenticação os inputs do formulário marcados com as classes "bpmpi_*" e, dependendo dos campos enviados, abrirá um modal para fornecimento da senha do portador do cartão (com desafio) ou devolverá para página o resultado da autenticação (sem desafio).
 
 Para habilitar esta função junto ao Gateway será necessário os seguintes dados abaixo: 
 
@@ -45,6 +45,8 @@ Produção |https://gateway.yapay.com.br/checkout/api/v3/transacao/«codigoEstab
 }
 
 > **Repassando dados ao Gateway**
+
+<span class="put">POST</span>
 
 Antes que haja o submit, preferencialmente no carregamento da página, a função "bpmpi_config" do JS Cielo deve ser definida com as ações a serem tomadas após a resposta da autenticação e informar se o ambiente é produção "PRD" ou sandbox "SDB".
 No submit do formulário de pagamento as funções "bpmpi_load" e "bpmpi_authenticate" de BP.Mpi.3ds20.min.js devem ser executadas na sequência e o script se encarregará da autenticação.

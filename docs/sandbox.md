@@ -115,3 +115,20 @@ Para testes com este meio de pagamento é preciso possuir cadastro com a institu
 
 Exemplos de chamadas as API's de transação do Gateway, [acesse aqui](https://www.getpostman.com/collections/fab35ade5eb63509da4b)
 
+> **3DS 2.0 CIELO**
+
+Exemplo de chamada a API 3DS 2.0, [acesse aqui](https://www.getpostman.com/collections/139de1e111de992645db)
+* Necessário a implementação do JS Cielo
+
+> **API RECORRÊNCIA**
+
+Exemplos de chamadas as API's de pagamento recorrente, [acesse aqui](https://www.getpostman.com/collections/0738bd472eeae610dea9)
+
+> **API ONECLICK**
+
+Exemplos de chamadas as API's de pagamento com único clique, [acesse aqui](https://www.getpostman.com/collections/7c690e31400dfcbfcac9)
+
+> **API CHECKOUT YAPAY**
+
+Exemplos de chamadas as API's do checkout Yapay, [acesse aqui](https://www.getpostman.com/collections/4c07442480fb955054f0)
+
