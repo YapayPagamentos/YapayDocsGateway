@@ -157,8 +157,8 @@ Para detalhes da estrutura de envio e retorno, [clique aqui](tabela-cartoes-cred
     },
     "dadosEntrega" : { 
         "nome" : "Teste 123",
-	"documento" : "12323434545",
-	"email" : "yapay@yapay.com.br",
+        "documento" : "12323434545",
+        "email" : "yapay@yapay.com.br",
         "endereco" : {
             "logradouro" : "Rua",
             "numero" : "123",
