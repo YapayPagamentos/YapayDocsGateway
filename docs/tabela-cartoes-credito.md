@@ -223,8 +223,9 @@ telefone|	Número do telefone|	Alfa Numérico| 20 caracteres| 	Sim
 
 Campo | Descrição | Tipo | Tamanho | Obrigatório
 :----- | :---------: | :----: | :-------: | :-----------------:
-nome|	Nome do comprador|	Alfa Numérico|	20 caracteres|	Não
-email| E-mail do comprador|	Alfa Numérico|	20 caracteres|	Não
+nome|	Nome recebedor|	Alfa Numérico|	20 caracteres|	Não *Obrigatório caso utilizar ClearSale
+email| E-mail do recebedor|	Alfa Numérico|	20 caracteres|	Não *Obrigatório caso utilizar ClearSale
+documento|	Documento principal do recebedor|	Alfa Numérico|	30 caracteres|	Não *Obrigatório caso utilizar ClearSale
 endereco|	Nó reservado para dados de endereço do comprador|	-|	-|	-
 telefone|	Nó reservado para dados de telefone do comprador|	-|	-|	-
 
