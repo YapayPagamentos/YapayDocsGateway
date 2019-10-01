@@ -21,4 +21,6 @@ Código | Nome | Descrição
 27|	Cancelamento parcial|	Pedido parcialmente cancelado na adquirente
 31|	Transação já Paga|	Transação já existente e finalizada na adquirente
 40|	Aguardando Cancelamento|	Processo de cancelamento em andamento
+49| 	Em análise manual| Pedido em análise manual pelo lojista
+50|	Recusado manualmente| Pedido recusado manualmente pelo lojista
 
