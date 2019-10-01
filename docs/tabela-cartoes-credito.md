@@ -116,7 +116,7 @@ parcelas|	Quantidade de parcelas da transação|	Numérico|	Até 2 dígitos
 urlPagamento|	Para o modelo redirect. Essa será a URL de redirecionamento da operação|	Alfa Numérico|	Até 500 caracteres
 statusTransacao|	[Status atual da transação](tabela-status.md)|	Numérico|	Até 2 dígitos
 autorizacao|	Código de autorização da adquirente|	Numérico|	Até 20 dígitos
-codigoTransacaoOperadora|	Código da transação na adquirente|	Numérico|	Até 20 dígitos
+codigoTransacaoOperadora|	Código da transação na adquirente|	Alfa Numérico|	Até 20 dígitos
 dataAprovacaoOperadora|	Data de aprovação na adquirente|	Alfa Numérico|	Até 10 dígitos
 numeroComprovanteVenda|	Número do comprovante de venda|	Alfa Numérico|	Até 20 dígitos
 nsu|	Número do NSU da adquirente|	Alfa Numérico|	Até 20 caracteres
@@ -243,7 +243,7 @@ parcelas|	Quantidade de parcelas da transação|	Numérico|	Até 2 dígitos
 urlPagamento|	Para o modelo redirect. Essa será a URL de redirecionamento da operação|	Alfa Numérico|	Até 500 caracteres
 statusTransacao|	[Status atual da transação](tabela-status.md)|	Numérico|	Até 2 dígitos
 autorizacao|	Código de autorização da adquirente|	Numérico|	Até 20 dígitos
-codigoTransacaoOperadora|	Código da transação na adquirente|	Numérico|	Até 20 dígitos
+codigoTransacaoOperadora|	Código da transação na adquirente|	Alfa Numérico|	Até 20 dígitos
 dataAprovacaoOperadora|	Data de aprovação na adquirente|	Alfa Numérico|	Até 10 dígitos
 numeroComprovanteVenda|	Número do comprovante de venda|	Alfa Numérico|	Até 20 dígitos
 nsu|	Número do NSU da adquirente|	Alfa Numérico|	Até 20 caracteres
@@ -373,7 +373,7 @@ valor|	Valor da transação|	Numérico|	Até 10 dígitos
 valorDesconto|	Valor desconto|	Numérico|	Até 10 dígitos
 parcelas|	Quantidade de parcelas da transação|	Numérico|	Até 2 dígitos
 autorizacao|	Código de autorização da adquirente|	Numérico|	Até 20 dígitos
-codigoTransacaoOperadora|	Código da transação na adquirente|	Numérico|	Até 20 dígitos
+codigoTransacaoOperadora|	Código da transação na adquirente|	Alfa Numérico|	Até 20 dígitos
 dataAprovacaoOperadora|	Data de aprovação na adquirente|	Alfa Numérico|	Até 10 dígitos
 numeroComprovanteVenda|	Número do comprovante de venda|	Alfa Numérico|	Até 20 dígitos
 nsu|	Número do NSU da adquirente|	Alfa Numérico|	Até 20 caracteres
