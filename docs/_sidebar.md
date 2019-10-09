@@ -32,11 +32,10 @@
     * [Alteração](alterar-oneclick.md)
 
 * API Checkout Yapay
-    * [Introdução](checkout.md)
-    * [Transaçao simplificada](checkout-simplificada.md)
-    * [Múltiplos Cartões](checkout-multiplos-cartoes.md)
-    * [Múltiplos Boletos](checkout-multiplos-boletos.md)
-    * [OneClick](checkout-oneclick.md)
+    * [Introdução](checkout2-int.md)
+    * [Transaçao simplificada](checkout2-simplificada.md)
+    * [Múltiplos Boletos](checkout2-multiplos-boletos.md)
+    * [OneClick](checkout2-oneclick.md)
 
 * Notificação Automática de Status
     * [Venda comum](notificacao-comum.md)
@@ -72,7 +71,7 @@
     * [Transferência](tabela-transferencia.md)
     * [Recorrência](tabela-recorrencia.md)
     * [OneClick](tabela-oneclick.md)
-    * [Checkout Yapay](tabela-checkout.md)
+    * [Checkout Yapay](tabela-checkout2.md)
     * [Formas de pagamento](tabela-forma-pagamento.md)
     * [Status](tabela-status.md)
 

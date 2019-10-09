@@ -4,6 +4,8 @@ Através desta funcionalidade, é possível finalizar pagamentos dentro do ambie
 
 ![API Transação Yapay](/images/checkout.png "API Yapay")
 
+* [clique aqui](checkout-simplificada.md) para acessar a documentação do Checkout antigo
+
 > **Particulariedades**
 
 * Funcionalidade com redirecionamento;
