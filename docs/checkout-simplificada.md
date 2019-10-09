@@ -1,6 +1,6 @@
 # Simplificada
 
-       <span class="post">VERSÃO ANTIGA</span>
+**VERSÃO ANTIGA**
 <br>
 <br>
 
