@@ -20,7 +20,7 @@ Operadora   | 	Limite Cancelamento
 ----------  | -----------------------
 Cielo |	300 dias após a geração do pedido
 Rede |	Pode variar conforme o ramo de atuação de cada estabelecimento
-GETNET|	Apenas no dia da venda para transações capturadas. 7 dias para vendas autorizadas
+GETNET|	365 dias para vendas capturadas. 7 dias para vendas autorizadas
 Stone|	180 dias após a geração do pedido
 Bin|    90 dias após captura do pedido
 
@@ -31,6 +31,7 @@ Com esta funcionalidade é possível realizar cancelamentos parciais e totais, d
 Operadora   |	Limite Cancelamento  |	Observação
 ----------- | ---------------------  | -----------
 Cielo|	300 dias após a geração do pedido|	Para a bandeira Amex, disponível apenas o estorno Total
+GETNET|	365 dias para vendas capturadas. 7 dias para vendas autorizadas
 Bin|	Ocorre mo mesmo dia da venda |	-
 Rede|	Pode variar conforme o ramo de atuação de cada estabelecimento|	-
 
