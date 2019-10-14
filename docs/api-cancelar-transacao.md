@@ -9,9 +9,11 @@ Adquirente | Prazo de cancelamento
 ---------- | ----------------------
 Cielo|	300 dias após a geração do pedido
 Rede|	Pode variar conforme o ramo de atuação de cada estabelecimento
-GetNet|	365 dias para transações capturadas. 7 dias para vendas autorizadas
+GetNet|	365 dias para transações capturadas*. 7 dias para vendas autorizadas
 Stone|	180 dias após a geração do pedido
 Bin|	90 dias após captura do pedido
+
+*Caso a solicitação de cancelamento seja realizada em D+1, o Gateway retornará o status 40 (Aguardando cancelamento) até que a cancelamento seja realizado.
 
 > **EndPoints**
 
@@ -64,8 +66,10 @@ Adquirente | Tecnologia | Prazo de cancelamento
 ---------- | -----------| -----------
 Cielo|	API 3.0| 300 dias após a geração do pedido
 Rede|	E Rede|	Pode variar conforme o ramo de atuação de cada estabelecimento
-GetNet|	365 dias para transações capturadas. 7 dias para vendas autorizadas
+GetNet|	365 dias para transações capturadas*. 7 dias para vendas autorizadas
 BIN| BIN | Ocorre mo mesmo dia da venda
+
+*Caso a solicitação de cancelamento seja realizada em D+1, o Gateway retornará o status 40 (Aguardando cancelamento) até que a cancelamento seja realizado.
 
 > **Particulariedades**
 
