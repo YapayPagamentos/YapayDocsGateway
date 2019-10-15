@@ -17,10 +17,10 @@ dadosEntrega|	Nó reservado para informações de dados de entrega|	-|	-|	-
 
 Campo | Descrição | Tipo | Tamanho | Obrigatório
 :----- | :---------: | :----: | :-------: | :-----------------:
-numeroTransacao|	Código que identifica a transação dentro do Yapay|	Numérico|	Até 19 dígitos|	Sim
+numeroTransacao|	Código que identifica a transação dentro do Yapay|	Numérico|	Até 19 dígitos *Até 16 dígitos caso utilizar E Rede|	Sim
 valor|	Valor da transação. Deve ser enviado sem pontos ou vírgulas|	Numérico|	Até 10 dígitos|	Sim
 moeda|	Tipo da moeda. OBS: Disponível ‘USD” apenas para PayPal Internacional|	Alfa Numérico|	Até 10 caracteres|	Não
-tipoParcelamento|	Use “E” para estabelecimento, use “A” para administradora. Caso não for enviado será utilizado as configurações do seu estabelecimento|	Alfa Numérico|	1 caracter|	Não
+tipoParcelamento|	Use “E” para estabelecimento, use “A” para administradora. Caso não for enviado será utilizado as configurações do seu estabelecimento|	Alfa Numérico|	1 caractere|	Não
 valorDesconto|	Valor do desconto da transação. Campo apenas informativo. Deve ser enviado sem pontos ou vírgulas|	Numérico|	Até 10 dígitos|	Não
 parcelas|	Quantidade de parcelas da transação. Verificar se forma de pagamento suporta parcelamento|	Numérico|	Até 2 dígitos|	Sim
 urlCampainha|	URL será sempre acionada quando o status do pedido mudar. Deve estar preparada para receber dados de campainha|	Alfa Numérico|	Até 250 caracteres|	Não
@@ -106,7 +106,7 @@ telefone|	Nó reservado para dados de telefone do comprador|	-|	-|	-
 
 Campo | Descrição | Tipo | Tamanho 
 :----- | :---------: | :----: | :-------: 
-numeroTransacao|	Código que identifica a transação dentro do Yapay|	Numérico|	Até 19 dígitos
+numeroTransacao|	Código que identifica a transação dentro do Yapay|	Numérico|	Até 19 dígitos *Até 16 dígitos caso utilizar E Rede
 codigoEstabelecimento|	Código que identifica o estabelecimento dentro do Yapay|	Numérico|	13 dígitos
 codigoFormaPagamento|	[Código da forma de pagamento](tabela-forma-pagamento.md)  |	Numérico|	Até 3 dígitos
 valor|	Valor da transação|	Numérico|	Até 10 dígitos
@@ -143,10 +143,10 @@ dadosEntrega|	Nó reservado para informações de dados de entrega|	-|	-|	-
 
 Campo | Descrição | Tipo | Tamanho | Obrigatório
 :----- | :---------: | :----: | :-------: | :-----------------:
-numeroTransacao|	Código que identifica a transação dentro do Yapay|	Numérico|	Até 19 dígitos|	Sim
+numeroTransacao|	Código que identifica a transação dentro do Yapay|	Numérico|	Até 19 dígitos *Até 16 dígitos caso utilizar E Rede|	Sim
 valor|	Valor da transação. Deve ser enviado sem pontos ou vírgulas|	Numérico|	Até 10 dígitos|	Sim
 moeda|	Tipo da moeda. OBS: Disponível ‘USD” apenas para PayPal Internacional|	Alfa Numérico|	Até 10 caracteres|	Não
-tipoParcelamento|	Use “E” para estabelecimento, use “A” para administradora. Caso não for enviado será utilizado as configurações do seu estabelecimento|	Alfa Numérico|	1 caracter|	Não
+tipoParcelamento|	Use “E” para estabelecimento, use “A” para administradora. Caso não for enviado será utilizado as configurações do seu estabelecimento|	Alfa Numérico|	1 caractere|	Não
 valorDesconto|	Valor do desconto da transação. Campo apenas informativo. Deve ser enviado sem pontos ou vírgulas|	Numérico|	Até 10 dígitos|	Não
 parcelas|	Quantidade de parcelas da transação. Verificar se forma de pagamento suporta parcelamento|	Numérico|	Até 2 dígitos|	Sim
 urlCampainha|	URL será sempre acionada quando o status do pedido mudar. Deve estar preparada para receber dados de campainha|	Alfa Numérico|	Até 250 caracteres|	Sugerimos o envio para o recebimento do status atualizado do pedido pós análise da antifraude
@@ -233,7 +233,7 @@ telefone|	Nó reservado para dados de telefone do comprador|	-|	-|	-
 
 Campo | Descrição | Tipo | Tamanho 
 :----- | :---------: | :----: | :-------: 
-numeroTransacao|	Código que identifica a transação dentro do Yapay|	Numérico|	Até 19 dígitos
+numeroTransacao|	Código que identifica a transação dentro do Yapay|	Numérico|	Até 19 dígitos *Até 16 dígitos caso utilizar E Rede
 codigoEstabelecimento|	Código que identifica o estabelecimento dentro do Yapay|	Numérico|	13 dígitos
 codigoFormaPagamento|	[Código da forma de pagamento](tabela-forma-pagamento.md)  |	Numérico|	Até 3 dígitos
 valor|	Valor da transação|	Numérico|	Até 10 dígitos
@@ -281,9 +281,9 @@ valor|	Valor da transação. Deve ser enviado sem pontos ou vírgulas|	Numérico
 
 Campo | Descrição | Tipo | Tamanho | Obrigatório
 :----- | :---------: | :----: | :-------: | :-----------------:
-numeroTransacao|	Código que identifica a transação dentro do Yapay|	Numérico|	Até 19 dígitos|	Sim
+numeroTransacao|	Código que identifica a transação dentro do Yapay|	Numérico|	Até 19 dígitos *Até 16 dígitos caso utilizar E Rede|	Sim
 moeda|	Tipo da moeda. OBS: Disponível ‘USD” apenas para PayPal Internacional|	Alfa Numérico|	Até 10 caracteres|	Não
-tipoParcelamento|	Use “E” para estabelecimento, use “A” para administradora. Caso não for enviado será utilizado as configurações do seu estabelecimento|	Alfa Numérico|	1 caracter|	Não
+tipoParcelamento|	Use “E” para estabelecimento, use “A” para administradora. Caso não for enviado será utilizado as configurações do seu estabelecimento|	Alfa Numérico|	1 caractere|	Não
 valorDesconto|	Valor do desconto da transação. Campo apenas informativo. Deve ser enviado sem pontos ou vírgulas|	Numérico|	Até 10 dígitos|	Não
 urlCampainha|	URL será sempre acionada quando o status do pedido mudar. Deve estar preparada para receber dados de campainha|	Alfa Numérico|	Até 250 caracteres|	Não
 urlResultado|	Para o modelo de pagamento redirect, O Yapay redirecionará para essa URL no final da transação|	Alfa Numérico|	Até 250 caracteres|	Não
@@ -358,7 +358,7 @@ telefone|	Nó reservado para dados de telefone do comprador|	-|	-|	-
 
 Campo | Descrição | Tipo | Tamanho 
 :----- | :---------: | :----: | :-------: 
-numeroTransacao|	Código que identifica a transação dentro do Yapay|	Numérico|	Até 19 dígitos
+numeroTransacao|	Código que identifica a transação dentro do Yapay|	Numérico|	Até 19 dígitos *Até 16 dígitos caso utilizar E Rede
 codigoEstabelecimento|	Código que identifica o estabelecimento dentro do Yapay|	Numérico|	13 dígitos
 multiploCartao | Retornará 1 | Numérico | 1 dígito
 statusTransacao|	[Status atual da transação](tabela-status.md)|	Numérico|	Até 2 dígitos

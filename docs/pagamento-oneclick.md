@@ -39,7 +39,7 @@ curl
   }
 ```
 
-> **Exemplo de retorno em JSON cartão de cŕedito**
+> **Exemplo de retorno em JSON cartão de crédito**
 
 ```curl
 --header "Content-Type: application/json

@@ -67,7 +67,7 @@ Adquirente | Tecnologia | Prazo de cancelamento
 Cielo|	API 3.0| 300 dias após a geração do pedido
 Rede|	E Rede|	Pode variar conforme o ramo de atuação de cada estabelecimento
 GetNet| GetNetWS | 365 dias para transações capturadas*. 7 dias para vendas autorizadas
-BIN| BIN | Ocorre mo mesmo dia da venda
+BIN| BIN | Ocorre no mesmo dia da venda
 
 *Caso a solicitação de cancelamento seja realizada em D+1, o Gateway retornará o status 40 (Aguardando cancelamento) até que a cancelamento seja realizado.
 
