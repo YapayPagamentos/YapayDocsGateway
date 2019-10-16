@@ -1,6 +1,6 @@
 # Simplificada
 
-**VERSÃO ANTIGA**
+<span class="url">VERSÃO ANTIGA</span>
 <br>
 <br>
 

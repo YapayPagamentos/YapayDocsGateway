@@ -1,5 +1,9 @@
 # OneClick
 
+<span class="url">VERSÃO ANTIGA</span>
+<br>
+<br>
+
 <span class="post">POST</span>
 
 No Checkout Yapay também está disponível o pagamento com token, assim nas futuras compras o consumidor digitará apenas o código de segurança do cartão.
