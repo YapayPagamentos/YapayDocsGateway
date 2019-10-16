@@ -47,7 +47,7 @@ Preencha os dados:
 * Para o Gateway de Pagamento funcionar corretamente, é necessário configurar URL de retorno no BankLine.
 * Acesse o BankLine, aba Cobrança > Itaú Shopline > Informações Cadastrais e inclua a URL abaixo no campo “URL Retorno”
 
-<span class="url">URL RETORNO: https://gateway.yapay.com.br/checkout/</span>
+<span class="url">URL RETORNO:</span> https://gateway.yapay.com.br/checkout/
 
 > **EXEMPLOS**
 

@@ -98,7 +98,7 @@ telefone|	Lista de Telefones|	-|	-|	-
 
 Campo | Descrição | Tipo | Tamanho 
 :----- | :---------: | :----: | :-------: 
-numeroRecorrencia|	Número da Recorrência|	Numérico|	Até 15 dígitos
+numeroRecorrencia|	Número da Recorrência|	Numérico|	Até 8 dígitos
 estabelecimento|	Código do estabelecimento Yapay|	Numérico|	13 dígitos
 valor|	Valor|	Numérico|	Até 10 dígitos
 codigoFormaPagamento|	[Código da forma de pagamento](tabela-forma-pagamento.md) |	Numérico|	Até 3 dígitos
