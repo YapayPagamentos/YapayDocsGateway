@@ -38,6 +38,18 @@ Para contratar, [acesse aqui](https://formularios2.cielo.com.br/form1b/api-cielo
 * Esta operadora de cartão permite cadastrar uma informação para visualização na fatura dos clientes quando realizarem compras em sua loja, funcionalidade chamada de SoftDescriptor. Esta deverá possuir até 13 caracteres. Caso queira utilizar, envie ao Suporte Yapay o nome desejado para configuração em seu estabelecimento. Também é possível o envio do SoftDescriptor por pedido, para isto solicite ao Suporte a ativação e envie a informação no `<campoLivre4>` de cada transação;
 * Para transações com cartão de débito ou autenticada, o eCommerce deverá redirecionar o consumidor para a `<urlPagamento>`, onde o mesmo deverá incluir sua senha ou token no ambiente do banco emissor. Apenas após esta etapa, a transação será concluída;
 * Para utilizar pagamentos recorrentes é preciso ativar junto ao Cielo Ecommerce a recorrência na filiação do estabelecimento.
+* Abaixo seguem bancos e bandeiras disponíveis para cartão de débito:
+
+MASTERCARD | VISA
+---------- | --------
+Bradesco|	Bradesco
+Banco do Brasil|	Banco do Brasil
+Santander|	Santander
+Itaú|	Itaú
+CitiBank|	CitiBank
+BRB|	N/A
+Caixa|	N/A
+BancooB|	N/A
 
 > **CONFIGURAÇÃO GATEWAY**
 
@@ -144,7 +156,19 @@ Para contratar, [acesse aqui](https://formularios2.cielo.com.br/form1b/checkout-
 * O eCommerce deverá redirecionar o consumidor para a URL retornada no campo `<urlPagamento>`;
 * Importante a utilização da campainha para atualização de status no eCommerce após finalização do pagamento;
 * O eCommerce enviará um único código ao Gateway relacionado ao meio de pagamento Checkout (52) e após a abertura da URL o consumidor escolherá a bandeira de cartão;
-* Necessário algumas configurações no painel Cielo. Passo a passo no próximo tópico deste documento.
+* Necessário algumas configurações no painel Cielo. Passo a passo no próximo tópico deste documento;
+* Abaixo seguem bancos e bandeiras disponíveis para cartão de débito:
+
+MASTERCARD | VISA
+---------- | --------
+Bradesco|	Bradesco
+Banco do Brasil|	Banco do Brasil
+Santander|	Santander
+Itaú|	Itaú
+CitiBank|	CitiBank
+BRB|	N/A
+Caixa|	N/A
+BancooB|	N/A
 
 > **CONFIGURAÇÃO PAINEL CIELO**
 
