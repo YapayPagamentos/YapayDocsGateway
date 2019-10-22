@@ -1,5 +1,11 @@
 # Formas de Pagamento
 
+> **CHECKOUT YAPAY**
+
+Código | Tipo
+------ | --------
+997 | Checkout Yapay
+
 > **CARTÕES**
 
 Código | Bandeira | Tipo | Tecnologia | Adquirente | Modelo
@@ -49,7 +55,7 @@ Código | Bandeira | Tipo | Tecnologia | Adquirente | Modelo
 384|    HiperCard|Crédito|	BinWS|	Bin-FirstData|	WebService
 385|    Sorocred|Crédito|	BinWS|	Bin-FirstData|	WebService
 386|    Hiper | Crédito | BinWS | Bin-FirstData | WebService
-
+999| Multiplos Cartões | - | - |-|-
 
 > **BOLETOS E TRANSFERÊNCIAS**
 
