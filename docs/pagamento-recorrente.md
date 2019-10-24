@@ -71,7 +71,7 @@ curl
       "statusTransacao": 1,
       "autorizacao": "123456",
       "codigoTransacaoOperadora": "00",
-      "dataAprovacaoOperadora": "30/06/2018",
+      "dataAprovacaoOperadora": "2020-09-23 16:57:32",
       "numeroComprovanteVenda": "1006993069000891071A",
       "mensagemVenda": "Operation Success"
   }

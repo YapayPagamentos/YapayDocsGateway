@@ -111,7 +111,7 @@ curl
         <!--Código erro em caso de negação-->
         "codigoTransacaoOperadora": "0",
         <!--Data retorno adquirente-->
-        "dataAprovacaoOperadora": "24/05/2030",
+        "dataAprovacaoOperadora": "2020-09-23 16:57:32",
         <!--TID-->
         "numeroComprovanteVenda": "10069930690009F2122A",
         <!--NSU-->

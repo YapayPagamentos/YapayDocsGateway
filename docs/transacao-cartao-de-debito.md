@@ -82,7 +82,7 @@ curl
     "statusTransacao": 1,
     "autorizacao": "123456",
     "codigoTransacaoOperadora": "0",
-    "dataAprovacaoOperadora": "24/05/2030",
+    "dataAprovacaoOperadora": "2020-09-23 16:57:32",
     "numeroComprovanteVenda": "10069930690009F2122A",
     "nsu": "428706",
     "mensagemVenda": "Operation Success",
