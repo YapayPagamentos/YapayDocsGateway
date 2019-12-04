@@ -12,7 +12,7 @@ Contratando a solução BB ONLINE será possível oferecer na sua loja:
 
 Ao final do processo de contratação, deve-se estar de posse das seguintes informações para ativação do BB ONLINE no Gateway:
 
-* Códido do convênio;
+* Código do convênio;
 * Código cobrança.
 
 O Yapay não participa das negociações entre o estabelecimento e bancos/adquirentes. Desta forma, taxas ou eventuais isenções são tratadas de forma direta entre os envolvidos.
