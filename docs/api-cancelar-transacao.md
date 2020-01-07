@@ -7,7 +7,7 @@ Abaixo o prazo de cancelamento para cada adquirente:
 
 Adquirente | Prazo de cancelamento
 ---------- | ----------------------
-Cielo|	300 dias após a geração do pedido
+Cielo|	300 dias após a geração do pedido para transações capturadas e 15 dias úteis para transações apenas autorizadas
 Rede|	Pode variar conforme o ramo de atuação de cada estabelecimento
 GetNet|	365 dias para transações capturadas*. 7 dias para vendas autorizadas
 Stone|	180 dias após a geração do pedido
@@ -64,7 +64,7 @@ Consulte abaixo as adquirentes que fornecem o cancelamento parcial e o prazo de 
 
 Adquirente | Tecnologia | Prazo de cancelamento | Observação
 ---------- | -----------| ----------- | ----------
-Cielo|	API 3.0| 300 dias após a geração do pedido | -
+Cielo|	API 3.0| 300 dias após a geração do pedido para transações capturadas e 15 dias úteis para transações apenas autorizadas | -
 Rede|	E Rede|	Pode variar conforme o ramo de atuação de cada estabelecimento | Disponível apenas após D+1 da captura
 GetNet| GetNetWS | 365 dias para transações capturadas*. | Disponível apenas após D+1 da captura
 BIN| BIN | Ocorre no mesmo dia da venda | -
