@@ -75,7 +75,7 @@ curl
 O campo `<valid>` informará se o cartão é valido ou não.
 Caso o retorno for false, poderá identificar o motivo através do campo `<key>` e `<value>`
 
-Abixo tabela de códigos e descrições da Cielo:
+Abaixo tabela de códigos e descrições da Cielo:
 
 Key | Value
 --- | --------
@@ -127,7 +127,7 @@ curl
 
 O campo `<valid>` informará se o cartão é valido ou não.
 
-Abixo tabela de códigos e descrições da Rede:
+Abaixo tabela de códigos e descrições da Rede:
 
 Key | Value
 --- | --------
@@ -177,7 +177,7 @@ curl
 
 O campo `<valid>` informará se o cartão é valido ou não.
 
-Abixo tabela de códigos e descrições da GetNet:
+Abaixo tabela de códigos e descrições da GetNet:
 
 Key | Value
 --- | --------
