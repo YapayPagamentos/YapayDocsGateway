@@ -2,7 +2,7 @@
 
 <span class="post">POST</span>
 
-API que permite uma validação prévia do cartão do portador para saber se o mesmo é válido, ates do processamento da autorização.
+API que permite uma validação prévia do cartão do portador para saber se o mesmo é válido, antes do processamento da autorização.
 
 Importante salientar que esta API não analisa:
 
@@ -26,15 +26,15 @@ Sandbox  |https://sandbox.gateway.yapay.com.br/checkout/api/v3/transacao/zeroaut
 Produção |https://gateway.yapay.com.br/checkout/api/v3/transacao/zeroauth
 
 
-**Para maiores informações sobre a estrutura, [acesse aqui](tabela-api-validar.md)
+*Para maiores informações sobre a estrutura, [acesse aqui](tabela-api-validar.md)*
 
 
 ## Cielo
 
 A validação de cartão está disponível para as bandeiras de crédito da Cielo 3.0: 
-**Visa, Mastercard e Elo**
+<br>**Visa, Mastercard e Elo**
 
-<br>** No momento a Cielo não possui o zero auth disponível em sandbox
+<br>*No momento a Cielo não possui o zero auth disponível em sandbox*
 
 
 > **Exemplo de envio em JSON**
@@ -88,7 +88,7 @@ Key | Value
 ## Rede
 
 A validação de cartão está disponível para as bandeiras de crédito do E Rede: 
-**Visa, Mastercard, Elo, Hiper e Hipercard**
+<br>**Visa, Mastercard, Elo, Hiper e Hipercard**
 
 > **Exemplo de envio em JSON**
 
@@ -138,7 +138,7 @@ Key | Value
 ## GetNet
 
 A validação de cartão está disponível para as bandeiras de crédito da GetNet: 
-**Visa, Mastercard e Hipercard**
+<br>**Visa, Mastercard e Hipercard**
 
 > **Exemplo de envio em JSON**
 
