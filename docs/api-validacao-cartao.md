@@ -4,10 +4,10 @@
 
 API que permite uma validação prévia do cartão do portador para saber se o mesmo é válido, antes do processamento da autorização.
 
-Importante salientar que esta API não analisa:
+Importante salientar que esta API:
 
-1. Limite de crédito do cartão
-2. Informações sobre o portador
+1. Não retorna o limite de crédito do cartão
+2. Não retorna informações sobre o portador
 3. Não aciona a base bancária (dispara SMS ao portador)
 
 Lista das adquirentes e bandeiras de crédito disponíveis:
