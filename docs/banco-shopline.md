@@ -40,7 +40,8 @@ Preencha os dados:
 * Para utilização das modalidades ShopLine, todos os campos referente aos dados do cliente devem ser preenchidos;
 * Tempo padrão de consulta no banco para atualização do status no Yapay: 120 dias;
 * Se não for informado uma data de vencimento do boleto, será informado os dias de vencimento configurado internamente no Gateway;
-* Para evitar fraudes, o Itaú sempre abrirá as duas opções para o cliente (boleto e transferência) independente da modalidade enviada ao Gateway.
+* Caso o boleto seja gerado com sucesso, a linha digitável será retornada via API;
+* Para evitar fraudes, o Itaú sempre abrirá as duas opções para o cliente (boleto e transferência), caso a forma de pagamento enviada for Transferência.
 
 > **CONFIGURAÇÃO AMBIENTE ITAU**
 
@@ -61,7 +62,7 @@ curl
         --data-binary
        {
         "codigoEstabelecimento": 1000000000000,
-        "codigoFormaPagamento": 16,
+        "codigoFormaPagamento": 17,
         "transacao": {
             "numeroTransacao": 1,
             "valor": 2000,
@@ -71,7 +72,7 @@ curl
             "urlResultado" : "http://seusite.com.br/retorno",
             "ip" : "192.168.12.110",
             "idioma" : 1,
-            "dataVencimentoBoleto" : "10/01/2020"
+            "dataVencimentoBoleto" : "10/01/2021"
         },
         "itensDoPedido": [
         {
@@ -112,13 +113,17 @@ curl
          {
         "numeroTransacao": 1,
         "codigoEstabelecimento": "1000000000000",
-        "codigoFormaPagamento": 16,
+        "codigoFormaPagamento": 17,
         "valor": 2000,
         "valorDesconto": 0,
         "parcelas": 1,
+        <!--Status será 8 caso o registro ocorra com sucesso e 5 caso não-->
         "statusTransacao": 8,
         "autorizacao": ,
         "codigoTransacaoOperadora": "0",
-        "urlPagamento": "https://sandbox.gateway.yapay.com.br/checkout/PagamentoItauShopline/PagamentoItauShopline.do?cod=141348960683a720e602-5631-4725-8f79-268c06795a3c"
+        <!--URL para geração do boleto-->
+        "urlPagamento": "https://sandbox.gateway.yapay.com.br/checkout/itau/pg.do?cod=141348960683a720e602-5631-4725-8f79-268c06795a3c",
+        <!--Linha digitável para pagamento do titulo-->
+        "linhaDigitavel": "34191760073300230014450565600009481600000000100"
         }
 ```

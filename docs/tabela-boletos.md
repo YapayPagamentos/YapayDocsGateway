@@ -109,6 +109,7 @@ valorDesconto|	Valor desconto|	Numérico|	Até 10 dígitos
 taxaEmbarque|	Valor taxa embarque|	Numérico|	Até 10 dígitos
 parcelas|	Quantidade de parcelas da transação|	Numérico|	Até 2 dígitos
 urlPagamento|	URL de redirecionamento para o boleto bancário |	Alfa Numérico|	Até 500 caracteres
+linhaDigitavel | Linha digitável do boleto, será retornado caso o boleto tenha diso gerado com sucesso | Numérico | 47 dígitos
 statusTransacao|	[Status atual da transação](tabela-status.md)|	Numérico|	Até 2 dígitos
 autorizacao|	Código de autorização da adquirente|	Numérico|	Até 20 dígitos
 codigoTransacaoOperadora|	Código da transação na adquirente|	Numérico|	Até 20 dígitos

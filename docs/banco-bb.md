@@ -25,6 +25,7 @@ Para contratar, [acesse aqui](http://www.bb.com.br/pbb/pagina-inicial/empresas/p
 * Para utilização das modalidades BBOnline, todos os campos referente aos dados do cliente devem ser preenchidos;
 * Se não for informado uma data de vencimento do boleto, será informado os dias de vencimento configurado internamente no Gateway;
 * Para baixa automática dos boletos deve contratar o conciliador Yapay, para informações entre em contato com *comercial@yapay.com.br*;
+* Caso o boleto seja gerado com sucesso, a linha digitável será retornada via API.
 
 > **EXEMPLOS**
 

@@ -14,6 +14,7 @@ Para utilização de qualquer boleto com carteira registrada é preciso realizar
 * A URL retornada no campo `<urlPagamento>`;
 * A requisição e retorno do Yapay para boletos registrados possuem a mesma estrutura dos sem registro, porém o status a ser retornado será 5 (transação em andamento) ao invés de 8 (aguardando pagamento);
 * Para ativação do boleto registrado e Módulo de Conciliação entrar em contato com comercial@yapay.com.br;
+* Caso o boleto seja gerado com sucesso, a linha digitável será retornada via API;
 * O Yapay não participa das negociações entre o estabelecimento e bancos/administradoras. Desta forma, taxas ou eventuais isenções são tratadas de forma direta entre os envolvidos.
 
 > **PRAZO PARA REGISTRO**
@@ -148,7 +149,10 @@ O status do primeiro retorno será 5 (transação em andamento) e assim que o ar
         "numeroComprovanteVenda": ,
         "nsu": ,
         "mensagemVenda": ,
-        "urlPagamento": "https://sandbox.gateway.yapay.com.br/GeradorBoleto.do?cod=1413487983447baddcb56-0126-4353-9253-538f64d""
+        <!--URL para geração do título--> 
+        "urlPagamento": "https://sandbox.gateway.yapay.com.br/GeradorBoleto.do?cod=1413487983447baddcb56-0126-4353-9253-538f64d",
+        <!--Linha digitável para pagamento do titulo-->
+        "linhaDigitavel": "23791234215000003300638001414002181580000000100"
         }
 ```
 
@@ -178,6 +182,7 @@ Ao final do processo de contratação, deve-se estar de posse das seguintes info
 * Se não for informado uma data de vencimento do boleto na requisição, será informado os dias de vencimento configurados internamente no Gateway;
 * A URL retornada no campo `<urlPagamento>`;
 * Conciliação de boletos não é realizada automaticamente, para tal deve ser contratado o Módulo de Conciliação do Gateway. Para informações entrar em contato com comercial@yapay.com.br;
+* Caso o boleto seja gerado com sucesso, a linha digitável será retornada via API;
 * O Yapay não participa das negociações entre o estabelecimento e bancos/administradoras. Desta forma, taxas ou eventuais isenções são tratadas de forma direta entre os envolvidos.
 
 > **EXEMPLOS**
@@ -249,6 +254,9 @@ curl
         "statusTransacao": 8,
         "autorizacao": ,
         "codigoTransacaoOperadora": "0",
-        "urlPagamento": "https://sandbox.gateway.yapay.com.br/GeradorBoleto.do?cod=1413487983447baddcb56-0126-4353-9253-538f64d""
+        <!--URL para geração do boleto-->
+        "urlPagamento": "https://sandbox.gateway.yapay.com.br/GeradorBoleto.do?cod=1413487983447baddcb56-0126-4353-9253-538f64d",
+        <!--Linha digitável para pagamento do titulo-->
+        "linhaDigitavel": "34191090083300395018677500050008681650000000100" 
         }
 ```

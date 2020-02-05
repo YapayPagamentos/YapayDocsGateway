@@ -3,6 +3,7 @@
 <span class="post">POST</span>
 
 API que permite uma validação prévia do cartão do portador para saber se o mesmo é válido, antes do processamento da autorização.
+Esta funcionalidade não gera cobranças ao comprador.
 
 Importante salientar que esta API:
 

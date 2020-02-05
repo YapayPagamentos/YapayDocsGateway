@@ -27,6 +27,7 @@ Para contratar, [acesse aqui](https://www.bradescocomercioeletronico.com.br/cont
 * Modalidades com redirecionamento;
 * Para utilização das modalidades ShopFácil, todos os campos referente aos dados do cliente devem ser preenchidos;
 *  não for informado uma data de vencimento do boleto, será informado os dias de vencimento configurado internamente no Gateway;
+* Caso o boleto seja gerado com sucesso, a linha digitável será retornada via API;
 * Sugerimos o envio dos campos de dados do comprador sem acentuação, pois os mesmos poderão ficar mal formatados na impressão do boleto.
 
 > **CONFIGURAÇÃO AMBIENTE BRADESCO**
@@ -134,6 +135,9 @@ curl
    "statusTransacao": 8,
    "autorizacao": ,
    "codigoTransacaoOperadora": "0",
-   "urlPagamento": "https://homolog.meiosdepagamentobradesco.com.br/apiboleto/Bradesco?token=RmVEaDhUV2dPblhpTEJYakhSM0FtSkpSb0FSbDBTMnpqbm9hMEtmcRTTzdOUm1RPT0."
+   <!--URL para geração do boleto-->
+   "urlPagamento": "https://homolog.meiosdepagamentobradesco.com.br/apiboleto/Bradesco?token=RmVEaDhUV2dPblhpTEJYakhSM0FtSkpSb0FSbDBTMnpqbm9hMEtmcRTTzdOUm1RPT0.";
+   <!--Linha digitável para pagamento do  boleto-->
+   "linhaDigitavel": "23790001246000003300540123456705881690000000100"
 }
 ```

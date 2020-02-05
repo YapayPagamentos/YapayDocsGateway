@@ -11,6 +11,7 @@ Código | Tipo
 Código | Bandeira | Tipo | Tecnologia | Adquirente | Modelo
 ------ | -------- |----- | ------------|-----------|---------
 52|	Checkout|Checkout|	Cielo API 3.0|	Cielo|	Redirect
+169|    Alelo Alimentação | Débito | Cielo API 3.0 | Cielo | WebService
 170|	Visa	|Crédito | Cielo API 3.0|	Cielo|	WebService
 171|	MasterCard | Crédito|Cielo API 3.0|	Cielo|	WebService
 172|	American Express|Crédito|Cielo API 3.0|	Cielo|	WebService

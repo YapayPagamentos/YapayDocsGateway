@@ -295,3 +295,93 @@ Estrutura de retorno após a finalização do pagamento. (Consulta do Ecommerce 
 Ao enviar a requisição ao Gateway, será retornado a URL da página do Checkout Cielo para redirecionar o cliente do site. Abaixo segue exemplo da página:
 
 ![Checkout](/images/checkout_cielo.png "Checkout")
+
+
+## Alimentação Alelo
+
+> **CONTRATAÇÃO**
+
+Contratando a solução da CIELO API 3.0 para e-commerce juntamente com a Alelo é possível disponibilizar a bandeira de alimentação.
+
+Ao final do processo de contratação, deve-se estar de posse das seguintes informações para ativação da CIELO no Gateway:
+
+* Merchant ID;
+* Merchant Key;
+
+O Yapay não participa das negociações entre o estabelecimento e bancos/adquirentes. Desta forma, taxas ou eventuais isenções são tratadas de forma direta entre os envolvidos.
+
+Para contratar a Cielo, [acesse aqui](https://formularios2.cielo.com.br/form1b/api-cielo-convencional/passo-1).
+Para contratar a Alelo, [acesse aqui](https://www.alelo.com.br/empresas/soliciteproposta)
+
+> **PARTICULARIEDADES**
+
+* Para esta modalidade é necessário certificado SSL de segurança 2048 bits;
+* Modalidade apenas WebService;
+
+> **EXEMPLOS**
+
+**REQUISIÇÃO**
+
+```curl
+curl
+        --request POST https://sandbox.gateway.yapay.com.br/checkout/api/v3/transacao
+        --header "Content-Type: application/json"
+        --user usuario:senha
+        --data-binary
+        {
+        "codigoEstabelecimento" : 1000000000000,
+        "codigoFormaPagamento" : 169,
+        "transacao" : {
+            "numeroTransacao" : 123,
+            "valor" : 100,
+            "parcelas" : 1,
+            "idioma" : 1
+        },
+        "dadosCartao" : {
+            "nomePortador" : "Teste Teste",
+            "numeroCartao" : "5080540487508044",
+            "codigoSeguranca" : "123",
+            "dataValidade" : "12/2030"
+        },
+        "itensDoPedido" : [
+        {
+            "quantidadeProduto" : 1,
+            "valorUnitarioProduto" : 100
+        }
+        ],
+        "dadosCobranca" : {
+            "nome" : "Teste Integração",
+            "documento" : "12312312312"
+        }
+      }
+```
+
+**RESPOSTA**
+
+```curl
+        --header "Content-Type: application/json"
+        {
+        "numeroTransacao": 123,
+        "codigoEstabelecimento": "1000000000000",
+        "codigoFormaPagamento": 169,
+        "valor": 2000,
+        "valorDesconto": 0,
+        "parcelas": 1,
+        <!--Status que deverá ser tratado pelo eCommerce-->
+        "statusTransacao": 1,
+        <!--Código de autorização-->
+        "autorizacao": "123456",
+        <!--Código erro em caso de negação-->
+        "codigoTransacaoOperadora": "0",
+        <!--Data retorno adquirente-->
+        "dataAprovacaoOperadora": "2020-09-23 16:57:32",
+        <!--TID-->
+        "numeroComprovanteVenda": "10069930690009F2122A",
+        <!--NSU-->
+        "nsu": "428706",
+        <!--Mensagem adquirente-->
+        "mensagemVenda": "Operation Success",
+        "cartoesUtilizados": ["508054******8044"]
+        }
+```
+
