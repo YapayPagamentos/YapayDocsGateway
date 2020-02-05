@@ -48,6 +48,7 @@
     * [API Capturar Transação](api-capturar-transacao.md)
     * [API Cancelar Transação](api-cancelar-transacao.md)
     * [API 3DS 2.0](api-autent.md)
+    * [API validação de cartão](api-validacao-cartao.md)
 
 * Informações Instituições Financeiras
     * [Antifraudes](contratar-antifraude.md)
@@ -72,6 +73,7 @@
     * [Recorrência](tabela-recorrencia.md)
     * [OneClick](tabela-oneclick.md)
     * [Checkout Yapay](tabela-checkout2.md)
+    * [Validação de Cartão](tabela-api-validar.md)
     * [Formas de pagamento](tabela-forma-pagamento.md)
     * [Status](tabela-status.md)
 
