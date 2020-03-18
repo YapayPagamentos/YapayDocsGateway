@@ -7,6 +7,7 @@
 
 * Conhecendo a Yapay
     * [Funcionalidades](funcionalidade.md)
+    * [News](news.md)
     * [Glossário](glossario.md)
     * [Módulos](magento.md)
     * [Painel Administrativo](painel.md) 

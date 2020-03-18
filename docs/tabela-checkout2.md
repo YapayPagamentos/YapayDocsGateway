@@ -27,10 +27,11 @@ campoLivre5|	Campo Livre 5|	Alfa Numérico|	Até 100 caracteres|	Não
 
 > checkout
 
-Campo | Descrição | Tipo | Tamanho | Obrigatório
-:----- | :---------: | :----: | :-------: | :-----------------:
+Campo | Descrição | Tipo |  Obrigatório
+:----- | :---------: | :----: | :-----------------:
 versao |	Enviar 2 |	Numérico|	Sim
 formasPagamento|	Código das formas de pagamento para disponibilizar no Checkout |	Numérico|	Não
+expiracao | Tempo de expiração do link, enviar informação em minutos *Padrão 45 minutos para expiração | Numérico | Não
 
 > itensDoPedido
 
@@ -128,9 +129,10 @@ campoLivre5|	Campo Livre 5|	Alfa Numérico|	Até 100 caracteres|	Não
 
 > checkout
 
-Campo | Descrição | Tipo | Tamanho | Obrigatório
-:----- | :---------: | :----: | :-------: | :-----------------:
+Campo | Descrição | Tipo | Obrigatório
+:----- | :---------: | :----: | :-----------------:
 versao |	Enviar 2 |	Numérico|	Sim
+expiracao | Tempo de expiração do link, enviar informação em minutos *Padrão 45 minutos para expiração | Numérico | Não
 multiploBoleto|	Enviar 1|	Numérico|	Sim
 boletos| Nó para informações dos boletos| -| Sim
 
@@ -236,10 +238,11 @@ campoLivre5|	Campo Livre 5|	Alfa Numérico|	Até 100 caracteres|	Não
 
 > checkout
 
-Campo | Descrição | Tipo | Tamanho | Obrigatório
-:----- | :---------: | :----: | :-------: | :-----------------:
+Campo | Descrição | Tipo | Obrigatório
+:----- | :---------: | :----: |  :-----------------:
 versao |	Enviar 2 |	Numérico|	Sim
 formasPagamento|	Código das formas de pagamento para disponibilizar no Checkout |	Numérico|	Não
+expiracao | Tempo de expiração do link, enviar informação em minutos *Padrão 45 minutos para expiração | Numérico | Não
 oneclick | Enviar 1 para habilitar o oneclick | Numérico | Sim
 
 > itensDoPedido

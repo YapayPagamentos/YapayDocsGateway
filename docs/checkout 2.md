@@ -10,6 +10,7 @@ Maiores informações sobre a estrutura
 
 * Funcionalidade com redirecionamento;
 * Importante a utilização do recurso de Campainha, para atualização dos pedidos no Ecommerce;
+* Fechamento automático para Não Pago de pedidos expirados;
 * Nesta versão ainda não está disponivél o pagamento com multiplos cartões.
 
 > **EndPoints**

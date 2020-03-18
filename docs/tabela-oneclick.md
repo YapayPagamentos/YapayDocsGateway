@@ -57,6 +57,7 @@ emailComprador|	Email do comprador|	Alfa Numérico|	20 caracteres
 Campo | Descrição | Tipo | Tamanho | Obrigatório 
 :----- | :---------: | :----: | :-------: | :-----------------:
 codigoEstabelecimento |	Código estabelecimento Yapay |	Numérico|	13 dígitos|	Sim 
+codigoFormaPagamento|	[Código da forma de pagamento](tabela-forma-pagamento.md). Se for enviado, forma de pagamento será atualizada no token|	Numérico|	Até 3 dígitos|	Não
 transacao |	Nó reservado para informações da transação|	-|	-|	-
 dadosCartao|	Nó reservado para dados de cartão|	-|	-|	-
 itensDoPedido|	Nó reservado para informações dos produtos|	-|	-|	-
