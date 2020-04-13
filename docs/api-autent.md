@@ -3,6 +3,25 @@
 Este é um novo padrão de autenticação dos meios de pagamento no mundo de eCommerce, que tem como objetivo minimizar o índice de fraude sem prejudicar a taxa de conversão.
 O novo padrão é capaz de analisar dezenas de variáveis que são utilizadas como critérios para determinar se um comprador é de fato o portador cartão, permitindo em alguns casos, a autenticação silenciosa, ou seja, não há redirecionamentos para página do banco emissor.
 
+
+
+Tabela com as bandeiras e bancos que já possuem o 3DS 2.0
+
+BANCO EMISSOR | MASTERCARD | VISA
+:-------------: | :----------: | :-----------:
+Banco do Brasil|	— |	Crédito/Débito	
+Caixa Econômica	|—|	Crédito
+Santander|	Crédito/Débito|	Crédito/Débito
+Itaú|	Crédito|	Crédito
+Midway|	—|	Crédito	
+PagSeguro|	Crédito|	—	
+Acesso|	Crédito	|—	
+Banco Neon|	—|	Crédito	
+Realize|	Crédito|	—	
+C6|	Crédito/Débito|	—	
+Porto Seguro|	—|	Crédito	
+
+
 * No momento está disponível no Gateway apenas o 3DS 2.0 da adquirente Cielo.
 
 ## Cielo eCommerce 3.0
