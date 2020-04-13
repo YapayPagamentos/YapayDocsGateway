@@ -43,13 +43,15 @@
     * [Venda recorrente](notificacao-recorrente.md)
 
 * Referência de APIs
+    * [API Alteração de status](api-alterar-status.md)
     * [API Consultar Transação](api-consultar-transacao.md)
     * [API Consultar Recorrência](api-consultar-recorrencia.md)
     * [API Consultar Oneclick](api-consultar-oneclick.md)
     * [API Capturar Transação](api-capturar-transacao.md)
     * [API Cancelar Transação](api-cancelar-transacao.md)
     * [API 3DS 2.0](api-autent.md)
-    * [API validação de cartão](api-validacao-cartao.md)
+    * [API Validação de cartão](api-validacao-cartao.md)
+    
 
 * Informações Instituições Financeiras
     * [Antifraudes](contratar-antifraude.md)
