@@ -106,6 +106,7 @@ codigoEstabelecimento|	Código que identifica o estabelecimento dentro do Yapay|
 codigoFormaPagamento|	[Código da forma de pagamento](tabela-forma-pagamento.md)  |	Numérico|	Até 3 dígitos
 valor|	Valor da transação|	Numérico|	Até 10 dígitos
 valorDesconto|	Valor desconto|	Numérico|	Até 10 dígitos
+valorPago| Retornado para boletos já pagos e da forma de pagamento Itau Shopline | Numerico| Até 10 dígitos
 taxaEmbarque|	Valor taxa embarque|	Numérico|	Até 10 dígitos
 parcelas|	Quantidade de parcelas da transação|	Numérico|	Até 2 dígitos
 urlPagamento|	URL de redirecionamento para o boleto bancário |	Alfa Numérico|	Até 500 caracteres

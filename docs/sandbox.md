@@ -37,21 +37,21 @@ Qualquer | 0000000000000008 | 123 | qualquer data posterior ao dia corrente
 
 Bandeira | Número de cartão | Código de segurança | Data de validade
 -------- | ---------------- | ------------------- | ----------------
-Visa | 4235647728025682 | 123 | jan/2020
-Visa Electron* | 4761120000000148 | 123 | jan/2020
-MasterCard | 5448280000000007 | 123 | jan/2020
-Maestro* | 5277696455399733 | 123 | jan/2020
-Hiper | 6370950847866501 | 123 | jan/2020
-HiperCard | 6062825624254001 | 123 | jan/2020
-Diners | 36490101441625 | 123 | jan/2020
-Elo | 4389351648020055 | 123 | jan/2020
-Amex | 371341553758128 | 123 | jan/2020
-JCB | 3569990012290937 | 123 | jan/2020
-Credz | 6367600001405019 | 123 | jan/2020
-Cabal | 6042034400069940 | 123 | jan/2020
-Sorocred | 6364142000000122 | 123 | jan/2020
-Credsystem | 6280281038975334 | 123 | jan/2020
-Banescard | 6031828795629272 | 123 | jan/2020
+Visa | 4235647728025682 | 123 | jan/2023
+Visa Electron* | 4761120000000148 | 123 | jan/2023
+MasterCard | 5448280000000007 | 123 | jan/2023
+Maestro* | 5277696455399733 | 123 | jan/2023
+Hiper | 6370950847866501 | 123 | jan/2023
+HiperCard | 6062825624254001 | 123 | jan/2023
+Diners | 36490101441625 | 123 | jan/2023
+Elo | 4389351648020055 | 123 | jan/2023
+Amex | 371341553758128 | 123 | jan/2023
+JCB | 3569990012290937 | 123 | jan/2023
+Credz | 6367600001405019 | 123 | jan/2023
+Cabal | 6042034400069940 | 123 | jan/2023
+Sorocred | 6364142000000122 | 123 | jan/2023
+Credsystem | 6280281038975334 | 123 | jan/2023
+Banescard | 6031828795629272 | 123 | jan/2023
 
 Caso seja enviada transação com cartão diferente dos informados, o sandbox retornará o seguinte erro:
 
@@ -73,7 +73,7 @@ Para aprovação informe o código que será exibido na tela, para negação inf
 Bandeira | Número do cartão | Código de segurança | Data de validade
 -------- | ---------------- | ------------------ | ----------------
 Visa |	4488540010253330004 |	123 |	12/2026
-MasterCard |	5547220000000102 |	123 |	12/2017
+MasterCard |	5547220000000102 |	123 |	12/2027
 Cabal*	| 6042030000204200 |	123 |	09/2029
 
 *A Adquirente BIN não disponibilizou ainda cartões de testes para as bandeiras Elo, Hipercard e Sorocred. Portanto, não há regras para os testes, deve ser enviado qualquer cartão.
@@ -84,12 +84,12 @@ Para aprovação das vendas, seguir tabelas abaixo:
 
 Bandeira  | Número do cartão |	Código de segurança |	Data de validade
 --------- | -------------------- | ----------------| -----------
-Visa |	4012001038166662 |	123	| 10/2019
-MasterCard |	5453010000083303 |	123	 |10/2019
-Visa Electron | 4012001037141112 | 123 | 10/2019
-Maestro | 54326201155166661 | 123 | 10/2019
+Visa |	4012001038166662 |	123	| 10/2023
+MasterCard |	5453010000083303 |	123	 |10/2023
+Visa Electron | 4012001037141112 | 123 | 10/2023
+Maestro | 54326201155166661 | 123 | 10/2023
 Amex | 376442058032004 | 1589 | 07/2023
-Elo | 5067230000009011 | 568 | 10/2021
+Elo | 5067230000009011 | 568 | 10/2023
 
 
 Categoria  |	Número de parcelas |	Valor |	Exemplo
