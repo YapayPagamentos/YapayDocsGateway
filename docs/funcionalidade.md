@@ -16,24 +16,24 @@ Bin|    5 dias da geração do pedido
 
 Cancelamento de transações rapidamente acionando o método de cancelamento.
 
-Operadora   | 	Limite Cancelamento
-----------  | -----------------------
-Cielo |	300 dias após a geração do pedido
-Rede |	Pode variar conforme o ramo de atuação de cada estabelecimento
-GETNET|	365 dias para vendas capturadas. 7 dias para vendas autorizadas
+Adquirente | Prazo de cancelamento
+---------- | ----------------------
+Cielo|	300 dias após a geração do pedido para transações capturadas e 15 dias úteis para transações apenas autorizadas
+Rede|	Pode variar conforme o ramo de atuação de cada estabelecimento
+GetNet|	365 dias para transações capturadas*. 7 dias para vendas autorizadas
 Stone|	180 dias após a geração do pedido
-Bin|    90 dias após captura do pedido
+Bin|	90 dias após captura do pedido
 
 > Cancelamento Parcial
 
 Com esta funcionalidade é possível realizar cancelamentos parciais e totais, dependendo da adquirente utilizada.
 
-Operadora   |	Limite Cancelamento  |	Observação
------------ | ---------------------  | -----------
-Cielo|	300 dias após a geração do pedido|	Para a bandeira Amex, disponível apenas o estorno Total
-GETNET|	365 dias para vendas capturadas. 7 dias para vendas autorizadas
-Bin|	Ocorre mo mesmo dia da venda |	-
-Rede|	Pode variar conforme o ramo de atuação de cada estabelecimento|	-
+Adquirente | Tecnologia | Prazo de cancelamento | Observação
+---------- | -----------| ----------- | ----------
+Cielo|	API 3.0| 300 dias após a geração do pedido para transações capturadas e 15 dias úteis para transações apenas autorizadas | -
+Rede|	E Rede|	Pode variar conforme o ramo de atuação de cada estabelecimento | Disponível apenas após D+1 da captura
+GetNet| GetNetWS | 365 dias para transações capturadas. | Disponível apenas após D+1 da captura
+BIN| BIN | Ocorre no mesmo dia da venda | -
 
 `Disponibilizado apenas no plano Corporativo`
 
