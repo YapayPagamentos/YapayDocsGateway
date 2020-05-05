@@ -11,6 +11,7 @@ Código | Tipo
 Código | Bandeira | Tipo | Tecnologia | Adquirente | Modelo
 ------ | -------- |----- | ------------|-----------|---------
 52|	Checkout|Checkout|	Cielo API 3.0|	Cielo|	Redirect
+168|    Elo Virtual | Débito | Cielo API 3.0 | Cielo | WebService
 169|    Alelo Alimentação | Débito | Cielo API 3.0 | Cielo | WebService
 170|	Visa	|Crédito | Cielo API 3.0|	Cielo|	WebService
 171|	MasterCard | Crédito|Cielo API 3.0|	Cielo|	WebService
@@ -23,6 +24,7 @@ Código | Bandeira | Tipo | Tecnologia | Adquirente | Modelo
 178|	Maestro|Débito|	Cielo API 3.0|	Cielo|	WebService
 179|	Visa Electron|Débito|	Cielo API 3.0|	Cielo|	WebService
 180|    Hipercard |Crédito| Cielo API 3.0 | Cielo | WebService
+184|    Elo Virtual | Débito | E-Rede | Rede | WebService
 185|    Credsystem | Crédito | E-Rede | Rede | WebService
 186|    Banescard | Crédito | E-Rede | Rede | WebService
 187|    Sorocred | Crédito | E-Rede | Rede | WebService
