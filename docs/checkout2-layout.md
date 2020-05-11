@@ -98,7 +98,7 @@ Produção |https://gateway.yapay.com.br/checkout/api/v3/estabelecimento/layout/
 
 ```curl
 curl
-  --request PUT https://sandbox.gateway.yapay.com.br/checkout/api/v3/estabelecimento/imagem/100000000000/remove
+  --request PUT https://sandbox.gateway.yapay.com.br/checkout/api/v3/estabelecimento/layout/100000000000/remove
   --user usuario:senha 
   --header "Content-Type: application/x-www-form-urlencoded"
   --data-binary
