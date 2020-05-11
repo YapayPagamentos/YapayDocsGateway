@@ -5,7 +5,7 @@ Desta forma, o logo da loja será disponibilizado em nosso Checkout, trazendo um
 
 ![Checkout Yapay com Logo](/images/checkout_logo.png "checkout")
 
-## Cadastrar 
+## Cadastrar logo
 
 <span class="post">PUT</span>
 
@@ -41,7 +41,7 @@ curl
       }
 ```
 
-## Consulta
+## Consultar
 
 <span class="post">GET</span>
 
@@ -74,7 +74,7 @@ curl
       }
 ```
 
-## Remover
+## Remover logo
 
 <span class="post">PUT</span>
 
