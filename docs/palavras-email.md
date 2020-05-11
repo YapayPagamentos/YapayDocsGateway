@@ -10,9 +10,9 @@ DADOS DO ESTABELECIMENTO |
 #_estabelecimento_cnpj_# |
 #_estabelecimento_site_# |
 
-DADOS DO PEDIDO | 
-:---------------: | 
-#_pedido_numero_# |
+DADOS DO PEDIDO |                           DADOS COBRANÇA |             
+:---------------: |                         :------------: |
+#_pedido_numero_# |                         #_cobranca_nome_# |
 #_pedido_data_# |
 #_pedido_valor_# |
 #_pedido_url_# |

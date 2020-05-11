@@ -10,6 +10,7 @@ Com esta funcionalidade habilitada ao estabelecimento, além do link de pagament
 <span class="post">PUT</span>
 
 API que possibilita o cadastro do template de email.
+
 Disponibilizamos [palavras especiais](palavras-email.md) para compor o texto do email.
 
 > **EndPoints**
