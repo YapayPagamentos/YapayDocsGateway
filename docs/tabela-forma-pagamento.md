@@ -92,9 +92,6 @@ Código | Banco | Modalidade | Tecnologia
 
 Código | Intermediador 
 ------ | -------- 
-39|	PagSeguro
-111|	PayPal Nacional
-112|	PayPal Internacional
 155|	SafetyPay
 
 
