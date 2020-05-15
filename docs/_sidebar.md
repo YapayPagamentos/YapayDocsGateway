@@ -9,7 +9,7 @@
     * [Funcionalidades](funcionalidade.md)
     * [News](news.md)
     * [Glossário](glossario.md)
-    * [Módulos](magento.md)
+   <!-- * [Módulos](magento.md) -->
     * [Painel Administrativo](painel.md) 
     * [Suporte](suporte.md) 
 
