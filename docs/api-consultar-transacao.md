@@ -30,6 +30,7 @@ curl
       "codigoFormaPagamento": 170, 
       "valor": 2000, 
       "valorDesconto": 0, 
+      "valorCapturado": 2000,
       "parcelas": 1,
       "statusTransacao": 13,
       "autorizacao": "123456",

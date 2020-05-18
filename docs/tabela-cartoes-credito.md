@@ -111,6 +111,7 @@ codigoEstabelecimento|	Código que identifica o estabelecimento dentro do Yapay|
 codigoFormaPagamento|	[Código da forma de pagamento](tabela-forma-pagamento.md)  |	Numérico|	Até 3 dígitos
 valor|	Valor da transação|	Numérico|	Até 10 dígitos
 valorDesconto|	Valor desconto|	Numérico|	Até 10 dígitos
+valorCapturado| Valor capturado da transação. Será retornado *apenas* quando existir algum valor capturado no pedido | Numérico | Até 10 dígitos
 taxaEmbarque|	Valor taxa embarque|	Numérico|	Até 10 dígitos
 parcelas|	Quantidade de parcelas da transação|	Numérico|	Até 2 dígitos
 urlPagamento|	Para o modelo redirect. Essa será a URL de redirecionamento da operação|	Alfa Numérico|	Até 500 caracteres
@@ -238,6 +239,7 @@ codigoEstabelecimento|	Código que identifica o estabelecimento dentro do Yapay|
 codigoFormaPagamento|	[Código da forma de pagamento](tabela-forma-pagamento.md)  |	Numérico|	Até 3 dígitos
 valor|	Valor da transação|	Numérico|	Até 10 dígitos
 valorDesconto|	Valor desconto|	Numérico|	Até 10 dígitos
+valorCapturado| Valor capturado da transação. Será retornado *apenas* quando existir algum valor capturado no pedido | Numérico | Até 10 dígitos
 taxaEmbarque|	Valor taxa embarque|	Numérico|	Até 10 dígitos
 parcelas|	Quantidade de parcelas da transação|	Numérico|	Até 2 dígitos
 urlPagamento|	Para o modelo redirect. Essa será a URL de redirecionamento da operação|	Alfa Numérico|	Até 500 caracteres
