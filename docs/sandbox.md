@@ -109,6 +109,15 @@ Obs: Neste ambiente os testes ocorrem apenas com boletos sem registros.
 
 Para testes com este meio de pagamento é preciso possuir cadastro com a instituição financeira. -->
 
+## Bibliotecas de exemplo
+
+Disponibilizamos [bibliotecas de exemplos](https://github.com/YapayPagamentos/integracao_gateway) para integração com o Gateway Yapay:
+
+- Ruby
+- PHP
+- Java
+- .NET
+
 ## Collections Postman
 
 > **API TRANSAÇÃO**
