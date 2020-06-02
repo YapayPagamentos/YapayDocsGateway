@@ -16,7 +16,8 @@ valor|	Valor da transação. Deve ser enviado sem pontos ou vírgulas|	Numérico
 valorDesconto|	Valor do desconto da transação. Campo apenas informativo. Deve ser enviado sem pontos ou vírgulas|	Numérico|	Até 10 dígitos|	Não
 parcelas|	Quantidade de parcelas da transação. Verificar se forma de pagamento suporta parcelamento|	Numérico|	Até 2 dígitos|	Sim
 urlCampainha|	URL será sempre acionada quando o status do pedido mudar. Deve estar preparada para receber dados de campainha|	Alfa Numérico|	Até 250 caracteres|	Recomendamos o envio para atualização do pedido
-urlResultado|	Para o modelo de pagamento redirect, O Yapay redirecionará para essa URL no final da transação|	Alfa Numérico|	Até 250 caracteres| Sim
+urlResultado|	Para o modelo de pagamento redirect, O Yapay redirecionará para essa URL no final da transação caso a mesma seja aprovada|	Alfa Numérico|	Até 250 caracteres|	Sim
+urlRedirecionamentoNaoPago | Para o modelo de pagamento redirect, O Yapay redirecionará para essa URL no final da transação caso a mesma seja negada|	Alfa Numérico|	Até 250 caracteres|	Sim
 ip|	Número do IP do usuário final/cliente. Formato xxx.xxx.xxx.xxx|	Alfa Numérico|	Até 15 caracteres|	Não
 idioma|	1 - Português 2 - Inglês 3 - Espanhol|	Numérico|	1 dígito|	Não
 campoLivre1|	Campo Livre 1|	Alfa Numérico|	Até 100 caracteres|	Não
@@ -116,7 +117,8 @@ valor|	Valor da transação. Deve ser enviado sem pontos ou vírgulas|	Numérico
 valorDesconto|	Valor do desconto da transação. Campo apenas informativo. Deve ser enviado sem pontos ou vírgulas|	Numérico|	Até 10 dígitos|	Não
 parcelas|	Quantidade de parcelas da transação. Verificar se forma de pagamento suporta parcelamento|	Numérico|	Até 2 dígitos|	Sim
 urlCampainha|	URL será sempre acionada quando o status do pedido mudar. Deve estar preparada para receber dados de campainha|	Alfa Numérico|	Até 250 caracteres|	Recomendamos o envio para atualização do pedido
-urlResultado|	Para o modelo de pagamento redirect, O Yapay redirecionará para essa URL no final da transação|	Alfa Numérico|	Até 250 caracteres| Sim
+urlResultado|	Para o modelo de pagamento redirect, O Yapay redirecionará para essa URL no final da transação caso a mesma seja aprovada|	Alfa Numérico|	Até 250 caracteres|	Sim
+urlRedirecionamentoNaoPago | Para o modelo de pagamento redirect, O Yapay redirecionará para essa URL no final da transação caso a mesma seja negada|	Alfa Numérico|	Até 250 caracteres|	Sim
 ip|	Número do IP do usuário final/cliente. Formato xxx.xxx.xxx.xxx|	Alfa Numérico|	Até 15 caracteres|	Não
 idioma|	1 - Português 2 - Inglês 3 - Espanhol|	Numérico|	1 dígito|	Não
 campoLivre1|	Campo Livre 1|	Alfa Numérico|	Até 100 caracteres|	Não
@@ -218,7 +220,8 @@ valor|	Valor da transação. Deve ser enviado sem pontos ou vírgulas|	Numérico
 valorDesconto|	Valor do desconto da transação. Campo apenas informativo. Deve ser enviado sem pontos ou vírgulas|	Numérico|	Até 10 dígitos|	Não
 parcelas|	Quantidade de parcelas da transação. Verificar se forma de pagamento suporta parcelamento|	Numérico|	Até 2 dígitos|	Sim
 urlCampainha|	URL será sempre acionada quando o status do pedido mudar. Deve estar preparada para receber dados de campainha|	Alfa Numérico|	Até 250 caracteres|	Recomendamos o envio para atualização do pedido
-urlResultado|	Para o modelo de pagamento redirect, O Yapay redirecionará para essa URL no final da transação|	Alfa Numérico|	Até 250 caracteres| Sim
+urlResultado|	Para o modelo de pagamento redirect, O Yapay redirecionará para essa URL no final da transação caso a mesma seja aprovada|	Alfa Numérico|	Até 250 caracteres|	Sim
+urlRedirecionamentoNaoPago | Para o modelo de pagamento redirect, O Yapay redirecionará para essa URL no final da transação caso a mesma seja negada|	Alfa Numérico|	Até 250 caracteres|	Sim
 ip|	Número do IP do usuário final/cliente. Formato xxx.xxx.xxx.xxx|	Alfa Numérico|	Até 15 caracteres|	Não
 idioma|	1 - Português 2 - Inglês 3 - Espanhol|	Numérico|	1 dígito|	Não
 campoLivre1|	Campo Livre 1|	Alfa Numérico|	Até 100 caracteres|	Não
@@ -327,7 +330,8 @@ valor|	Valor da transação. Deve ser enviado sem pontos ou vírgulas|	Numérico
 valorDesconto|	Valor do desconto da transação. Campo apenas informativo. Deve ser enviado sem pontos ou vírgulas|	Numérico|	Até 10 dígitos|	Não
 parcelas|	Quantidade de parcelas da transação. Verificar se forma de pagamento suporta parcelamento|	Numérico|	Até 2 dígitos|	Sim
 urlCampainha|	URL será sempre acionada quando o status do pedido mudar. Deve estar preparada para receber dados de campainha|	Alfa Numérico|	Até 250 caracteres|	Recomendamos o envio para atualização do pedido
-urlResultado|	Para o modelo de pagamento redirect, O Yapay redirecionará para essa URL no final da transação|	Alfa Numérico|	Até 250 caracteres| Sim
+urlResultado|	Para o modelo de pagamento redirect, O Yapay redirecionará para essa URL no final da transação caso a mesma seja aprovada|	Alfa Numérico|	Até 250 caracteres|	Sim
+urlRedirecionamentoNaoPago | Para o modelo de pagamento redirect, O Yapay redirecionará para essa URL no final da transação caso a mesma seja negada|	Alfa Numérico|	Até 250 caracteres|	Sim
 ip|	Número do IP do usuário final/cliente. Formato xxx.xxx.xxx.xxx|	Alfa Numérico|	Até 15 caracteres|	Não
 idioma|	1 - Português 2 - Inglês 3 - Espanhol|	Numérico|	1 dígito|	Não
 campoLivre1|	Campo Livre 1|	Alfa Numérico|	Até 100 caracteres|	Não
