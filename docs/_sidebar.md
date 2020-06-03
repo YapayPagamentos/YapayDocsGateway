@@ -37,6 +37,7 @@
     * [Transaçao simplificada](checkout2-simplificada.md)
     * [Múltiplos Boletos](checkout2-multiplos-boletos.md)
     * [OneClick](checkout2-oneclick.md)
+    * [Checkout com logo personalizado](checkout2-logo.md)
 
 * Notificação Automática de Status
     * [Venda comum](notificacao-comum.md)
