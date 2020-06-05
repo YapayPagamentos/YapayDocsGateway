@@ -5,7 +5,7 @@ Abaixo seguem tabelas:
 
 DADOS DO ESTABELECIMENTO |
 :---------------------:  |
-#<ins>estabelecimento_nome</ins># |
+`#_estabelecimento_nome_#` |
 #_estabelecimento_descricao_# |
 #_estabelecimento_cnpj_# |
 #_estabelecimento_site_# |
