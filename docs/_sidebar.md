@@ -35,6 +35,7 @@
 * API Checkout Yapay
     * [Introdução](checkout2-int.md)
     * [Transaçao simplificada](checkout2-simplificada.md)
+    * [Transação com análise de fraude](checkout2-fraude.md)
     * [Múltiplos Boletos](checkout2-multiplos-boletos.md)
     * [OneClick](checkout2-oneclick.md)
     * [Checkout com logo personalizado](checkout2-logo.md)

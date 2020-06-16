@@ -193,7 +193,7 @@ Para detalhes da estrutura de envio e retorno, [clique aqui](tabela-cartoes-cred
     "valorDesconto": 0, 
     "valorCapturado": 2000,
     "parcelas": 1, 
-    "statusTransacao": 1,
+    "statusTransacao": 15,
     "autorizacao": "12260",
     "codigoTransacaoOperadora": "0",
     "dataAprovacaoOperadora": "24/05/2030", 
