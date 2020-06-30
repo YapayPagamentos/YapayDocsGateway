@@ -35,13 +35,11 @@ Rede|	E Rede|	Pode variar conforme o ramo de atuação de cada estabelecimento |
 GetNet| GetNetWS | 365 dias para transações capturadas. | Disponível apenas após D+1 da captura
 BIN| BIN | Ocorre no mesmo dia da venda | -
 
-`Disponibilizado apenas no plano Corporativo`
 
 > Múltiplos cartões
 
 Através desta estrutura é possível o envio de mais de um cartão para aprovação em uma mesma transação, dividindo o valor total do pedido entre os mesmos.
 
-`Disponibilizado apenas no plano Corporativo`
 
 > Cobrança recorrente
 
@@ -73,7 +71,6 @@ Para utilizar esta funcionalidade, solicite a Cielo a ativação em seu estabele
 
 Funcionalidade que permite o cadastramento de cartão para utilização nas futuras compras, assim o consumidor precisará incluir apenas o código de segurança para finalizar a compra.
 
-`Disponibilizado apenas no plano Corporativo`
 
 > Análise de risco
 
@@ -109,6 +106,5 @@ O estabelecimento pode criar regras, juntamente com a equipe de Suporte do Yapay
 
 Não há alteração na estrutura de envio para utilização desta funcionalidade. O Ecommerce deverá se atentar no retorno deste processo, onde o código da forma ded pagamento será diferente do enviado.
 
-`Disponibilizado apenas no plano Corporativo`
 
 

@@ -26,7 +26,7 @@ Estrutura para geração de boletos com carteiras sem ou com registro.
 
 Para detalhes da estrutura de envio e retorno, [clique aqui](tabela-boletos.md)
 
-> **Particulariedades**
+> **Particularidades**
 
 * O campo `<estado>` deve ser preenchido apenas com a sigla do Estado;
 * O campo `<numeroTransacao>` deve conter até 7 dígitos;

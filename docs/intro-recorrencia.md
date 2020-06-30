@@ -6,7 +6,7 @@ O gateway possui um processo que verifica todos os dias se existem recorrências
 
 ![API Transação Yapay](/images/recorrencia.png "API Yapay")
 
-> **Particulariedades**
+> **Particularidades**
 
 * Disponível apenas para cartão de crédito no modelo WebService;
 * Renova Fácil com a operadora Cielo;

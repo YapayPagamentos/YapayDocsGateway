@@ -22,7 +22,7 @@ O Yapay não participa das negociações entre o estabelecimento e bancos/adquir
 
 Informações sobre a contratação, entre em contato com *banrisul_cartoes_atendimento_adquirencia@banrisul.com.br*
 
-> **PARTICULARIEDADES**
+> **PARTICULARIDADES**
 
 * Modalidades com redirecionamento;
 * Para utilização das modalidades Banricompras, todos os campos referente aos dados do cliente devem ser preenchidos;

@@ -33,7 +33,7 @@ Preencha os dados:
 
 ![Cache](/images/shopline3.png "Cache")
 
-> **PARTICULARIEDADES**
+> **PARTICULARIDADES**
 
 * Modalidades com redirecionamento;
 * O tamanho do número do pedido deverá ser de no máximo 8 dígitos;

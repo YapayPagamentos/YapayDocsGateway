@@ -22,7 +22,7 @@ O Yapay não participa das negociações entre o estabelecimento e bancos/adquir
 Para contratar, [acesse aqui](https://www.bradescocomercioeletronico.com.br/conteudo/meios-pagamento/duvidasFrequentes.aspx).
 
 
-> **PARTICULARIEDADES**
+> **PARTICULARIDADES**
 
 * Modalidades com redirecionamento;
 * Para utilização das modalidades ShopFácil, todos os campos referente aos dados do cliente devem ser preenchidos;

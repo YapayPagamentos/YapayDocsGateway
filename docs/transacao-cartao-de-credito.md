@@ -213,9 +213,8 @@ Através desta estrutura é possível o envio de mais de um cartão de crédito 
 
 Para detalhes da estrutura de envio e retorno, [clique aqui](tabela-cartoes-credito.md?id=transação-com-múltiplos-cartões)
 
-> **Particulariedades**
+> **Particularidades**
 
-* Disponível apenas no plano Corporativo;
 * Disponível apenas para cartões de cŕedito na modalidade WS.
 
 > **Exemplo de envio de JSON**

@@ -31,7 +31,7 @@ O Yapay não participa das negociações entre o estabelecimento e bancos/adquir
 
 Para contratar, [acesse aqui](https://formularios2.cielo.com.br/form1b/api-cielo-convencional/passo-1).
 
-> **PARTICULARIEDADES**
+> **PARTICULARIDADES**
 
 * Para esta modalidade é necessário certificado SSL de segurança 2048 bits;
 * Caso o campo `<codigoSeguranca>` não for enviado ou for enviado com “000”, a transação será encaminhada a Cielo como modelo “Recorrente”, onde este campo não é obrigatório. Lembrando que para esta utilização é preciso habilitar junto a Adquirente. Salientamos que a conversão de seu estabelecimento pode diminuir;
@@ -151,7 +151,7 @@ O Yapay não participa das negociações entre o estabelecimento e bancos/adquir
 
 Para contratar, [acesse aqui](https://formularios2.cielo.com.br/form1b/checkout-cielo-convencional/passo-1).
 
-> **PARTICULARIEDADES**
+> **PARTICULARIDADES**
 
 * O eCommerce deverá redirecionar o consumidor para a URL retornada no campo `<urlPagamento>`;
 * Importante a utilização da campainha para atualização de status no eCommerce após finalização do pagamento;
@@ -313,7 +313,7 @@ O Yapay não participa das negociações entre o estabelecimento e bancos/adquir
 Para contratar a Cielo, [acesse aqui](https://formularios2.cielo.com.br/form1b/api-cielo-convencional/passo-1).
 Para contratar a Alelo, [acesse aqui](https://www.alelo.com.br/empresas/soliciteproposta)
 
-> **PARTICULARIEDADES**
+> **PARTICULARIDADES**
 
 * Para esta modalidade é necessário certificado SSL de segurança 2048 bits;
 * Modalidade apenas WebService;

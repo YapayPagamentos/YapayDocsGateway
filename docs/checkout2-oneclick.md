@@ -6,9 +6,6 @@ No Checkout Yapay também está disponível o pagamento com token, assim nas fut
 
 Para detalhes da estrutura de envio e retorno, [clique aqui](tabela-checkout2.md?id=oneclick)
 
-> **Particulariedades**
-
-* Disponível apenas no Plano Corporativo;
 
 > **Exemplo de envio em JSON**
 

@@ -4,7 +4,7 @@ Com esta modalidade, os bancos possuem conhecimento do boleto desde sua geraçã
 
 Para utilização de qualquer boleto com carteira registrada é preciso realizar a abertura de relacionamento entre o banco e VAN homologada com o Yapay.
 
-> **PARTICULARIEDADES**
+> **PARTICULARIDADES**
 
 * Para a geração de Boleto offlines, todos os campos referente aos dados do cliente devem ser preenchidos;
 * Arquivo de registro e conciliação com layout de 400 posições para todos os bancos;

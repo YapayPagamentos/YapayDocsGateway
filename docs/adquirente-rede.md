@@ -32,7 +32,7 @@ O Yapay não participa das negociações entre o estabelecimento e bancos/adquir
 
 Para contratar, [acesse aqui](https://www.userede.com.br/nossos-produtos/e-rede).
 
-> **PARTICULARIEDADES**
+> **PARTICULARIDADES**
 
 * Para esta modalidade é necessário certificado SSL de segurança 2048 bits;
 * Esta operadora de cartão permite cadastrar uma informação para aparecer na fatura dos clientes quando realizarem compras sua loja, funcionalidade chamada de SoftDescriptor. Esta deverá possuir até 13 caracteres. Caso queira utilizar, envie ao Suporte SuperPay o nome desejado para configuração em seu estabelecimento.

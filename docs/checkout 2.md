@@ -6,7 +6,7 @@ A alteração na estrutura foi mínima, para utilizar a nova versão do Checkout
 
 Maiores informações sobre a estrutura
 
-> **Particulariedades**
+> **Particularidades**
 
 * Funcionalidade com redirecionamento;
 * Importante a utilização do recurso de Campainha, para atualização dos pedidos no Ecommerce;

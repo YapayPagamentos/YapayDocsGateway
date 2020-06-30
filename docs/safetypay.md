@@ -17,7 +17,7 @@ O Yapay não participa das negociações entre o estabelecimento e bancos/adquir
 
 Para contratar, [acesse aqui](http://www.safetypay.com/pt/produtos-e-solucoes/safetypay-banking/).
 
-> **PARTICULARIEDADES**
+> **PARTICULARIDADES**
 
 * Modalidades com redirecionamento;
 * Para utilização da modalidade, todos os campos referente aos dados do cliente devem ser preenchidos;

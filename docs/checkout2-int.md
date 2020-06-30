@@ -6,7 +6,7 @@ Através desta funcionalidade, é possível finalizar pagamentos dentro do ambie
 
 * [clique aqui](checkout-simplificada.md) para acessar a documentação do Checkout antigo
 
-> **Particulariedades**
+> **Particularidades**
 
 * Funcionalidade com redirecionamento;
 * Importante a utilização do recurso de Campainha, para atualização dos pedidos no Ecommerce;

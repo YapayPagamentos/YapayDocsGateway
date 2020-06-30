@@ -14,9 +14,8 @@ Fluxo de pagamento para futuras compras:
 
 ![API Transação Yapay](/images/oneclick_pagto.png "API Yapay")
 
-> **Particulariedades**
+> **Particularidades**
 
-* Disponível apenas no plano Corporativo;
 * Disponível para cartões de crédito e débito.
 * Caso não envie o CVV nos pagamentos, utilizando a funcionalidade de recorrência das adquirentes, estará disponível apenas vendas sem autenticação para pagamentos OneClick.
 

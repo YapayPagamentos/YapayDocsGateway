@@ -4,7 +4,7 @@
 
 Estrutura para geração de transferências eletrônicas.
 
-> **Particulariedades**
+> **Particularidades**
 
 * O campo `<estado>` deve ser preenchido apenas com a sigla do Estado;
 * O campo `<numeroTransacao>` deve conter até 8 dígitos;

@@ -30,7 +30,7 @@ As credenciais deverão ser solicitadas para ecommerce@stone.com.br com as infor
 O Yapay não participa das negociações entre o estabelecimento e bancos/adquirentes. Desta forma, taxas ou eventuais isenções são tratadas de forma direta entre os envolvidos.
 
 
-> **PARTICULARIEDADES**
+> **PARTICULARIDADES**
 
 * Para esta modalidade é necessário certificado SSL de segurança 2048 bits;
 * Integração apenas na modalidade WebService;

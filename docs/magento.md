@@ -1,6 +1,6 @@
 ## Módulo Magento
 
-> **Particulariedades**
+> **Particularidades**
 
 * As ações de captura e cancelamento não estão disponíveis no Módulo Magento. Estas ações deverão ser realizadas diretamente no painel administrativo Yapay.
 * As funcionalidades de Recorrência, Múltiplos Cartões, Retentativa de Pagamento e Switch de Adquirência atualmente não estão disponíveis no Módulo Magento;

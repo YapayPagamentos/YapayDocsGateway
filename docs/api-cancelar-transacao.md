@@ -71,7 +71,7 @@ BIN| BIN | Ocorre no mesmo dia da venda | -
 
 * Gateway retornará o status 40 (Aguardando cancelamento) até que a cancelamento seja realizado.
 
-> **Particulariedades**
+> **Particularidades**
 
 * Disponível apenas no plano corporativo;
 * A transação deverá estar capturada para realizar o cancelamento parcial, do contrário, o cancelamento será total.

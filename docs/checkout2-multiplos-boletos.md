@@ -6,9 +6,6 @@ No Checkout Yapay também está disponível o pagamento com mais de um boleto, a
 
 Para detalhes da estrutura de envio e retorno, [clique aqui](tabela-checkout2.md?id=múltiplos-boletos)
 
-> **Particulariedades**
-
-* Disponível apenas no Plano Corporativo;
 
 > **Exemplo de envio em JSON**
 

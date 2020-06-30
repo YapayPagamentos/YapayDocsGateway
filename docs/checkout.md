@@ -4,7 +4,7 @@ Através desta funcionalidade, é possível finalizar pagamentos dentro do ambie
 
 ![API Transação Yapay](/images/checkout.png "API Yapay")
 
-> **Particulariedades**
+> **Particularidades**
 
 * Funcionalidade com redirecionamento;
 * Importante a utilização do recurso de Campainha, para atualização dos pedidos no Ecommerce;

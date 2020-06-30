@@ -6,9 +6,8 @@ No Checkout Yapay também está disponível o pagamento com mais de um cartão.
 
 Para detalhes da estrutura de envio e retorno, [clique aqui](tabela-checkout.md?id=múltiplos-cartões)
 
-> **Particulariedades**
+> **Particularidades**
 
-* Disponível apenas no Plano Corporativo;
 * Disponível para cartão de crédito;
 
 > **Exemplo de envio em JSON**

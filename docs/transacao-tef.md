@@ -26,7 +26,7 @@ Estrutura para geração de transferências eletrônicas.
 
 Para detalhes da estrutura de envio e retorno, [clique aqui](tabela-transferencia.md)
 
-> **Particulariedades**
+> **Particularidades**
 
 * O campo `<estado>` deve ser preenchido apenas com a sigla do Estado;
 * O campo `<numeroTransacao>` deve conter até 8 dígitos;

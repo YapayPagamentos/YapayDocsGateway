@@ -27,7 +27,7 @@ O Yapay não participa das negociações entre o estabelecimento e bancos/adquir
 
 Para contratar, [acesse aqui](https://www.bin.com.br/content/bin/pt_br/home/peca-ja/solicite-seu-credenciamento.html).
 
-> **PARTICULARIEDADES**
+> **PARTICULARIDADES**
 
 * Para esta modalidade é necessário certificado SSL de segurança 2048 bits;
 * Integração apenas na modalidade WebService.

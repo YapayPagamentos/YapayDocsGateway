@@ -19,7 +19,7 @@ O Yapay não participa das negociações entre o estabelecimento e bancos/adquir
 
 Para contratar, [acesse aqui](http://www.bb.com.br/pbb/pagina-inicial/empresas/produtos-e-servicos/pagamentos-e-recebimentos/comercio-eletronico#/).
 
-> **PARTICULARIEDADES**
+> **PARTICULARIDADES**
 
 * Modalidades com redirecionamento;
 * Para utilização das modalidades BBOnline, todos os campos referente aos dados do cliente devem ser preenchidos;
