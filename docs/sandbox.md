@@ -99,6 +99,18 @@ Parcelado|	2|	nn6nn02	|10060002
 Parcelado|	3|	nn6nn03	|10060003
 Parcelado|	4|	nn6nn04	|10060004
 
+> **STONE**
+
+Bandeira | Número de cartão | Código de segurança | Data de validade
+-------- | ---------------- | ------------------- | ----------------
+Visa | 4235647728025682 | 123 | jan/2023
+MasterCard | 5448280000000007 | 123 | jan/2023
+HiperCard | 6062825624254001 | 123 | jan/2023
+Elo | 4389351648020055 | 123 | jan/2023
+
+*Para aprovação, basta enviar o valor do pedido com centavos 00.
+
+
 > **BOLETO OFFLINE**
 
 Neste ambiente não configuramos dados reais para geração dos boletos por segurança. Caso queira utilizar esta forma de pagamento solicite ao Suporte Yapay e o boleto será configurado com dados fictícios.
