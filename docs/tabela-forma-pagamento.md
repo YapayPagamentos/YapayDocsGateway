@@ -47,10 +47,12 @@ Código | Bandeira | Tipo | Tecnologia | Adquirente | Modelo
 274|	Maestro |Débito|	GetNetWS|	GetNet|	WebService
 275|	Visa Electron|Débito|	GetNetWS|	GetNet|	WebService
 276|	Hipercard|Crédito|	GetNetWS|	GetNet|	WebService
+277|    Elo Virtual | Débito | GetNetWS|	GetNet|	WebService
 350|	Visa|Crédito|	StoneWs|	Stone|	WebService
 351|	MasterCard|Crédito|	StoneWs|	Stone|	WebService
 352|    Hipercard | Crédito| StoneWs | Stone | WebService
 353|    Elo | Crédito| StoneWs | Stone | WebService
+354|    Elo Virtual | Débito | StoneWs | Stone | WebService
 380|	Visa|Crédito|	BinWS|	Bin-FirstData|	WebService
 381|	MasterCard|Crédito|	BinWS|	Bin-FirstData|	WebService
 382|	Cabal|Crédito|	BinWS|	Bin-FirstData|	WebService

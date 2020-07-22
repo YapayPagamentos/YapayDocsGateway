@@ -15,3 +15,7 @@ Informações sobre as últimas novidades no Gateway:
 > **28/05/2020**
 
 * API para cadastro de logo para Checkout Yapay
+
+> **22/07/2020**
+
+* Bandeira Auxílio emergencial Caixa com adquirentes Stone e GetNet
