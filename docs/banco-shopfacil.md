@@ -55,6 +55,13 @@ Ambiente|  URL
 HOMOLOGAÇÃO|	https://sandbox.gateway.yapay.com.br/checkout/bradesco/confirmaBoletoRegistro
 PRODUÇÃO|	https://gateway.yapay.com.br/checkout/bradesco/confirmaBoletoRegistro
 
+*Obs: Caso receba o erro 902 "Erro no tratamento da resposta do pagamento" ao enviar um boleto, alterar para as URLs abaixo:
+
+Ambiente|  URL
+------- | ---------
+HOMOLOGAÇÃO|	https://homolog.meiosdepagamentobradesco.com.br/notification
+PRODUÇÃO|	https://meiosdepagamentobradesco.com.br/notification
+
 **TRANSFERÊNCIA**
 
 Após logar, acesse Configuração > Meios de Pagamento > Transferência, incluir no campo “URL de notificação”:

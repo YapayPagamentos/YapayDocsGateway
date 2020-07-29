@@ -21,7 +21,7 @@ curl
     "transacao" : {
         "numeroTransacao" : 1,
         "valor" : 10000,
-        "parcelas" : 1,
+        "parcelas" : 2,
         "idioma" : 1,
         "urlCampainha": "http://sualoja.com.br/campainha/",
         "urlResultado": "http://sualoja.com.br"
