@@ -39,6 +39,7 @@
     * [Múltiplos Boletos](checkout2-multiplos-boletos.md)
     * [OneClick](checkout2-oneclick.md)
     * [Checkout com logo personalizado](checkout2-logo.md)
+    * [Disparo de link de pagamento via email](checkout2-layout)
 
 * Notificação Automática de Status
     * [Venda comum](notificacao-comum.md)
