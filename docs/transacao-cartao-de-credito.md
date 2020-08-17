@@ -87,7 +87,7 @@ Para detalhes da estrutura de envio e retorno, [clique aqui](tabela-cartoes-cred
 
 <span class="post">POST</span>
 
-A utilização desta estrutura é indicada para envio de pedidos com a forma de pagamento cartão de crédito, onde o estabelecimento possui contratação de umas das empresas de análise de risco integradas pelo Yapay, sendo elas ClearSale (modalidades: Total/Total Garantido, Application, ID e Start), FControl (modalidade Fila), Konduto e antifraude da Adquirente Rede.
+A utilização desta estrutura é indicada para envio de pedidos com a forma de pagamento cartão de crédito, onde o estabelecimento possui contratação de umas das empresas de análise de risco integradas pelo Yapay, sendo elas ClearSale (modalidades: Total/Total Garantido, Application, ID e Start), FControl (modalidade Fila) e Konduto.
 
 Para detalhes da estrutura de envio e retorno, [clique aqui](tabela-cartoes-credito.md?id=transação-com-análise-de-fraude)
 
