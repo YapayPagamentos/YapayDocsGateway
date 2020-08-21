@@ -156,7 +156,7 @@ telefone|	Nó reservado para dados de telefone do comprador|	-|	-|	-
 Campo | Descrição | Tipo | Tamanho | Obrigatório
 :----- | :---------: | :----: | :-------: | :-----------------:
 codigoProduto|	Código único que identifica cada produto|	Alfa Numérico|	20 caracteres|	Sim
-codigoCategoria|	Código que identifica categoria do produto|	Alfa Numérico|	20 caracteres|	Sim
+codigoCategoria|	Código que identifica categoria do produto. Caso utilize antifraude Konduto deverá seguir esta [listagem](konduto-categoria.md) para a categoria, qualquer código diferente da listagem será enviado como padrão 9999|	Alfa Numérico|	20 caracteres|	Sim
 nomeProduto|	Nome do Produto |	Alfa Numérico|	100 caracteres|	Sim
 quantidadeProduto|	Quantidade comprada do produto|	Numérico|	Até 8 dígitos|	Sim
 valorUnitarioProduto|	Valor unitário do produto. Deve ser enviado sem pontos ou vírgulas|	Numérico|	Até 10 dígitos|	Sim

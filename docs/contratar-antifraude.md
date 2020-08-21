@@ -48,7 +48,7 @@ Para consultar valores dos planos da Konduto com condições especiais da parcer
 
 > **INFORMAÇÕES PARA CONFIGURAÇÃO**
 
-* Chave pública
+* Chave pública;
 * Chave privada
 
 > **CONFIGURAÇÃO PARA NOTIFICAÇÃO**
@@ -62,15 +62,15 @@ Endereço painel Konduto - https://app.konduto.com/login
 <br>3- Acessar loja utilizada
 <br>4- Incluir a URL abaixo em "Webhooks"
 
-URL Yapay | https://gateway.yapay.com.br/checkout/konduto/webhook
+URL Yapay | https://gateway.yapay.com.br/checkout/konduto/webhook?cod=«codigoEstabelecimento»
 
 ![Gerenciador](/images/konduto.png "Gerenciador Konduto")
 
 
-<!-- *## E Rede
+<!-- * ## E Rede
 
 Antifraude disponibilizado para clientes que possuem contratação com a adquirente Rede, na tecnologia E Rede.
 O modelo de análise é síncrono e realizado junto a etapa de autorização da transação, sendo assim, se o retorno da antifraude for de aprovação o pedido seguirá com seu fluxo normalmente. Se não, será atualizado para Recusado pela antifraude (status 17)
 
-Para utilização solicite a ativação do produto junto a Rede e suporte do Gateway Yapay-- >
+Para utilização solicite a ativação do produto junto a Rede e suporte do Gateway Yapay -->
 
