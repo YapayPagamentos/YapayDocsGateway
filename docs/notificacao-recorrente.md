@@ -4,6 +4,10 @@ Neste fluxo de recorrência, o estabelecimento receberá a campainha informando 
 
 `Caso a URL de campainha estiver em HTTPS, informar ao Suporte Yapay, servicedesk@yapay.com.br`
 
+**Importante que a URL de notificação da loja retorne ao Gateway algum código do grupo 200**
+
+
+
 > **Detalhamento dos campos**
 
 Campo | Descrição | Tipo
