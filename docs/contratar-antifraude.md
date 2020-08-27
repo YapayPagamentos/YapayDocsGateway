@@ -62,7 +62,9 @@ Endereço painel Konduto - https://app.konduto.com/login
 <br>3- Acessar loja utilizada
 <br>4- Incluir a URL abaixo em "Webhooks"
 
-URL Yapay | https://gateway.yapay.com.br/checkout/konduto/webhook?cod=«codigoEstabelecimento»
+
+URL Yapay | https://gateway.yapay.com.br/checkout/konduto/webhook
+
 
 ![Gerenciador](/images/konduto.png "Gerenciador Konduto")
 
