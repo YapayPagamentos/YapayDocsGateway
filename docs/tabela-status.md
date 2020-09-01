@@ -19,6 +19,7 @@ Código | Nome | Descrição
 24|	Estorno Não Autorizado|	O Estorno não foi autorizado pela adquirente
 25|	Falha no estorno|	Falha ao enviar estorno para a operadora
 27|	Cancelamento parcial|	Pedido parcialmente cancelado na adquirente
+30|     Transação existente|  Número da transação já existe, enviar um número de pedido diferente
 31|	Transação já Paga|	Transação já existente e finalizada na adquirente *Orientamos a verificação da transação antes de ser realizado qualquer ação no pedido/produto
 40|	Aguardando Cancelamento|	Processo de cancelamento em andamento
 49| 	Em análise manual| Pedido em análise manual pelo lojista
