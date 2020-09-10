@@ -19,7 +19,14 @@ Ao final do processo de contratação, deve-se estar de posse das seguintes info
 
 O Yapay não participa das negociações entre o estabelecimento e bancos/adquirentes. Desta forma, taxas ou eventuais isenções são tratadas de forma direta entre os envolvidos.
 
-Para contratar, [acesse aqui](https://www.bradescocomercioeletronico.com.br/conteudo/meios-pagamento/duvidasFrequentes.aspx).
+Para contratar:
+
+* Ter uma loja virtual em site próprio e mantê-la sempre atualizada
+* Ter uma conta jurídica no Bradesco
+* Disponibilizar ao menos um dos Meios de Pagamento (Boleto ou Transferência)
+* Procure seu gerente de conta para assinatura do termo de adesão aos meios de pagamento
+
+Mais informações, [acesse aqui](https://banco.bradesco/html/pessoajuridica/parcerias-e-oportunidades/comercio-eletronico.shtm).
 
 
 > **PARTICULARIDADES**
