@@ -297,11 +297,11 @@ Ao enviar a requisição ao Gateway, será retornado a URL da página do Checkou
 ![Checkout](/images/checkout_cielo.png "Checkout")
 
 
-## Alimentação Alelo
+## Vale Benefícios Alelo
 
 > **CONTRATAÇÃO**
 
-Contratando a solução da CIELO API 3.0 para e-commerce juntamente com a Alelo é possível disponibilizar a bandeira de alimentação.
+Contratando a solução da CIELO API 3.0 para e-commerce juntamente com a Alelo é possível disponibilizar o cartão Alelo.
 
 Ao final do processo de contratação, deve-se estar de posse das seguintes informações para ativação da CIELO no Gateway:
 
