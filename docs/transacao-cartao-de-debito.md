@@ -22,7 +22,8 @@ Os dados para autenticação devem ser enviados no cabeçalho Authorization da r
 
 <span class="post">POST</span>
 
-Estrutura e exemplo de uma transação simples para cartão de débito. As funcionalidades, como Análise de Fraude, OneClick e demais formas de pagamento precisam de uma estrutura mais completa para um perfeito funcionamento. Consulte as demais estruturas e exemplos desta documentação.
+Estrutura e exemplo de uma transação simples para cartão de débito. As funcionalidades, como Análise de Fraude precisam de uma estrutura mais completa para um perfeito funcionamento. Consulte as demais estruturas e exemplos desta documentação.
+Os cartões de débito serão sempre capturados junto a etapa de autorização da venda.
 
 Para detalhes da estrutura de envio e retorno, [clique aqui](tabela-cartoes-debito.md?id=transação-simplificada)
 
