@@ -29,7 +29,7 @@ Porto Seguro|	—|	Crédito
 Primeiramente, seguir os passos abaixo para realizar a autenticação e com o retorno realizar a autorização da transação.
 
 Conforme documentação Cielo para utilização do 3DS 2.0 é necessário da inclusão de um script na página de checkout da loja virtual.
-Esse [script](https://github.com/DeveloperCielo/developercielo.github.io/blob/docs/_i18n/pt/_posts/emv3ds/exemplo.html) enviará para o serviço de autenticação os inputs do formulário marcados com as classes "bpmpi_*" e, dependendo dos campos enviados, abrirá um modal para fornecimento da senha do portador do cartão (com desafio) ou devolverá para página o resultado da autenticação (sem desafio).
+Esse [script](https://github.com/DeveloperCielo/developercielo.github.io/blob/docs/_i18n/pt/_posts/emv3ds/exemplo.html) enviará para o serviço de autenticação os inputs do formulário marcados com as classes "bpmpi_*" e, dependendo dos campos enviados, abrirá um modal para fornecimento de uma senha do comprador, podendo ser um código enviado via SMS para o número de celular (com desafio) ou devolverá para página o resultado da autenticação (sem desafio).
 
 Para habilitar esta função junto ao Gateway será necessário os seguintes dados abaixo: 
 
@@ -80,7 +80,7 @@ A resposta de sucesso do script terá o retorno com as campos:
    ReferenceId: ""<br>
 }
 
-Esta resposta deve ser enviada ao Gateway Yapay através do nó <camposExtras>, com <chave> e <valor>
+Esta resposta deve ser enviada ao Gateway Yapay através do nó `<camposExtras>`, com `<chave>` e `<valor>`
 
 Chave | Valor
 -------- | ------
