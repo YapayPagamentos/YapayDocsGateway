@@ -317,7 +317,8 @@ Para contratar a Alelo, [acesse aqui](https://www.alelo.com.br/empresas/solicite
 
 * Para esta modalidade é necessário certificado SSL de segurança 2048 bits;
 * Modalidade apenas WebService;
-* Por ser um cartão de vale benefícios, a captura da transação será sempre automática, ou seja, a venda será confirmado junto a etapa de autorização.
+* Por ser um cartão de vale benefícios, a captura da transação será sempre automática, ou seja, a venda será confirmado junto a etapa de autorização;
+* Cancelamento apenas total e na data da compra.
 
 > **EXEMPLOS**
 
