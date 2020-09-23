@@ -35,7 +35,7 @@ campoLivre5|	Campo Livre 5|	Alfa Numérico|	Até 100 caracteres|	Não
 
 Campo | Descrição | Tipo | Tamanho | Obrigatório
 :----- | :---------: | :----: | :-------: | :-----------------:
-nomePortador|	Nome do titular do cartão de crédito|	Alfa Numérico|	Até 16 dígitos|	Sim
+nomePortador|	Nome do titular do cartão de crédito|	Alfa Numérico|	Até 30 caracteres|	Sim
 numeroCartao|	Numero do cartão de crédito, sem espaços ou traços|	Numérico|	Até 22 caracteres|	Sim
 codigoSeguranca|	Código de segurança do cartão (campo não é armazenado pelo Yapay)|	Numérico|	Até 4 caracteres|	Sim
 dataValidade|	Data de validade do cartão. Formato mm/yyyy|	Alfa Numérico|	7 caracteres|	Sim
@@ -133,7 +133,7 @@ valor|	Novo valor da recorrência|	Numérico|	Até 10 dígitos|Sim
 Campo | Descrição | Tipo | Tamanho | Obrigatório
 :----- | :---------: | :----: | :-------: | :-----------------:
 formaPagamento | Forma de pagamento já cadastrada ou nova forma de pagamento | Numérico | Até 3 dígitos | Sim
-nomePortador|	Nome do titular do cartão de crédito|	Alfa Numérico|	Até 16 dígitos|	Sim
+nomePortador|	Nome do titular do cartão de crédito|	Alfa Numérico|	Até 30 caracteres|	Sim
 numeroCartao|	Numero do cartão de crédito, sem espaços ou traços|	Numérico|	Até 22 caracteres|	Sim
 dataValidade|	Data de validade do cartão. Formato mm/yyyy|	Alfa Numérico|	7 caracteres|	Sim
 

@@ -6,7 +6,7 @@ Campo | Descrição | Tipo | Tamanho | Obrigatório
 :----- | :---------: | :----: | :-------: | :-----------------:
 codigoEstabelecimento|	Código estabelecimento Yapay|	Numérico|	13 dígitos|	Sim
 formaPagamento|	[Código da forma de pagamento](tabela-forma-pagamento.md)|	Numérico|	Até 3 dígitos|	Sim
-nomeTitularCartaoCredito|	Nome titular do cartão de crédito/débito|	Alfa Numérico|	Até 16 caracteres|	Sim
+nomeTitularCartaoCredito|	Nome titular do cartão de crédito/débito|	Alfa Numérico|	Até 30 caracteres|	Sim
 numeroCartaoCredito|	Numero do cartão de crédito/débito, sem espaços ou traços|	Numérico|	Até 22 dígitos|	Sim
 dataValidadeCartao|	Data de validade do cartão. Formato mm/yyyy|	Alfa Numérico|	7 caracteres|	Sim
 emailComprador|	Email do comprador|	Alfa Numérico|	20 caracteres|	Não
@@ -32,7 +32,7 @@ Campo | Descrição | Tipo | Tamanho  | Obrigatório
 :----- | :---------: | :----: | :-------: | :-------:
 codigoEstabelecimento|	Código estabelecimento Yapay|	Numérico|	13 dígitos|	Sim
 codigoFormaPagamento|	[Código da forma de pagamento](tabela-forma-pagamento.md)|	Numérico|	Até 3 dígitos|	Sim
-nomeTitularCartao|	Nome titular do cartão de crédito/débito|	Alfa Numérico	|Até 16 caracteres|	Sim
+nomeTitularCartao|	Nome titular do cartão de crédito/débito|	Alfa Numérico	|Até 30 caracteres|	Sim
 numeroCartaoCredito|	Numero do cartão de crédito/débito, sem espaços ou traços|	Numérico|	Até 22 dígitos|	Sim
 dataValidadeCartao|	Data de validade do cartão. Formato mm/yyyy|	Alfa Numérico|	7 caracteres|	Sim
 emailComprador	|Email do comprador|	Alfa Numérico|	20 caracteres|	Não
