@@ -19,7 +19,6 @@ formaPagamento|[Código da forma de pagamento](tabela-forma-pagamento.md) |	Num�
 dadosCartao|	Nó reservado para os dados de cartão|	-|	-|	-
 dadosCobranca|	Nó reservado para os dados de cobrança|	-|	-|	-
 dadosEntrega|	Nó reservado para os dados de entrega	|-|	-|	-
-itensDoPedido|	Nó reservado para informações dos produtos|	-|	-|	-
 quantidadeCobrancas|	Quantidade de cobranças, caso 0 a recorrência será feita até que ocorra um cancelamento|	Numérico|	Até 10 dígitos|	Sim
 dataPrimeiraCobranca|	Data para a primeira cobrança. Formato dd/mm/aaaa|	Alfa Numérico|	10 caracteres|	Sim
 periodicidade|	1 – Semanal, 2 – Quinzenal, 3 – Mensal, 4 – Bimestral, 5 – Trimestral, 6 – Semestral e 7 – Anual|	Alfa Numérico|	1 caractere|	Sim
@@ -56,19 +55,6 @@ cepComprador|	CEP do comprador. Enviar sem traços ou espaços|	Alfa Numérico|	
 paisComprador|	Pais do comprador|	Alfa Numérico|	Até 50 caracteres|	Não
 telefone|	Lista de Telefones|	-|	-|	-
 tipoCliente|	Tipo do Cliente - 1 - Pessoa Física 2 - Pessoa Jurídica|	Alfa Numérico|	1 dígito|	Sim
-
-
-> itensDoPedido
-
-Campo | Descrição | Tipo | Tamanho | Obrigatório
-:----- | :---------: | :----: | :-------: | :-----------------:
-codigoProduto|	Código único que identifica cada produto|	Alfa Numérico|	20 caracteres|	Não
-codigoCategoria|	Código que identifica categoria do produto|	Alfa Numérico|	20 caracteres|	Não
-nomeProduto|	Nome do Produto |	Alfa Numérico|	100 caracteres|	Não
-quantidadeProduto|	Quantidade comprada do produto|	Numérico|	Até 8 dígitos|	Sim
-valorUnitarioProduto|	Valor unitário do produto. Deve ser enviado sem pontos ou vírgulas|	Numérico|	Até 10 dígitos|	Sim
-nomeCategoria|	Nome da categoria do produto|	Alfa Numérico|	100 caracteres|	Não
-
 
 > telefone
 

@@ -10,7 +10,8 @@ Através desta funcionalidade, é possível finalizar pagamentos dentro do ambie
 
 * Funcionalidade com redirecionamento;
 * Importante a utilização do recurso de Campainha, para atualização dos pedidos no Ecommerce;
-* Definição da forma de pagamento pelo consumidor.
+* Definição da forma de pagamento pelo consumidor;
+* Link de pagamento disponível até sua expiração.
 
 > **EndPoints**
 
