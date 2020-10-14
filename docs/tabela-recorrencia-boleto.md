@@ -14,9 +14,8 @@ Campo | Descrição | Tipo | Tamanho | Obrigatório
 numeroRecorrencia|	Número da Recorrência deve ser único|	Numérico|	Até 8 dígitos|	Sim
 estabelecimento|	Código estabelecimento Yapay|	Numérico|	13 dígitos|	Sim
 valor|	Valor da recorrência. Não devem ser utilizados virgulas nem pontos|	Numérico|	Até 10 dígitos	|Sim
-modalidade|	Modalidade do pagamento, enviar 1 para cartão de crédito|	Alfa Numérico|	1 caractere|	Sim
+modalidade|	Modalidade do pagamento, enviar 3 para boleto bancário|	Alfa Numérico|	1 caractere|	Sim
 formaPagamento|[Código da forma de pagamento](tabela-forma-pagamento.md) |	Numérico|	Até 3 dígitos|	Sim
-dadosCartao|	Nó reservado para os dados de cartão|	-|	-|	-
 dadosCobranca|	Nó reservado para os dados de cobrança|	-|	-|	-
 dadosEntrega|	Nó reservado para os dados de entrega	|-|	-|	-
 quantidadeCobrancas|	Quantidade de cobranças, caso 0 a recorrência será feita até que ocorra um cancelamento|	Numérico|	Até 10 dígitos|	Sim
@@ -30,28 +29,20 @@ campoLivre3|	Campo Livre 3|	Alfa Numérico|	Até 100 caracteres|	Não
 campoLivre4|	Campo Livre 4|	Alfa Numérico|	Até 100 caracteres|	Não
 campoLivre5|	Campo Livre 5|	Alfa Numérico|	Até 100 caracteres|	Não
 
-> dadosCartao
-
-Campo | Descrição | Tipo | Tamanho | Obrigatório
-:----- | :---------: | :----: | :-------: | :-----------------:
-nomePortador|	Nome do titular do cartão de crédito|	Alfa Numérico|	Até 30 caracteres|	Sim
-numeroCartao|	Numero do cartão de crédito, sem espaços ou traços|	Numérico|	Até 22 caracteres|	Sim
-codigoSeguranca|	Código de segurança do cartão (campo não é armazenado pelo Yapay)|	Numérico|	Até 4 caracteres|	Sim
-dataValidade|	Data de validade do cartão. Formato mm/yyyy|	Alfa Numérico|	7 caracteres|	Sim
 
 > dadosCobranca
 
 Campo | Descrição | Tipo | Tamanho | Obrigatório
 :----- | :---------: | :----: | :-------: | :-----------------:
-nomeComprador|	Nome do comprador|	Alfa Numérico|	Até 100 caracteres|	Recomendamos o envio
-documento | Documento principal do comprador|	Alfa Numérico|	30 caracteres|	Recomendamos o envio
-emailComprador|	E-mail do comprador|	Alfa Numérico|	Até 100 caracteres|	Não
-enderecoComprador|	Logrodouro do comprador|	Alfa Numérico|	Até 100 caracteres|	Não
-bairroComprador|	Bairro do comprador|	Alfa Numérico|	Até 50 caracteres|	Não
+nomeComprador|	Nome do comprador|	Alfa Numérico|	Até 100 caracteres|	Sim
+documento | Documento principal do comprador|	Alfa Numérico|	30 caracteres|	Sim
+emailComprador|	E-mail do comprador|	Alfa Numérico|	Até 100 caracteres|	Sim
+enderecoComprador|	Logrodouro do comprador|	Alfa Numérico|	Até 100 caracteres|	Sim
+bairroComprador|	Bairro do comprador|	Alfa Numérico|	Até 50 caracteres|	Sim
 complementoComprador|	Complemento do endereço comprador|	Alfa Numérico|	Até 50 caracteres|	Não
-cidadeComprador|	Cidade do comprador|	Alfa Numérico|	Até 50 caracteres|	Não
-estadoComprador|	Estado do comprador|	Alfa Numérico|	Até 2 caracteres|	Não
-cepComprador|	CEP do comprador. Enviar sem traços ou espaços|	Alfa Numérico|	Até 10 caracteres|	Não
+cidadeComprador|	Cidade do comprador|	Alfa Numérico|	Até 50 caracteres|	Sim
+estadoComprador|	Estado do comprador|	Alfa Numérico|	Até 2 caracteres|	Sim
+cepComprador|	CEP do comprador. Enviar sem traços ou espaços|	Alfa Numérico|	Até 10 caracteres|	Sim
 paisComprador|	Pais do comprador|	Alfa Numérico|	Até 50 caracteres|	Não
 telefone|	Lista de Telefones|	-|	-|	-
 tipoCliente|	Tipo do Cliente - 1 - Pessoa Física 2 - Pessoa Jurídica|	Alfa Numérico|	1 dígito|	Sim
@@ -94,11 +85,12 @@ status|	Status da ação realizada, 0 para processo feito com sucesso|	Numérico
 mensagem|	Mensagem da recorrência|	Alfa Numérico|	Até 50 caracteres
 numeroPedido|	Número da Cobrança Recorrente|	Numérico|	Até 19 dígitos
 statusTransacao|	[Status atual da cobrança recorrente](tabela-status.md)|	Numérico|	Até 2 dígitos
-autorizacao|	Código de autorização da Adquirente|	Alfa Numérico|	Até 20 caracteres
-codigoTransacaoOperadora|	Código de retorno da adquirente|	Alfa Numérico|	Até 20 caracteres
-dataAprovacaoOperadora|	Data aprovação Adquirente|	Alfa Numérico|	Até 10 caracteres
-numeroComprovanteVenda|	Número Comprovante Adquirente|	Alfa Numérico|	Até 20 caracteres
-mensagemVenda|	Mensagem Venda Adquirente|	Alfa Numérico|	Até 50 caracteres
+autorizacao|	Retornado em branco para boleto|	Alfa Numérico|	Até 20 caracteres
+codigoTransacaoOperadora|	Retornado 0 para boleto|	Alfa Numérico|	Até 20 caracteres
+dataAprovacaoOperadora|	Retornado em branco para boleto|	Alfa Numérico|	Até 10 caracteres
+numeroComprovanteVenda|	Retornado em branco para boleto|	Alfa Numérico|	Até 20 caracteres
+mensagemVenda|	Mensagem Yapay|	Alfa Numérico|	Até 50 caracteres
+urlPagamento|	URL de redirecionamento para geração do boleto |	Alfa Numérico|	Até 500 caracteres
 
 ## Alteração recorrência
 
@@ -113,15 +105,6 @@ diaCobranca|	Novo dia da cobrança recorrente|	Numérico|	Até 2 dígitos|Sim
 Campo | Descrição | Tipo | Tamanho | Obrigatório
 :----- | :---------: | :----: | :-------: | :-----------------:
 valor|	Novo valor da recorrência|	Numérico|	Até 10 dígitos|Sim
-
-**REQUISIÇÃO DADOS DE CARTÃO**
-
-Campo | Descrição | Tipo | Tamanho | Obrigatório
-:----- | :---------: | :----: | :-------: | :-----------------:
-formaPagamento | Forma de pagamento já cadastrada ou nova forma de pagamento | Numérico | Até 3 dígitos | Sim
-nomePortador|	Nome do titular do cartão de crédito|	Alfa Numérico|	Até 30 caracteres|	Sim
-numeroCartao|	Numero do cartão de crédito, sem espaços ou traços|	Numérico|	Até 22 caracteres|	Sim
-dataValidade|	Data de validade do cartão. Formato mm/yyyy|	Alfa Numérico|	7 caracteres|	Sim
 
 **RETORNO**
 

@@ -52,7 +52,7 @@ curl
 ```curl
   --header "Content-Type: application/json"
       {
-       "urlPagamento": "https://sandbox.gateway.yapay.com.br/checkout/checkout/redirecionaPagamento?codigoPagamento=150609150796704e7-5b25-4a41-a753-a09bfb66db8d&tipoPagamento=0&oneClick=false"
+       "urlPagamento": "https://sandbox.gateway.yapay.com.br/checkout/yp/?tx=1602000c2d2-a1br877687871-6767868678"
       }
 ```
 
@@ -141,7 +141,7 @@ curl
 ```curl
   --header "Content-Type: application/json"
       {
-       "urlPagamento": "https://sandbox.gateway.yapay.com.br/checkout/checkout/redirecionaPagamento?codigoPagamento=15296042250074c4b0dc5-04cx-4f5d-a3d0-194d06aa5a5f&multiploBoleto=true"
+       "urlPagamento": "https://sandbox.gateway.yapay.com.br/checkout/yp/?tx=1602000c2d2-a1br877687871-6767868678"
       }
 ```
 
@@ -206,7 +206,7 @@ curl
 ```curl
   --header "Content-Type: application/json"
       {
-       "urlPagamento": "https://sandbox.gateway.yapay.com.br/checkout/checkout/redirecionaPagamento?codigoPagamento=15296042250074c4b0dc5-04cx-4f5d-a3d0-194d06aa5a5f&multiploCartao=true"
+       "urlPagamento": "https://sandbox.gateway.yapay.com.br/checkout/yp/?tx=1602000c2d2-a1br877687871-6767868678"
       }
 ```
 
@@ -270,7 +270,7 @@ curl
 ```curl
   --header "Content-Type: application/json"
       {
-       "urlPagamento": "https://sandbox.gateway.yapay.com.br/checkout/checkout/redirecionaPagamento?codigoPagamento=15296042250074c4b0dc5-04cx-4f5d-a3d0-194d06aa5a5f&oneClick=true"
+       "urlPagamento": "https://sandbox.gateway.yapay.com.br/checkout/yp/?tx=1602000c2d2-a1br877687871-6767868678"
       }
 ```
 
