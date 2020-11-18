@@ -8,7 +8,7 @@ Abaixo o prazo de cancelamento para cada adquirente:
 Adquirente | Prazo de cancelamento
 ---------- | ----------------------
 Cielo|	300 dias após a geração do pedido para transações capturadas e 15 dias úteis para transações apenas autorizadas
-Rede|	Pode variar conforme o ramo de atuação de cada estabelecimento
+Rede|	Pode variar conforme o ramo de atuação de cada estabelecimento *Cancelamento permitido para pedidos de até R$ 5.000
 GetNet|	365 dias para transações capturadas*. 7 dias para vendas autorizadas
 Stone|	180 dias após a geração do pedido
 Bin|	90 dias após captura do pedido

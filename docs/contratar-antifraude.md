@@ -23,7 +23,7 @@ Para consultar valores dos planos da ClearSale com condições especiais da parc
 
 * Entity Code
 
-<span class="clearsale">ID</span>
+<span class="clearsale">Real Time (ClearID)</span>
 
 * Entity Code
 
