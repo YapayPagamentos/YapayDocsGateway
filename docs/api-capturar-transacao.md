@@ -10,7 +10,7 @@ Operadora   | 	Limite Captura
 ----------  | -----------------------
 Cielo |	5 dias, mas pode variar de acordo com o contrato. Consulte a Cielo para maiores informações
 Rede |	Pode variar conforme o ramo de atuação de cada estabelecimento. Consulte a Rede para maiores informações
-GETNET|	30 dias da geração do pedido
+GETNET|	7 dias da geração do pedido
 Stone|	7 dias da geração do pedido
 Bin|    5 dias da geração do pedido
 
@@ -65,7 +65,7 @@ Operadora   | 	Limite Captura
 ----------  | -----------------------
 Cielo |	5 dias, mas pode variar de acordo com o contrato. Consulte a Cielo para maiores informações
 Rede |	Pode variar conforme o ramo de atuação de cada estabelecimento. Consulte a Rede para maiores informações
-GETNET|	30 dias da geração do pedido
+GETNET|	7 dias da geração do pedido
 
 > **EndPoints**
 
