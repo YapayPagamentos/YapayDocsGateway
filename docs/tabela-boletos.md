@@ -36,8 +36,8 @@ campoLivre5|	Campo Livre 5|	Alfa Numérico|	Até 100 caracteres|	Não
 Campo | Descrição | Tipo | Tamanho | Obrigatório
 :----- | :---------: | :----: | :-------: | :-----------------:
 nome|	Nome do comprador|	Alfa Numérico|	Até 100 caracteres|	SIm
-documento|	Documento principal do comprador|	Alfa Numérico|	30 caracteres|	Sim
-documento2|	Documento principal do comprador|	Alfa Numérico|	30 caracteres|	Não
+documento|	Documento principal do comprador - 11 caracteres para CPF - 14 caracteres para CNPJ|	Alfa Numérico|	30 caracteres|	Sim
+documento2|	Documento secundario do comprador|	Alfa Numérico|	30 caracteres|	Não
 email|	E-mail do comprador|	Alfa Numérico|	20 caracteres|	Sim
 codigoCliente|	Código do Comprador|	Alfa Numérico|	20 caracteres|	Não
 dataNascimento|	Data Nascimento Comprador|	Alfa Numérico|	10 caracteres|	Não
