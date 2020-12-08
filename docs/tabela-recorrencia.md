@@ -98,7 +98,7 @@ autorizacao|	Código de autorização da Adquirente|	Alfa Numérico|	Até 20 car
 codigoTransacaoOperadora|	Código de retorno da adquirente|	Alfa Numérico|	Até 20 caracteres
 dataAprovacaoOperadora|	Data aprovação Adquirente|	Alfa Numérico|	Até 10 caracteres
 numeroComprovanteVenda|	Número Comprovante Adquirente|	Alfa Numérico|	Até 20 caracteres
-mensagemVenda|	Mensagem Venda Adquirente|	Alfa Numérico|	Até 50 caracteres
+mensagemVenda|	Mensagem Venda Adquirente|	Alfa Numérico|	Até 256 caracteres
 
 ## Alteração recorrência
 

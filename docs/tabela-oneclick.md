@@ -164,9 +164,9 @@ parcelas|	Quantidade de parcelas da transação|	Numérico|	Até 2 dígitos
 oneClick|	1 para OneClick|	Numérico	1 dígito|
 token|	Token utilizado para o pagamento|	Alfa Numérico|	Até 60 caracteres
 statusTransacao|	Status atual da transação|	Numérico|	Até 2 dígitos
-autorizacao|	Código de autorização da adquirente|	Alfa Numérico|	Até 20 dígitos
-codigoTransacaoOperadora|	Código da transação na adquirente| Alfa	Numérico|	Até 20 dígitos
+autorizacao|	Código de autorização da adquirente|	Alfa Numérico|	Até 20 caracteres
+codigoTransacaoOperadora|	Código da transação na adquirente| Alfa	Numérico|	Até 20 caracteres
 dataAprovacaoOperadora|	Data de retorno na adquirente|	Alfa Numérico|	Até 10 caracteres
 numeroComprovanteVenda|	Número do comprovante de venda|	Alfa Numérico|	Até 20 caracteres
-mensagemVenda|	Mensagem de retorno da adquirente|	Alfa Numérico|	Até 50 caracteres
+mensagemVenda|	Mensagem de retorno da adquirente|	Alfa Numérico|	Até 256 caracteres
 
