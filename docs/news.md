@@ -1,6 +1,6 @@
 # News
 
-Informações sobre as últimas novidades no Gateway:
+Últimas novidades do Gateway:
 
 > **18/03/2020**
 
