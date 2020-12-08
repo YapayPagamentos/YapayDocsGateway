@@ -72,7 +72,7 @@
     <!-- * [Intermediadores](intermediadores.md) -->
   
 * Tabelas Auxiliares
-    * [Cartão de cŕedito](tabela-cartoes-credito.md)
+    * [Cartão de cŕedito](tabela-credito.md)
     * [Cartão de débito](tabela-cartoes-debito.md)
     * [Boleto](tabela-boletos.md)
     * [Transferência](tabela-transferencia.md)

@@ -23,7 +23,7 @@ Os dados para autenticação devem ser enviados no cabeçalho Authorization da r
 
 Estrutura e exemplo de uma transação simples para cartão de crédito. As funcionalidades, como Análise de Fraude, Recorrência, OneClick e demais formas de pagamento precisam de uma estrutura mais completa para um perfeito funcionamento. Consulte as demais estruturas e exemplos desta documentação.
 
-Para detalhes da estrutura de envio e retorno, [clique aqui](tabela-cartoes-credito.md?id=transação-simplificada)
+Para detalhes da estrutura de envio e retorno, [clique aqui](tabela-credito.md?id=transação-simplificada)
 
 > **Exemplo de envio em JSON**
 
@@ -89,7 +89,7 @@ Para detalhes da estrutura de envio e retorno, [clique aqui](tabela-cartoes-cred
 
 A utilização desta estrutura é indicada para envio de pedidos com a forma de pagamento cartão de crédito, onde o estabelecimento possui contratação de umas das empresas de análise de risco integradas pelo Yapay, sendo elas ClearSale (modalidades: Total/Total Garantido, Application, RealTime e Start), FControl (modalidade Fila) e Konduto.
 
-Para detalhes da estrutura de envio e retorno, [clique aqui](tabela-cartoes-credito.md?id=transação-com-análise-de-fraude)
+Para detalhes da estrutura de envio e retorno, [clique aqui](tabela-credito.md?id=transação-com-análise-de-fraude)
 
 `Contratação a parte com as empresas de analise de fraude`
 <br>
@@ -211,7 +211,7 @@ Para detalhes da estrutura de envio e retorno, [clique aqui](tabela-cartoes-cred
 
 Através desta estrutura é possível o envio de mais de um cartão de crédito para aprovação em uma mesma transação, dividindo o valor total do pedido entre os cartões.
 
-Para detalhes da estrutura de envio e retorno, [clique aqui](tabela-cartoes-credito.md?id=transação-com-múltiplos-cartões)
+Para detalhes da estrutura de envio e retorno, [clique aqui](tabela-credito.md?id=transação-com-múltiplos-cartões)
 
 > **Particularidades**
 
