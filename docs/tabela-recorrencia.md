@@ -166,12 +166,12 @@ codigoFormaPagamento|	[Código da forma de pagamento](tabela-forma-pagamento.md)
 numeroCobrancaTotal|	Quantidade máxima de cobranças|	Numérico|	Até 10 dígitos
 numeroCobrancaRestantes|	Quantidade de cobranças restantes|	Numérico|	Até 10 dígitos
 status|	Status da ação realizada, 0 para processo feito com sucesso|	Numérico|	1 dígito
-mensagem|	Mensagem da recorrência|	Alfa Numérico|	Até 50 caracteres
+mensagem|	Mensagem da recorrência|	Alfa Numérico|	Até 50 caracter
 numeroPedido|	Número da Cobrança Recorrente|	Numérico|	Até 19 dígitos
 statusTransacao|	[Status atual da cobrança recorrente](tabela-status.md)|	Numérico|	Até 2 dígitos
-autorizacao|	Código de autorização da Adquirente|	Alfa Numérico|	Até 20 caracteres
-codigoTransacaoOperadora|	Código de retorno da adquirente|	Alfa Numérico|	Até 20 caracteres
-dataAprovacaoOperadora|	Data aprovação Adquirente|	Alfa Numérico|	Até 10 caracteres
-numeroComprovanteVenda|	Número Comprovante Adquirente|	Alfa Numérico|	Até 20 caracteres
-mensagemVenda|	Mensagem Venda Adquirente|	Alfa Numérico|	Até 50 caracteres
+autorizacao|	Código de autorização da Adquirente|	Alfa Numérico|	Até 20 caracter
+codigoTransacaoOperadora|	Código de retorno da adquirente|	Alfa Numérico|	Até 20 caracter
+dataAprovacaoOperadora|	Data aprovação Adquirente|	Alfa Numérico|	Até 10 caracter
+numeroComprovanteVenda|	Número Comprovante Adquirente|	Alfa Numérico|	Até 20 caracter
+mensagemVenda|	Mensagem Venda Adquirente|	Alfa Numérico|	Até 256 caracter
 

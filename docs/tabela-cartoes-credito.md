@@ -115,15 +115,15 @@ valorDesconto|	Valor desconto|	Numérico|	Até 10 dígitos
 valorCapturado| Valor capturado da transação. Será retornado *apenas* quando existir algum valor capturado no pedido | Numérico | Até 10 dígitos
 taxaEmbarque|	Valor taxa embarque|	Numérico|	Até 10 dígitos
 parcelas|	Quantidade de parcelas da transação|	Numérico|	Até 2 dígitos
-urlPagamento|	Para o modelo redirect. Essa será a URL de redirecionamento da operação|	Alfa Numérico|	Até 500 caracteres
+urlPagamento|	Para o modelo redirect. Essa será a URL de redirecionamento da operação|	Alfa Numérico|	Até 500 caracter
 statusTransacao|	[Status atual da transação](tabela-status.md)|	Numérico|	Até 2 dígitos
-autorizacao|	Código de autorização da adquirente|	Alfa Numérico|	Até 20 caracteres
-codigoTransacaoOperadora|	Código da transação na adquirente|	Alfa Numérico|	Até 20 caracteres
-dataAprovacaoOperadora|	Data de aprovação na adquirente|	Alfa Numérico|	Até 10 caracteres
-numeroComprovanteVenda|	Número do comprovante de venda|	Alfa Numérico|	Até 20 caracteres
-nsu|	Número do NSU da adquirente|	Alfa Numérico|	Até 20 caracteres
-mensagemVenda|	Mensagem de retorno da adquirente|	Alfa Numérico|	Até 256 caracteres
-cartoesUtilizados|	Cartões mascarados utilizados na transação|	Alfa Numérico|	Até 20 caracteres
+autorizacao|	Código de autorização da adquirente|	Alfa Numérico|	Até 20 caracter
+codigoTransacaoOperadora|	Código da transação na adquirente|	Alfa Numérico|	Até 20 caracter
+dataAprovacaoOperadora|	Data de aprovação na adquirente|	Alfa Numérico|	Até 10 caracter
+numeroComprovanteVenda|	Número do comprovante de venda|	Alfa Numérico|	Até 20 caracter
+nsu|	Número do NSU da adquirente|	Alfa Numérico|	Até 20 caracter
+mensagemVenda|	Mensagem de retorno da adquirente|	Alfa Numérico|	Até 256 caracter
+cartoesUtilizados|	Cartões mascarados utilizados na transação|	Alfa Numérico|	Até 20 caracter
 
 
 ## Transação com análise de fraude
@@ -244,15 +244,15 @@ valorDesconto|	Valor desconto|	Numérico|	Até 10 dígitos
 valorCapturado| Valor capturado da transação. Será retornado *apenas* quando existir algum valor capturado no pedido | Numérico | Até 10 dígitos
 taxaEmbarque|	Valor taxa embarque|	Numérico|	Até 10 dígitos
 parcelas|	Quantidade de parcelas da transação|	Numérico|	Até 2 dígitos
-urlPagamento|	Para o modelo redirect. Essa será a URL de redirecionamento da operação|	Alfa Numérico|	Até 500 caracteres
+urlPagamento|	Para o modelo redirect. Essa será a URL de redirecionamento da operação|	Alfa Numérico|	Até 500 caracter
 statusTransacao|	[Status atual da transação](tabela-status.md)|	Numérico|	Até 2 dígitos
-autorizacao|	Código de autorização da adquirente|	Alfa Numérico|	Até 20 caracteres
-codigoTransacaoOperadora|	Código da transação na adquirente|	Alfa Numérico|	Até 20 caracteres
-dataAprovacaoOperadora|	Data de aprovação na adquirente|	Alfa Numérico|	Até 10 caracteres
-numeroComprovanteVenda|	Número do comprovante de venda|	Alfa Numérico|	Até 20 caracteres
-nsu|	Número do NSU da adquirente|	Alfa Numérico|	Até 20 caracteres
-mensagemVenda|	Mensagem de retorno da adquirente|	Alfa Numérico|	Até 256 caracteres
-cartoesUtilizados|	Cartões mascarados utilizados na transação|	Alfa Numérico|	Até 20 caracteres
+autorizacao|	Código de autorização da adquirente|	Alfa Numérico|	Até 20 caracter
+codigoTransacaoOperadora|	Código da transação na adquirente|	Alfa Numérico|	Até 20 caracter
+dataAprovacaoOperadora|	Data de aprovação na adquirente|	Alfa Numérico|	Até 10 caracter
+numeroComprovanteVenda|	Número do comprovante de venda|	Alfa Numérico|	Até 20 caracter
+nsu|	Número do NSU da adquirente|	Alfa Numérico|	Até 20 caracter
+mensagemVenda|	Mensagem de retorno da adquirente|	Alfa Numérico|	Até 256 caracter
+cartoesUtilizados|	Cartões mascarados utilizados na transação|	Alfa Numérico|	Até 20 caracter
 
 ## Transação com múltiplos cartões
 
@@ -376,9 +376,9 @@ codigoFormaPagamento |	[Código da forma de pagamento](tabela-forma-pagamento.md
 valor|	Valor da transação|	Numérico|	Até 10 dígitos
 valorDesconto|	Valor desconto|	Numérico|	Até 10 dígitos
 parcelas|	Quantidade de parcelas da transação|	Numérico|	Até 2 dígitos
-autorizacao|	Código de autorização da adquirente|	Alfa Numérico|	Até 20 caracteres
-codigoTransacaoOperadora|	Código da transação na adquirente|	Alfa Numérico|	Até 20 caracteres
+autorizacao|	Código de autorização da adquirente|	Alfa Numérico|	Até 20 caracter
+codigoTransacaoOperadora|	Código da transação na adquirente|	Alfa Numérico|	Até 20 caracter
 dataAprovacaoOperadora|	Data de aprovação na adquirente|	Alfa Numérico|	Até 10 dígitos
-numeroComprovanteVenda|	Número do comprovante de venda|	Alfa Numérico|	Até 20 caracteres
-nsu|	Número do NSU da adquirente|	Alfa Numérico|	Até 20 caracteres
-mensagemVenda|	Mensagem de retorno da adquirente|	Alfa Numérico|	Até 256 caracteres
+numeroComprovanteVenda|	Número do comprovante de venda|	Alfa Numérico|	Até 20 caracter
+nsu|	Número do NSU da adquirente|	Alfa Numérico|	Até 20 caracter
+mensagemVenda|	Mensagem de retorno da adquirente|	Alfa Numérico|	Até 256 caracter
