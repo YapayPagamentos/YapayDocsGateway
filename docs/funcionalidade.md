@@ -49,7 +49,7 @@ Funcionalidade perfeita para estabelecimentos que precisam cobrar regularmente s
 
 Com o registro dos boletos, os bancos possuem conhecimento do mesmo desde sua geração. Atualmente o Yapay possui em produção os boletos com registro do Itaú Offline, Itaú ShopLine, Santander, Bradesco Offline, Bradesco ShopFácil, Banco do Brasil e Caixa Econômica Federal.
 
-O Yapay continua trabalhando com carteiras sem registros, basta o banco permitir isto em seu cadastro. Para utilização do boleto registrado, entre em contato com *comercial@yapay.com.br*.
+O Yapay continua trabalhando com carteiras sem registros, basta o banco permitir isto em seu cadastro. Para utilização do boleto registrado, entre em contato com *servicedesk@yapay.com.br*.
 
 > Renova fácil Cielo
 
