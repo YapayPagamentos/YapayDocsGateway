@@ -86,9 +86,14 @@ Permite a criação de diversas “lojas” para um mesmo contrato, podendo esta
 
 Esta funcionalidade já gerou mais de 10% de recuperação de vendas com clientes.
 
-As vendas não autorizadas (código 3 Não Pago) ou com falha de comunicação (código 9 Falha na Operadora) com códigos de retorno que permitem retentativa, serão armazenados para retentativa durante 2 dias. Não há alteração na estrutura de envio para utilizar esta funcionalidade. O Ecommerce deverá se atentar no retorno deste processo, onde o status para estes casos será 8 (aguardando pagamento) enquanto a venda não for aprovado ou até que sejam fechados (alterados para Não Pago) no terceiro dia.
+As vendas não autorizadas (código 3 Não Pago) ou com falha de comunicação (código 9 Falha na Operadora) com códigos de retorno que permitem retentativa seguindo normativas da ABECS, serão armazenados para retentativa durante 2 dias. Não há alteração na estrutura de envio para utilizar esta funcionalidade. O Ecommerce deverá se atentar no retorno deste processo, onde o status para estes casos será 8 (aguardando pagamento) enquanto a venda não for aprovado ou até que sejam fechados (alterados para Não Pago) no terceiro dia.
+
+A regra utiliza o código de forma de pagamento da Yapay para análise, que por sua vez não realiza a validação de BIN, então torna-se obrigatória essa validação por parte da plataforma.
+
 
 Além de solicitar a ativação ao Suporte Yapay, é preciso uma alteração no campo origemTransacao enviando 5 para os pedidos que desejar a retentativa
+
+* Retentativa não disponível para GETNET
 
 > Switch de adquirência
 
