@@ -90,6 +90,8 @@ Visa Electron | 4012001037141112 | 123 | 10/2023
 Maestro | 54326201155166661 | 123 | 10/2023
 Amex | 376442058032004 | 1589 | 07/2023
 Elo | 5067230000009011 | 568 | 10/2023
+Elo Débito Virtual | 5067230010203010 | 196 | 10/2108
+Hipercard | 6310950926873000 | 979 | 07/2024
 
 
 Categoria  |	Número de parcelas |	Valor |	Exemplo
