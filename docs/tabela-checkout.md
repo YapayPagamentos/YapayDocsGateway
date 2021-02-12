@@ -5,7 +5,7 @@
 Campo | Descrição | Tipo | Tamanho | Obrigatório 
 :----- | :---------: | :----: | :-------: | :-----------------:
 codigoEstabelecimento|	Código estabelecimento Yapay|	Numérico|	13 dígitos|	Sim
-formaPagamento|	Enviar 997 para Checkout Yapay|	Numérico|	Até 3 dígitos|	Sim
+codigoFormaPagamento|	Enviar 997 para Checkout Yapay|	Numérico|	Até 3 dígitos|	Sim
 
 > transacao
 
@@ -106,7 +106,7 @@ urlPagamento|	URL para redirecionar o consumidor para o Checkout
 Campo | Descrição | Tipo | Tamanho | Obrigatório 
 :----- | :---------: | :----: | :-------: | :-----------------:
 codigoEstabelecimento|	Código estabelecimento Yapay|	Numérico|	13 dígitos|	Sim
-formaPagamento|	Enviar 997 para Checkout Yapay|	Numérico|	Até 3 dígitos|	Sim
+codigoFormaPagamento|	Enviar 997 para Checkout Yapay|	Numérico|	Até 3 dígitos|	Sim
 
 > transacao
 
@@ -209,7 +209,7 @@ urlPagamento|	URL para redirecionar o consumidor para o Checkout
 Campo | Descrição | Tipo | Tamanho | Obrigatório 
 :----- | :---------: | :----: | :-------: | :-----------------:
 codigoEstabelecimento|	Código estabelecimento Yapay|	Numérico|	13 dígitos|	Sim
-formaPagamento|	Enviar 997 para Checkout Yapay|	Numérico|	Até 3 dígitos|	Sim
+codigoFormaPagamento|	Enviar 997 para Checkout Yapay|	Numérico|	Até 3 dígitos|	Sim
 
 > transacao
 
@@ -319,7 +319,7 @@ urlPagamento|	URL para redirecionar o consumidor para o Checkout
 Campo | Descrição | Tipo | Tamanho | Obrigatório 
 :----- | :---------: | :----: | :-------: | :-----------------:
 codigoEstabelecimento|	Código estabelecimento Yapay|	Numérico|	13 dígitos|	Sim
-formaPagamento|	Enviar 997 para Checkout Yapay|	Numérico|	Até 3 dígitos|	Sim
+codigoFormaPagamento|	Enviar 997 para Checkout Yapay|	Numérico|	Até 3 dígitos|	Sim
 
 > transacao
 
