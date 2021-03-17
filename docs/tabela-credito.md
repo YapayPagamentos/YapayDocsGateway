@@ -380,5 +380,4 @@ autorizacao|	Código de autorização da adquirente|	Alfa Numérico|	Até 20 car
 codigoTransacaoOperadora|	Código da transação na adquirente|	Alfa Numérico|	Até 20 caracter
 dataAprovacaoOperadora|	Data de aprovação na adquirente|	Alfa Numérico|	Até 10 dígitos
 numeroComprovanteVenda|	Número do comprovante de venda|	Alfa Numérico|	Até 20 caracter
-nsu|	Número do NSU da adquirente|	Alfa Numérico|	Até 20 caracter
 mensagemVenda|	Mensagem de retorno da adquirente|	Alfa Numérico|	Até 256 caracter
