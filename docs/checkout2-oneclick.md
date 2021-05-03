@@ -3,6 +3,7 @@
 <span class="post">POST</span>
 
 No Checkout Yapay também está disponível o pagamento com token, assim nas futuras compras o consumidor digitará apenas o código de segurança do cartão.
+Neste modelo, o token cadastrado fica armazenado no checkout e, portanto, não é disponibilizado ao estabelecimento.
 
 Para detalhes da estrutura de envio e retorno, [clique aqui](tabela-checkout2.md?id=oneclick)
 
