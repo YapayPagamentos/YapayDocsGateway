@@ -80,7 +80,7 @@ O Yapay possui integração com as empresas especializadas em análises de risco
 
 Permite a criação de diversas “lojas” para um mesmo contrato, podendo estas, serem configuradas com as mesma filiações das instituições financeiras ou diferentes. Além disto, cada “loja” poderá acessar nosso Painel Administrativo para consultar apenas suas vendas.
 
-`Para ativação solicitar ao Comercial Yapay`
+`Para ativação solicitar para servicedesk@yapay.com.br`
 
 > Retentativa de pagamento
 

@@ -13,7 +13,7 @@ Para utilização de qualquer boleto com carteira registrada é preciso realizar
 * Se não for informado uma data de vencimento do boleto na requisição, será informado os dias de vencimento configurados internamente no Gateway;
 * A URL retornada no campo `<urlPagamento>`;
 * A requisição e retorno do Yapay para boletos registrados possuem a mesma estrutura dos sem registro, porém o status a ser retornado será 5 (transação em andamento) ao invés de 8 (aguardando pagamento);
-* Para ativação do boleto registrado e Módulo de Conciliação entrar em contato com comercial@yapay.com.br;
+* Para ativação do boleto registrado e Módulo de Conciliação entrar em contato com servicedesk@yapay.com.br;
 * Caso o boleto seja gerado com sucesso, a linha digitável será retornada via API;
 * O Yapay não participa das negociações entre o estabelecimento e bancos/administradoras. Desta forma, taxas ou eventuais isenções são tratadas de forma direta entre os envolvidos.
 
@@ -181,7 +181,7 @@ Ao final do processo de contratação, deve-se estar de posse das seguintes info
 * O tamanho do número do pedido, deverá possuir no máximo 8 dígitos;
 * Se não for informado uma data de vencimento do boleto na requisição, será informado os dias de vencimento configurados internamente no Gateway;
 * A URL retornada no campo `<urlPagamento>`;
-* Conciliação de boletos não é realizada automaticamente, para tal deve ser contratado o Módulo de Conciliação do Gateway. Para informações entrar em contato com comercial@yapay.com.br;
+* Conciliação de boletos não é realizada automaticamente, para tal deve ser contratado o Módulo de Conciliação do Gateway. Para informações entrar em contato com servidesk@yapay.com.br;
 * Caso o boleto seja gerado com sucesso, a linha digitável será retornada via API;
 * O Yapay não participa das negociações entre o estabelecimento e bancos/administradoras. Desta forma, taxas ou eventuais isenções são tratadas de forma direta entre os envolvidos.
 
