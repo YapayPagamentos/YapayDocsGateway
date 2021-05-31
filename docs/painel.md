@@ -1,15 +1,10 @@
 # Painel Administrativo
 
-O Gateway Yapay disponibiliza um painel administrativo para seus clientes, possibilitando a visualização das vendas realizadas, configuração de instituições financeiras, extração de relatórios entre outros. 
+O Gateway Yapay disponibiliza um painel administrativo para seus clientes, possibilitando a visualização das vendas realizadas, extração de relatórios entre outros. 
 
 Siga os passos abaixo para acessar nosso painel:
 
-**1º** Acessar o site Yapay <a href="http://www.yapay.com.br" target="_blank" class="linkPadraoVerde">http://www.yapay.com.br</a> clique em **ENTRAR** e em seguida clique na opção **GATEWAY DE PAGAMENTOS > ACESSAR MINHA CONTA**
-
-![Obtendo o codigo Yapay](/images/acessoSite.png "Obtendo o codigo Yapay")
-<br>
-![Obtendo o codigo Yapay](/images/acessoSite2.png "Obtendo o codigo Yapay")
-
+**1º** Acessar o link <a href="https://gateway.yapay.com.br/administrador/" target="_blank" class="linkPadraoVerde">https://gateway.yapay.com.br/administrador/</a> 
 
 **2º** Informar o usuário e senha
 
