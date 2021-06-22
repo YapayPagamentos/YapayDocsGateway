@@ -114,7 +114,7 @@ curl
             "email" : "teste@teste.com",
             "dataNascimento" : "11/04/1978",
             "sexo" : "M",
-            "documento" : "02060073537",
+            "documento" : "12312321312",
             "endereco" : {
             "logradouro" : "Rua Teste",
             "numero" : 123,
